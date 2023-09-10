@@ -1,0 +1,57 @@
+.navigationbar {
+    padding: 10px;
+    overflow: hidden;
+    line-height: 40px;
+
+    .replybutton {
+        text-align: right;
+        button { line-height: initial }
+    }
+
+    .navigatebar {
+        float: left;
+        margin: 0;
+        font-size: 1.35em;
+        font-weight: 300;
+    }
+    .pagination {
+        float: right;
+        background-color: $pagination-bgcolor;
+        border-right: 1px solid $pagination-border-color;
+        border-bottom: 1px solid $pagination-border-color;
+        margin: 0;
+        padding: 0 10px;
+        font-weight: 300;
+        line-height: 40px;
+
+        .pipe { opacity: 0.4 }
+        .cur {
+            font-weight: 700;
+            background-color: $pagination-border-color;
+            border-radius: 20px;
+            display: inline-block;
+            padding: 2px 5px;
+            line-height: 1em;
+            text-align: center;
+        }
+        .previous, .next {
+            padding: 0 10px;
+            font-size: 20px;
+            line-height: 40px;
+            vertical-align: bottom;
+        }
+        .sep {
+            padding: 0 5px;
+        }
+        a {
+            padding: 0 5px;
+            display: inline-block;
+        }
+        .button {
+            cursor: pointer;
+            vertical-align: bottom;
+            font-size: 20px;
+            line-height: 40px;
+        }
+    }
+}

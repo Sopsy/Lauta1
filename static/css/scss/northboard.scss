@@ -1,0 +1,179 @@
+/*!
+ * Ylilauta Northboard style
+ * 2014/08/16
+*/
+
+$text-color: #d4d4d4;
+$input-text-color: #000;
+$link-color: #60A0DC;
+$link-hover-color: #82C2FE;
+$link-in-posts-color: #60A0DC;
+$link-in-posts-hover-color: #82C2FE;
+$warning-color: #f00;
+$success-color: #0b0;
+
+$bgcolor: #191919;
+$bg-gradient-top-color: #191919;
+$background: $bgcolor;
+
+$front-header-bg: #60A0DC;
+$front-tab-active-bg: #60A0DC;
+$front-tab-inactive-bg: #666;
+$front-tab-border-color: #888;
+$front-border-color: #888;
+$front-box-bgcolor: #333;
+$front-row-alternating-bgcolor: #444;
+
+$preferences-border-color: #555;
+$preferences-tabchooser-border-color: #d4d4d4;
+$preferences-active-tab-background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+$preferences-inactive-tab-background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+
+$banned-header-bg: $front-header-bg;
+
+$infobar-background-color: #60A0DC;
+$infobar-text-color: #000;
+
+$thread-bgcolor: #1c1c1c;
+$thread-border-color: #333;
+
+$thread-header-bgcolor: #252525;
+$thread-subheader-bgcolor: #252525;
+$thread-subheader-border-color: #1C1C1C;
+
+$thread-omitted-color: #707070;
+
+$answer-header-bgcolor: #44444F;
+$answer-header-border-color: #1C1C1C;
+$answer-bgcolor: #343439;
+$answer-border-color: #3070A9;
+
+$answer-highlighted-header-bgcolor: #44444F;
+$answer-highlighted-header-border-color: #1C1C1C;
+$answer-highlighted-bgcolor: #343439;
+$answer-highlighted-border-color: #3070A9;
+
+$threadlist-thread-bgcolor: #1c1c1c;
+$threadlist-border-color: #3070A9;
+$threadlist-postsubject-bgcolor: #44444F;
+$threadlist-image-bgcolor: #333;
+
+$boardheader-border-color: #999;
+$navigationbar-border-color: #999;
+$pagination-bgcolor: #343439;
+$pagination-border-color: #3070A9;
+
+$sidebar-link-color: #60A0DC;
+$sidebar-link-hover-bg: #206098;
+
+$postform-label-bgcolor: #333;
+$postform-label-border-color: #444;
+$postform-async-bgcolor: #333;
+$postform-async-border-color: #444;
+$postform-postoptions-bgcolor: #343439;
+$postform-postoptions-border-color: #3070A9;
+
+$quote-color: #1EA61E;
+$bluequote-color: #61A0D8;
+$fortune-bgcolor: rgba(255, 255, 255, 0.2);
+$fortune-color: #fff;
+
+$red-color: #FF2222;
+$green-color: #22BB22;
+$blue-color: #2222BB;
+$pink-color: #FF1493;
+$brown-color: #A65329;
+$black-color: #000000;
+$white-color: #FFFFFF;
+$yellow-color: #FFFF00;
+$orange-color: #FFA500;
+$purple-color: #800080;
+$gray-color: #808080;
+$goldtext-shadow: 0 0 1px #000, 0 0 2px #000;
+
+$spoiler-bgcolor: #000;
+$spoiler-text-color: #fff;
+
+$postername-color: #93E3FF;
+$op-tag-color: #117743;
+$admin-tag-color: purple;
+$gold-tag-color: #ffd700;
+$gold-tag-shadow: 1px 1px 0 #000, 0px 0px 2px #000;
+$platinum-tag-color: #fff;
+$platinum-tag-shadow: 1px 1px 0 #000, 0px 0px 2px #000;
+$supporter-tag-color: #0b0;
+$supporter-tag-shadow: 1px 1px 0 #000, 0px 0px 2px #000;
+$banned-tag-color: #FF2222;
+
+@import 'default-style/style';
+@import 'default-style/mobile';
+
+body {
+    font: 12px/1.5em Verdana, "DejaVu Sans", Sans-serif
+}
+
+#front h1 {
+    margin: 10px 0
+}
+
+#front h3 a {
+    color: $infobar-text-color
+}
+
+#sidebar {
+    background-color: #000
+}
+
+#right .thread .postsubject {
+    font-weight: 700
+}
+
+.postinfo .postername {
+    font-weight: 700
+}
+
+.boardheader h1 {
+    color: #60A0DC
+}
+
+#right form#post {
+    .label {
+        color: #60A0DC
+    }
+    input, select, #file {
+        border-color: #444;
+        background-color: #252525;
+    }
+    #postbuttons, #color-buttons {
+        background-color: inherit;
+    }
+}
+
+textarea, input, button, select {
+    color: #AAA;
+    background-color: #252525;
+}
+
+.infobar, .answer, #sidebar ul li.header, .pagination {
+    border-radius: 3px
+}
+
+.infobar {
+    font-weight: bold
+}
+
+#right .navigationbar .pagination {
+    border: 1px solid $pagination-border-color
+}
+
+#right .thread .answers .answer {
+    border: 1px solid $answer-border-color
+}
+
+#right .thread .answers .answer.highlighted {
+    border: 5px dashed $answer-border-color
+}
+
+#right.front .statslink {
+    color: #000;
+}

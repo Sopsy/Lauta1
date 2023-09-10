@@ -1,0 +1,31 @@
+<?php
+/** @var \TVGuide\Module\TemplateEngine\Template $this */
+/** @var string $staticUrl */
+/** @var string $title */
+/** @var string $viewFile */
+?>
+<!doctype html>
+<html lang="fi">
+<head>
+    <title><?= $this->title() ?></title>
+    <script type="module" src="<?= $staticUrl ?>/js/TVGuide.js?<?= md5_file(dirname(__DIR__, 2) . '/static/js/TVGuide.js') ?>" defer></script>
+    <link id="dark" rel="stylesheet" type="text/css" href="<?= $staticUrl ?>/css/dark.css?<?= md5_file(dirname(__DIR__, 2) . '/static/css/dark.css') ?>">
+    <link id="light" rel="stylesheet" type="text/css"
+          href="<?= $staticUrl ?>/css/light.css?<?= md5_file(dirname(__DIR__, 2) . '/static/css/light.css') ?>" <?= ((isset($_COOKIE['light']) && $_COOKIE['light'] === 'false') ? 'disabled' : '') ?>>
+    <link rel="stylesheet" type="text/css" href="<?= $staticUrl ?>/css/style.css?<?= md5_file(dirname(__DIR__, 2) . '/static/css/style.css') ?>">
+    <link rel="icon" sizes="192x192" href="<?= $staticUrl ?>/img/norppa_icon.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta charset="utf-8"/>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12345678-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-12345678-9');
+    </script>
+</head>
+<body>
+<?= $this->view()->render() ?>
+</body>
+</html>

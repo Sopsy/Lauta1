@@ -1,0 +1,113 @@
+/*!
+ * Ylilauta Peruslauta style
+ * 2014/08/16
+*/
+
+$text-color: #008;
+$input-text-color: #000;
+$link-color: #008;
+$link-hover-color: #00d;
+$link-in-posts-color: #e00;
+$link-in-posts-hover-color: #00d;
+$warning-color: #f00;
+$success-color: #0b0;
+
+$bgcolor: #FCFCFF;
+$bg-gradient-top-color: #b2b2ff;
+//$background: $bgcolor url('/img/fade_peruslauta.png') repeat-x 0 0;
+$background: $bgcolor linear-gradient(to bottom, $bg-gradient-top-color 0, $bgcolor 200px) no-repeat 0 0 local;
+
+$front-header-bg: #bdf;
+$front-tab-active-bg: #bdf;
+$front-tab-inactive-bg: #ace;
+$front-tab-border-color: #888;
+$front-border-color: #888;
+$front-box-bgcolor: #f2fcff;
+$front-row-alternating-bgcolor: #e1ebee;
+
+$preferences-border-color: #b7bfd9;
+$preferences-tabchooser-border-color: #008;
+$preferences-active-tab-background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0));
+$preferences-inactive-tab-background: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,0));
+
+$infobar-background-color: #0040e0;
+$infobar-text-color: #fff;
+
+$thread-bgcolor: #f5f5ff;
+$thread-border-color: #cdd;
+
+$thread-header-bgcolor: #c9e4ff;
+$thread-subheader-bgcolor: #e7f3ff;
+$thread-subheader-border-color: #cdd;
+
+$thread-omitted-color: #707070;
+
+$answer-header-bgcolor: #d9e1ee;
+$answer-header-border-color: #e2e9f4;
+$answer-bgcolor: #dee6f3;
+$answer-border-color: #b7bfd9;
+
+$answer-highlighted-header-bgcolor: #acb9e5;
+$answer-highlighted-header-border-color: #bdcaf9;
+$answer-highlighted-bgcolor: #b0c0f0;
+$answer-highlighted-border-color: #919fd9;
+
+$threadlist-thread-bgcolor: #f5ffff;
+$threadlist-border-color: #b7bfd9;
+$threadlist-postsubject-bgcolor: #c9e4ff;
+$threadlist-image-bgcolor: #f5f5f5;
+
+$boardheader-border-color: #cdd;
+$navigationbar-border-color: #cdd;
+$pagination-bgcolor: #dee6f3;
+$pagination-border-color: #b7bfd9;
+
+$sidebar-link-color: #055;
+$sidebar-link-hover-bg: #cef;
+
+$postform-label-border-color: #008;
+$postform-label-bgcolor: #8ae;
+$postform-postoptions-bgcolor: #f5ffff;
+$postform-postoptions-border-color: #cdd;
+$postform-async-bgcolor: #eff;
+$postform-async-border-color: #cdd;
+
+$quote-color: #789922;
+$bluequote-color: #226199;
+$fortune-bgcolor: rgba(0, 0, 0, 0.1);
+$fortune-color: #008;
+
+$red-color: #FF2222;
+$green-color: #22BB22;
+$blue-color: #2222BB;
+$pink-color: #FF1493;
+$brown-color: #A65329;
+$black-color: #000000;
+$white-color: #FFFFFF;
+$yellow-color: #FFFF00;
+$orange-color: #FFA500;
+$purple-color: #800080;
+$gray-color: #808080;
+$goldtext-shadow: 0 0 1px #000, 0 0 2px #000;
+
+$spoiler-bgcolor: #000;
+$spoiler-text-color: #fff;
+
+$postername-color: #117743;
+$op-tag-color: #2D935F;
+$admin-tag-color: purple;
+$gold-tag-color: #ffd700;
+$gold-tag-shadow: 1px 1px 0 #000, 0px 0px 2px #000;
+$platinum-tag-color: #fff;
+$platinum-tag-shadow: 1px 1px 0 #000, 0px 0px 2px #000;
+$supporter-tag-color: #0b0;
+$supporter-tag-shadow: 1px 1px 0 #000, 0px 0px 2px #000;
+$banned-tag-color: #FF2222;
+
+@import 'default-style/style';
+@import 'default-style/mobile';
+
+#right .thread .answers .own_post:not(.highlighted):not(:target) {
+    background-color: rgb(209, 217, 240);
+    .postinfo { background-color: rgb(199, 209, 240) }
+}

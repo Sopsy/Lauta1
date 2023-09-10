@@ -1,0 +1,10 @@
+*.tar
+*.xml
+dev_data/
+config.php
+docker/
+.idea/
+static/program-images/*
+profiler/
+images/
+tvguide.sql

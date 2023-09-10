@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    font: 16px "Segoe UI", "Open Sans", Roboto, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    margin: 0;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.button, label, button {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    background-color: var(--button);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--button-border);
+    color: var(--text) !important;
+    font-weight: 400;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    &:hover {
+        background-color: var(--button-hover);
+        border-color: var(--button-hover-border);
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+[hidden] {
+    display: none !important;
+}

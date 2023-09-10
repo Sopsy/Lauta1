@@ -1,0 +1,461 @@
+$fontFamily: "Segoe UI", "Open Sans", Roboto, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font: 14px $fontFamily;
+    color: $text-color;
+    background: $background;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+img {
+    max-width: 100%;
+}
+
+input, select, textarea, button {
+    color: $input-text-color;
+    font-size: inherit;
+    font-family: inherit;
+    box-sizing: border-box;
+    border: 1px solid $postform-async-border-color;
+    padding: 3px 5px;
+}
+
+input, select, textarea, button, a {
+    outline: none;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+:target {
+    scroll-margin-top: 60px;
+}
+
+a:hover {
+    color: $link-hover-color
+}
+
+a[onclick] {
+    cursor: pointer
+}
+
+.infobar {
+    background-color: $infobar-background-color;
+    color: $infobar-text-color;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    font-size: 1.25em;
+
+    a {
+        color: $infobar-text-color;
+    }
+}
+
+.center {
+    text-align: center
+}
+
+.linkbutton {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0;
+    background-color: $pagination-bgcolor;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $pagination-bgcolor $pagination-border-color $pagination-border-color $pagination-bgcolor;
+    color: $text-color !important;
+    font-weight: 400;
+    font-size: 1em;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $answer-highlighted-bgcolor;
+        border-color: $answer-highlighted-bgcolor $answer-highlighted-border-color $answer-highlighted-border-color $answer-highlighted-bgcolor;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+    }
+
+    + .linkbutton {
+        margin-left: 5px;
+    }
+}
+
+.buttonlink {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 0.75em;
+    cursor: pointer;
+    text-decoration: none;
+    color: $sidebar-link-color;
+    width: 100%;
+    margin-top: 5px;
+    text-align: left;
+
+    &:hover {
+        background-color: $sidebar-link-hover-bg;
+        border-color: $answer-highlighted-bgcolor $answer-highlighted-border-color $answer-highlighted-border-color $answer-highlighted-bgcolor;
+    }
+}
+
+.protectedbyrecaptcha {
+    text-align: center;
+    opacity: 0.3;
+    font-size: 10px;
+    transition: opacity 0.4s;
+    margin: 0;
+    margin-top: 5px !important;
+
+    a {
+        color: $link-color;
+
+        &:hover {
+            color: $link-hover-color;
+        }
+    }
+}
+
+.icon-button {
+    line-height: 16px;
+    font-size: 16px;
+    padding: 3px;
+    width: 16px;
+    box-sizing: content-box;
+    background-color: rgba($text-color, 0.08);
+    color: $link-color;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba($text-color, 0.15);
+        color: $link-hover-color;
+    }
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+.red {
+    color: $red-color
+}
+
+.green {
+    color: $green-color
+}
+
+.blue {
+    color: $blue-color
+}
+
+.pink {
+    color: $pink-color
+}
+
+.brown {
+    color: $brown-color
+}
+
+.black {
+    color: $black-color
+}
+
+.white {
+    color: $white-color
+}
+
+.yellow {
+    color: $yellow-color
+}
+
+.orange {
+    color: $orange-color
+}
+
+.purple {
+    color: $purple-color
+}
+
+.gray {
+    color: $gray-color
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+
+@import 'partials/tags';
+@import 'partials/header';
+@import 'partials/topbar';
+@import 'partials/sidebar';
+@import 'partials/contentarea';
+@import 'partials/followedbox';
+@import 'partials/frontpage';
+@import 'partials/preferences';
+@import 'partials/goldaccount';
+@import 'partials/banned';
+@import 'partials/notfound';
+@import 'partials/notifications';
+@import 'partials/answer-style';
+@import 'partials/post-file';
+
+@import 'partials/modal';
+@import 'partials/tooltip';
+@import 'partials/toast';
+
+#mobile-extralinks, .messageoptions_mobile, .messageoptions_mobile_close, #mobile_menu {
+    display: none;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.rotate {
+    display: inline-block;
+    animation: rotate 1s linear infinite
+}
+
+.icon-loading::before {
+    display: inline-block;
+    animation: rotate 0.5s linear infinite
+}
+
+.hide-mobile {
+    @media (max-width: 800px) {
+        display: none;
+    }
+}
+
+.hide-desktop {
+    @media (min-width: 801px) {
+        display: none;
+    }
+}
+
+.modal .gold-keys-list {
+    margin: 10px 0;
+    display: table;
+    border-spacing: 5px;
+
+    .gold-key {
+        display: table-row;
+
+        > * {
+            display: table-cell;
+        }
+    }
+}
+
+.formloading {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    margin: auto;
+    text-align: center;
+
+    img {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+[hidden] {
+    display: none !important;
+}
+
+.async-form {
+    position: relative;
+    display: inline-block;
+}
+
+#content {
+    margin: 0 !important;
+}
+
+#poststream {
+    margin: 0 !important;
+    padding: 10px;
+    will-change: contents;
+
+    .highlight {
+        .answer {
+            background-color: $thread-bgcolor;
+        }
+
+        border: 1px solid $pagination-bgcolor;
+    }
+
+    .post-hide {
+        display: none;
+    }
+
+    .icon-reply {
+        display: none;
+    }
+
+    .icon-share2 {
+        display: none;
+    }
+
+    .thread-boardinfo {
+        font-size: 1em;
+        background-color: $threadlist-postsubject-bgcolor;
+
+        .ref {
+            color: $text-color;
+            text-decoration: none;
+
+            :hover {
+                color: $link-hover-color;
+            }
+        }
+    }
+
+    .thread {
+        margin-bottom: 10px;
+    }
+
+    .postsubject {
+        font-size: 1em;
+        line-height: 31px;
+        padding: 0 !important;
+        background-color: #f8d5a4;
+        color: #800;
+        text-decoration: none;
+    }
+}
+
+#right.mod #poststream .icon-button {
+    line-height: 16px;
+    font-size: 16px;
+    padding: 3px;
+    width: 16px;
+
+}
+
+.fcdn {
+    overflow: hidden;
+    border: 0;
+    margin: 20px auto;
+    width: 100%;
+
+    @media (max-width: 1209px) {
+        height: 300px;
+    }
+    @media (min-width: 1210px) {
+        &.h {
+            height: 400px;
+        }
+        &:not(.h) {
+            height: 120px;
+        }
+    }
+}
+
+input#author {
+    position: absolute;
+    left: -9999px;
+}
+
+.error-text {
+    color: red !important;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.top-margin {
+    margin-top: 2em;
+}
+
+.error-page-return-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px 10px;
+    border: 2px solid;
+    font-weight: bold;
+}
+
+.error-page-image {
+    display: block;
+    margin: auto;
+}
+
+.fp-box-p {
+    margin: 5px 0;
+}
+
+#username, #uid {
+    width: 400px;
+}
+
+.wide-input {
+    width: 80%;
+}
+
+.padded {
+    padding: 10px;
+}
+
+.fp-box-div {
+    flex: 1 0 0px;
+    min-width: 300px;
+}
+
+.fp-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#idtext, #words {
+    width: 100%;
+    height: 500px;
+}
+
+#wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.announcement {
+    font-weight: bold;
+    font-size: 1.15em;
+}

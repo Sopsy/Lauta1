@@ -1,0 +1,37 @@
+#followedthreads {
+    margin: 20px auto;
+    max-width: 400px;
+
+    p { margin: 0 }
+    #followedtitle {
+        font-size: 1.1em;
+        font-weight: 600;
+        text-align: center;
+        border: 1px solid $postform-label-border-color;
+        padding: 2px;
+        background: $postform-label-bgcolor;
+        margin: 0;
+    }
+    #followedcontent {
+        max-height: 200px;
+        overflow: auto;
+        padding: 5px;
+        font-size: 0.85em;
+    }
+    #followedbg {
+        min-width: 200px;
+        border: 1px solid $answer-border-color;
+        border-top: none;
+        padding: 2px;
+        background: lighten($answer-bgcolor, 5%);
+    }
+    #followedfunctions {
+        text-align: right;
+        border-top: 1px solid $answer-border-color;
+        padding: 2px 5px;
+    }
+    .followedunread {
+        color: red;
+        font-weight: 700;
+    }
+}

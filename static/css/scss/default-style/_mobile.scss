@@ -1,0 +1,284 @@
+/*!
+* Ylilauta default mobile style
+* 2014/08/16
+*
+*/
+$mobile-menu-height: 35px;
+@media (max-width: 799px) {
+    /* General */
+    #sidebar, #post .label {
+        display: none
+    }
+    #right {
+        margin-left: 0;
+    }
+    img {
+        max-width: 100%
+    }
+    .infobar {
+        margin: 0;
+    }
+
+    .front {
+        #title {
+            display: grid;
+            grid-gap: 10px;
+            margin: 20px;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            img {
+                grid-row: 1/-1;
+                margin: auto;
+            }
+            h1 {
+                text-align: left;
+                margin: 0;
+            }
+            h2 {
+                align-self: start;
+                text-align: left;
+                margin: 0;
+                font-size: 1.25em;
+                @media (max-width: 500px) {
+                    font-size: 1.1em;
+                }
+                @media (max-width: 400px) {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    /* Sidebar */
+    #mobile-extralinks, #sidebar .logo {
+        display: block
+    }
+    body.sidebar-visible {
+        overflow: hidden;
+    }
+
+    #sidebar {
+        top: $mobile-menu-height;
+        width: 80%;
+        max-width: 400px;
+        font-size: 1em;
+        padding: 1px 5px;
+        background: $background;
+        float: none;
+        box-sizing: content-box;
+        background-clip: padding-box;
+        z-index: 1001;
+        border-right: 500px solid rgba(0, 0, 0, 0.5);
+        overflow: auto;
+        ul .header {
+            text-align: center;
+            padding: 10px;
+        }
+        ul li a {
+            padding: 10px 5px;
+        }
+        ul li:nth-of-type(even) a {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        .logo {
+            font-size: 1.75em;
+            font-weight: 300;
+            padding: 5px;
+
+            img {
+                height: 50px;
+                vertical-align: middle;
+            }
+        }
+        nav {
+            padding: 10px 0;
+            align-items: center;
+            display: grid;
+            grid-gap: 0 10px;
+
+            &.meta {
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            }
+            &.boardlist {
+                grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            }
+            &.customized {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            }
+            &:first-of-type {
+                padding-top: 0
+            }
+            a {
+                padding: 10px 5px
+            }
+            > span {
+                display: none
+            }
+        }
+    }
+
+    .boardheader {
+        h1 {
+            font-size: 2.2em
+        }
+        h2 {
+            font-size: 1em
+        }
+    }
+
+    /* Navigation bar */
+    .navigationbar {
+        margin: 0;
+        border: 0;
+        padding: 5px;
+        line-height: 2em;
+
+        .disabled {
+            display: none
+        }
+        .pagination {
+            clear: both;
+            float: none;
+            padding: 0;
+            text-align: center;
+            font-size: 1.1em;
+            display: flex;
+            flex-wrap: nowrap;
+            white-space: nowrap;
+            .pages {
+                flex-grow: 1;
+                display: inline-flex;
+                a, .cur {
+                    flex-grow: 1;
+                }
+                .cur {
+                    line-height: 40px;
+                    padding: 0;
+                    border-radius: 0;
+                    min-width: 20px;
+                }
+            }
+            .display-styles {
+                margin: 0 5px;
+                a {
+                    margin-left: 5px;
+                    padding: 0;
+                }
+            }
+            .previous, .next {
+                padding: 0;
+            }
+        }
+        .navigatebar {
+            float: none;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &.top .navigatebar {
+            display: none;
+        }
+        .navigatebar_sub {
+            float: right;
+            margin-bottom: 10px
+        }
+    }
+
+    /* Post form */
+    #post {
+        max-width: 470px;
+        padding: 0;
+        &.asyncreply {
+            left: 0;
+            bottom: 0;
+            margin-bottom: 0;
+            box-sizing: border-box;
+            border-width: 1px 0 0 0;
+            width: 100%;
+            max-height: 90%;
+            overflow: auto;
+        }
+        input:not([type="submit"]):not([type="file"]), select, textarea {
+            font-size: 16px;
+        }
+        input[type="submit"], #post button {
+            white-space: nowrap;
+        }
+        #postbuttons a {
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+        }
+    }
+    #display_postform {
+        margin-right: 5px;
+    }
+
+    /* Threads */
+    .threads {
+        margin: 0;
+    }
+
+    /* Messageoptions -menubutton */
+    .postinfo {
+        position: relative;
+    }
+    .threads.style-replies .thread {
+        .hidden .messageoptions_mobile {
+            display: none !important;
+        }
+        .post:not(.hidden) {
+            .messageoptions {
+                &:not(.visible) {
+                    display: none;
+                }
+                &.visible {
+                    display: block;
+                }
+                z-index: 99;
+                position: absolute;
+                right: 5px;
+                top: 30px;
+                background-color: $answer-bgcolor;
+                border: 5px solid $answer-border-color;
+                box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+                padding: 5px;
+                .icon-button {
+                    margin: 5px;
+                    font-size: 20px;
+                    line-height: 20px;
+                    width: 20px;
+                    padding: 5px;
+                }
+            }
+            .messageoptions_mobile {
+                display: inline-block !important;
+            }
+        }
+    }
+
+    /* Preferences/profile */
+    .preferences {
+        #tabchooser {
+            display: block;
+            border-top: 1px solid;
+            li.cur {
+                border: 0;
+                border-bottom: 1px solid;
+                padding: 10px 20px;
+                background: #f2f2f2;
+            }
+            li.tab {
+                display: block;
+                border: 0;
+                border-bottom: 1px solid;
+            }
+            li:not(.tab) {
+                display: none;
+            }
+        }
+    }
+    .post-file .overlay {
+        font-size: 0.8em;
+    }
+}

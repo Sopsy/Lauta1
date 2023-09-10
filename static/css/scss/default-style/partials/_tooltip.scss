@@ -1,0 +1,22 @@
+.tooltip {
+    position: absolute;
+    z-index: 40002;
+    background-color: $answer-bgcolor;
+    border: 5px solid $answer-border-color;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+    max-width: calc(100% - 10px);
+    max-height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    top: 0;
+    left: -9999px;
+
+    .icon-button { display: none; }
+    &.postpreview {
+        padding: 0;
+    }
+}

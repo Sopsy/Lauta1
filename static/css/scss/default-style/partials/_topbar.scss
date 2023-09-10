@@ -1,0 +1,204 @@
+$mobile-menu-height: 35px;
+
+@media (max-width: 799px) {
+    body.boardnav-open {
+        overflow: hidden;
+    }
+}
+
+body.boardnav-open #topbar #boardselector {
+    &::after {
+        content: '\e903';
+    }
+    div {
+        display: block;
+    }
+}
+
+#topbar {
+    display: flex;
+    align-items: stretch;
+    height: $mobile-menu-height;
+    line-height: $mobile-menu-height;
+    z-index: 20000;
+    background-color: $thread-header-bgcolor;
+    box-shadow: 20px 0 0 0 $thread-header-bgcolor, 3px -3px 5px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    backface-visibility: hidden;
+
+    button, a {
+        text-align: center;
+        width: $mobile-menu-height;
+        font-size: 1.2em;
+        cursor: pointer;
+        color: $text-color;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        height: $mobile-menu-height;
+        line-height: $mobile-menu-height;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            color: $link-hover-color;
+        }
+    }
+
+    #boardselector {
+        flex: 0 1 auto;
+        width: auto;
+        font-size: 0.9rem;
+        padding: 0 5px;
+        cursor: pointer;
+        align-items: center;
+        display: flex;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        white-space: nowrap;
+        overflow: hidden;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+
+        &::after {
+            margin-left: 2px;
+            font-family: 'icomoon';
+            content: '\e902';
+        }
+        > span {
+            flex: 1 1 auto;
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        div {
+            display: none;
+            background: $bgcolor;
+            color: $text-color;
+            border: 5px solid $answer-border-color;
+            top: 35px;
+            left: 0;
+            right: 0;
+            max-width: 850px;
+            box-sizing: border-box;
+            cursor: initial;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 10px;
+            @media (max-width: 799px) {
+                bottom: 0;
+                position: fixed;
+            }
+            @media (min-width: 800px) {
+                max-height: calc(100vh - 35px);
+                position: absolute;
+            }
+            a {
+                display: block;
+                height: auto;
+                width: auto;
+                text-align: left;
+                font-size: 0.9rem;
+                line-height: 1.5em;
+                margin-bottom: 10px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                page-break-inside: avoid;
+            }
+        }
+        nav {
+            column-gap: 5px;
+            @media (max-width: 799px) {
+                columns: 140px;
+            }
+            @media (min-width: 800px) {
+                columns: 200px;
+            }
+        }
+        .online-count {
+            display: block;
+            font-size: 0.7em;
+            opacity: 0.6;
+            line-height: 1.1em;
+        }
+    }
+
+    .right {
+        margin-left: auto;
+        display: flex;
+        > * {
+            border-left: 1px solid rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    > button, > a {
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        flex-shrink: 0;
+    }
+
+    .unread-count {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+    }
+
+    @media (max-width: 799px) {
+        #e-sidebar-hide {
+            display: none !important;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    #e-sidebar-toggle {
+        display: none !important;
+    }
+}
+
+#e-sidebar-hide {
+    font-family: icomoon;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    color: darken($sidebar-link-color, 20%);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    display: block;
+    font-size: 10px;
+    width: $mobile-menu-height;
+    height: $mobile-menu-height;
+    line-height: $mobile-menu-height;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 5px 1px 5px 0;
+    transform: translateY(-50%);
+    &:before {
+        content: "\e92b";
+    }
+    body:not(.no-sidebar) &:before {
+        content: "\e93b";
+    }
+}
+
+#e-sidebar-toggle {
+    text-align: center;
+    color: $sidebar-link-color;
+    padding-right: 10px;
+    span {
+        font-size: 20px;
+        width: $mobile-menu-height;
+        line-height: $mobile-menu-height;
+        display: inline-block;
+        vertical-align: top;
+    }
+}

@@ -1,0 +1,35 @@
+.vagrant
+.DS_Store
+profiler/cachegrind.out.*
+
+# Config files, databases etc
+/public/inc/config.php
+/*.sql
+!/schema.sql
+!/data.sql
+*.gz
+/.idea/workspace.xml
+/.idea/usage.statistics.xml
+/.idea/tasks.xml
+/.idea/dataSources.xml
+/cli/ip2location-token.sh
+/data/rrd/*
+
+# User uploaded files
+/files/
+
+# For dev server
+.htpasswd
+
+# 3rd party dependencies
+/vendor/
+
+# Generated files
+/docker
+
+# IP2Location databases
+/data/ip2location-db/*.bin
+
+# Automatically generated graph images
+/static/img/graphs/posts_*.svg
+/static/img/graphs/users_*.svg

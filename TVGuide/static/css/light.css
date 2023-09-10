@@ -1,0 +1,27 @@
+:root {
+    --background: #ffe;
+    --header: #fdb;
+    --button: #f3e6de;
+    --button-border: #f3e6de #d9bfb7 #d9bfb7 #f3e6de;
+    --button-hover: #F0C0B0;
+    --button-hover-border: #F0C0B0 #D99F91 #D99F91 #F0C0B0;
+    --text: #800;
+    --text-hover: #d00;
+    --timebar: #FDE7D0;
+    --progressbar-background: #dbb;
+    --graytext: #808080;
+    --border: #d9bfb7;
+    --header-border: #CCB6A1;
+    --program-title: #000000;
+    --logo-text: #550;
+    --sidebar-line: #E3DFCE;
+    --highlight: #ff9c38;
+}
+
+.dark {
+    display: none;
+}
+
+.light {
+    display: initial;
+}

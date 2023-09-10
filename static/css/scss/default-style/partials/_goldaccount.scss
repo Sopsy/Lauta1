@@ -1,0 +1,113 @@
+#right.purchaseform {
+    text-align: center;
+
+    .box {
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .columns {
+        columns: 240px;
+        -moz-columns: 240px;
+        -webkit-columns: 240px;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+    }
+
+    .products-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 320px));
+        justify-content: center;
+        grid-gap: 20px;
+
+        .product {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            padding: 10px 15px;
+            border-radius: 3px;
+            color: #333;
+            flex-grow: 1;
+            box-shadow: 0 3px 5px 0 #ccc;
+            background-color: rgba(255, 215, 0, 0.4);
+
+            label {
+                margin-bottom: auto;
+            }
+
+            button {
+                margin-top: 10px;
+            }
+
+            &.selected {
+                background-color: #59a733;
+                text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+                color: #fff;
+                position: relative;
+                box-shadow: none;
+
+                &:after {
+                    content: "\002714";
+                    font-size: 2em;
+                    position: absolute;
+                    right: 10px;
+                    bottom: 10px;
+                }
+            }
+        }
+
+        label {
+            span {
+                display: block
+            }
+
+            span.name {
+                font-size: 1.4em
+            }
+
+            span.desc {
+                margin: 10px 0
+            }
+
+            span.price {
+                font-size: 0.9em;
+                font-style: italic;
+            }
+        }
+    }
+
+    #quantity-input {
+        display: none;
+        margin-right: 10px;
+
+        input {
+            width: 50px
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            padding: 10px 5px;
+
+            &.header {
+                font-size: 1.5em
+            }
+        }
+
+
+        li:not(:last-child) {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .gold-benefits {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+        text-align: left;
+    }
+}

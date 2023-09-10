@@ -1,0 +1,9 @@
+#right {
+    min-height: 400px;
+    overflow: hidden;
+}
+
+@import 'contentarea/boardheader';
+@import 'contentarea/postform';
+@import 'contentarea/navigationbar';
+@import 'contentarea/thread';

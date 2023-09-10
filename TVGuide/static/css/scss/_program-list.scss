@@ -1,0 +1,173 @@
+.program-lists {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: grid;
+    grid-gap: 10px 10px;
+    padding: 0 10px 10px 10px;
+    align-items: start;
+    @media (max-width: 340px) {
+        padding: 10px 5px;
+    }
+}
+
+@keyframes flash {
+    0% {
+        background-color: var(--highlight);
+    }
+    50% {
+        background-color: var(--highlight);
+    }
+}
+
+.program-list {
+    height: 100%;
+    position: sticky;
+    scroll-margin: 45px;
+
+    &:target .logo-container{
+        animation: 1s linear 1 flash;
+    }
+
+    .logo {
+        height: 30px;
+        line-height: 30px;
+        max-width: 100%;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .logo-container {
+        color: var(--program-title);
+        padding: 10px;
+        top: 45px;
+        display: grid;
+        justify-content: center;
+        background-color: var(--header);
+        position: sticky;
+        z-index: 1;
+    }
+}
+
+.programs {
+    height: calc(100% - 50px);
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-template-rows: repeat(var(--count), min-content) auto;
+    overflow: hidden;
+
+    span, div{
+
+    }
+
+    >span:last-of-type, >div:last-of-type {
+        height: 100%;
+    }
+}
+
+.time {
+    color: var(--text);
+    background-color: var(--timebar);
+    padding: 5px;
+    text-align: center;
+
+
+    .now {
+        display: none;
+        width: min-content;
+        font-weight: bold;
+    }
+
+    .endtime {
+        display: none;
+    }
+
+    + .program {
+        padding: 5px;
+        color: var(--text);;
+        min-width: 0;
+
+        .title {
+            cursor: pointer;
+
+            &:hover {
+                color: var(--text-hover);
+            }
+        }
+
+        .episode {
+            color: var(--graytext);
+            font-size: small;
+            margin-left: 5px;
+        }
+
+        .description {
+            cursor: pointer;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: none;
+
+            &:hover {
+                color: var(--text-hover);
+            }
+
+            &.open {
+                white-space: normal;
+            }
+        }
+
+        .runningtime {
+            display: none;
+            font-size: small;
+            color: var(--graytext);
+        }
+
+        .starttime {
+
+        }
+
+        .endtime {
+            float: right;
+        }
+
+        .progressbar {
+            display: none;
+            margin: 5px auto;
+
+            .progress {
+                transition: width 0.2s linear;
+                height: 5px;
+                background-color: var(--text);
+            }
+
+            background-color: var(--progressbar-background);
+        }
+    }
+
+    &.running + .program {
+        .title {
+            font-weight: bold;
+        }
+
+        .runningtime {
+            display: block;
+        }
+
+        .episode {
+            display: none;
+        }
+
+        .progressbar {
+            display: block;
+        }
+
+        .description {
+            display: block;
+        }
+    }
+
+    &.ended {
+        + .program {
+            opacity: 0.5;
+        }
+    }
+}

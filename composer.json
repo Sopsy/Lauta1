@@ -1,0 +1,21 @@
+{
+    "config": {
+
+    },
+    "require": {
+        "php": "^7.4",
+        "ext-gettext": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "ext-imagick": "*",
+        "ext-simplexml": "*",
+        "ext-intl": "*",
+        "ip2location/ip2location-php": "^8.2",
+        "ip2location/ip2proxy-php": "^2.2"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}

@@ -1,0 +1,84 @@
+.notification {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $thread-border-color;
+    padding: 5px;
+
+    &.not-read {
+        background-color: $threadlist-postsubject-bgcolor;
+    }
+
+    &:not(.not-read) .notification-buttons {
+        display: none;
+    }
+
+    &:last-of-type {
+        border-bottom: 0;
+    }
+
+    .notification-info {
+        flex: 1 1 auto;
+    }
+
+    .notification-buttons {
+        flex: 0 0 auto;
+        margin-left: 10px;
+
+        button {
+            background: none;
+            border: 0;
+            color: $text-color;
+            top: 5px;
+            right: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            padding: 0;
+            &:hover {
+                color: $link-color;
+            }
+        }
+    }
+
+    &.is-read .e-mark-read {
+        display: none;
+    }
+
+    a {
+        color: $text-color;
+        &:hover {
+            color: $link-hover-color;
+        }
+    }
+
+    .notification-meta {
+        display: block;
+        font-size: 0.85em;
+        opacity: 0.5;
+
+        .ref {
+            margin-left: 10px;
+        }
+    }
+}
+
+.notifications-button {
+    position: relative;
+}
+.unread-notifications {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font: 0.75rem $fontFamily;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    border-radius: 100%;
+    background-color: red;
+    text-align: center;
+    overflow: hidden;
+    &.none {
+        display: none;
+    }
+}

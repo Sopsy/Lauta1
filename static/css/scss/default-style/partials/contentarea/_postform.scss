@@ -1,0 +1,179 @@
+#display_postform {
+    display: block;
+    margin: 0 10px 0 auto;
+}
+
+form#post {
+    position: relative;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 5px;
+    text-align: left;
+
+    &.create:not(.visible):not(.replying) {
+        display: none
+    }
+    .row {
+        display: flex;
+        margin-bottom: 2px;
+        label {
+            flex: 0 0 100px;
+            width: 100px;
+        }
+        select, input {
+            flex-grow: 1;
+        }
+    }
+    fieldset {
+        border: 0
+    }
+    label.label {
+        border: 1px solid $postform-label-border-color;
+        background-color: $postform-label-bgcolor;
+        font-weight: 400;
+        margin: 0 2px 0 0;
+        padding: 2px 5px;
+        > span {
+            display: block;
+            font-size: 0.8em;
+        }
+    }
+    input, select {
+        padding: 2px 3px;
+        border: 1px solid #ccc;
+    }
+    select, #file {
+        background-color: #fff;
+    }
+    #embedtype {
+        margin-left: 2px;
+        flex-grow: 0;
+    }
+    #msg {
+        width: 100%;
+        box-sizing: border-box;
+        height: 160px;
+        margin: 0 0 2px 0;
+        border: 1px solid $postform-postoptions-border-color;
+        padding: 2px;
+    }
+    #submit-btn {
+        margin-left: auto;
+        flex-grow: 0;
+    }
+
+    #postbuttons,
+    #color-buttons {
+        margin: 0;
+        border: 1px solid $postform-postoptions-border-color;
+        border-bottom: 0;
+        background-color: #f5f5f5;
+        overflow: hidden;
+        font-size: 20px;
+        button {
+            display: inline-block;
+            overflow: hidden;
+            font-size: 20px;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border: 0;
+            cursor: pointer;
+            background-color: transparent;
+            vertical-align: top;
+            &:disabled {
+                opacity: 0.3;
+                cursor: default;
+            }
+            &:hover {
+                background-color: #ddd;
+            }
+        }
+        + textarea {
+            border-top: 0
+        }
+    }
+    #postbuttons {
+        button {
+            color: $text-color;
+        }
+    }
+    #color-buttons {
+        border-top: 1px solid $postform-postoptions-border-color;
+        &:not(.visible) {
+            display: none;
+        }
+    }
+    #postoptions {
+        background-color: $postform-postoptions-bgcolor;
+        border: 1px solid $postform-postoptions-border-color;
+        padding: 10px;
+        margin-top: 2px;
+        overflow: hidden;
+
+        &:not(.visible) {
+            display: none;
+        }
+        .col {
+            float: left;
+            width: 50%;
+        }
+        h4 {
+            margin: 5px 0 0 0;
+        }
+        label {
+            display: inline-block;
+            width: 90%;
+            width: calc(100% - 25px);
+            margin-left: 5px;
+            vertical-align: middle;
+        }
+        input {
+            vertical-align: middle;
+        }
+
+        .taglist {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            grid-gap: 5px;
+            align-items: center;
+            label {
+                cursor: pointer;
+                display: block;
+            }
+            img {
+                vertical-align: top;
+            }
+        }
+    }
+
+    &.asyncreply {
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+        background-color: $postform-async-bgcolor;
+        border: 1px solid $postform-async-border-color;
+        z-index: 10;
+        padding: 10px;
+        width: 330px;
+        max-height: 90%;
+        overflow: auto;
+    }
+    &.asyncreply .label {
+        display: none
+    }
+
+    &.replying {
+        #row-subject, #row-board {
+            display: none;
+        }
+    }
+    #row-buttons {
+        align-items: center;
+    }
+    .submit-progress {
+        margin-left: 5px;
+    }
+}

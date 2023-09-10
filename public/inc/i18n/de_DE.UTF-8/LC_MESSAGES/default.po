@@ -1,0 +1,3316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YBoard 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-11 14:16+0200\n"
+"PO-Revision-Date: 2020-09-11 14:16+0200\n"
+"Last-Translator: Ylilauta Admin <yllapito@ylilauta.org>\n"
+"Language-Team: Ylilauta Admin <yllapito@ylilauta.org>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20 404.php:36
+msgid "410 Gone"
+msgstr ""
+
+#: 404.php:22 404.php:39
+msgid "404 Not Found"
+msgstr "404 Nicht vorhanden"
+
+#: 404.php:36
+msgid "The thread has been deleted"
+msgstr ""
+
+#: 404.php:39
+msgid "The page or file you were looking for does not exist"
+msgstr "Die gesuchte Seite oder Datei existiert nicht"
+
+#: 404.php:40
+msgid "This thread has been deleted or it never even existed."
+msgstr ""
+
+#: 404.php:45 inc/html.class.php:330
+msgid "Return to board"
+msgstr "Zurück zum Brett"
+
+#: banned.php:61 banned.php:71 inc/html.class.php:434 scripts/ajax/post.php:33
+#: scripts/ajax/report.php:38
+msgid "You are banned."
+msgstr ""
+
+#: banned.php:71
+msgid "You were banned."
+msgstr "Du wurdest gesperrt."
+
+#: banned.php:75
+msgid "Reason:"
+msgstr "Grund:"
+
+#: banned.php:75 banned.php:85 inc/user.class.php:1089
+#: mod/actions/addban.php:278 mod/actions/banappeals.php:54
+#: mod/actions/managebans.php:57 thread.php:22
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: banned.php:83
+msgid "Your post which resulted in this ban is the following"
+msgstr ""
+
+#: banned.php:85 banned.php:105
+#, php-format
+msgid "Board: %s"
+msgstr ""
+
+# This is the text that appears next to the post ID, it's a shortening for "Number".
+#: banned.php:93 inc/html.class.php:1002 inc/html.class.php:1004
+msgid "No."
+msgstr "Nr."
+
+#: banned.php:104
+msgid "Your post only contained a file, so it is not shown here."
+msgstr ""
+
+#: banned.php:111
+msgid "Please read the rules of Ylilauta."
+msgstr ""
+
+#: banned.php:113
+msgid "Your ban is now over."
+msgstr "Dein Bann ist nun vorüber."
+
+#: banned.php:115
+#, php-format
+msgid "Your ban ends %s."
+msgstr "Dein Bann dauert bis %s."
+
+#: banned.php:124
+msgid "Ban appeal"
+msgstr ""
+
+#: banned.php:127
+msgid ""
+"We understand that people make mistakes. Us included. Please send us a "
+"message and we'll reconsider your ban."
+msgstr ""
+
+#: banned.php:130
+#, php-format
+msgid "Your message (max %s characters)"
+msgstr ""
+
+#: banned.php:131
+msgid ""
+"Note: We can not reply to your message. We can only approve or reject your "
+"appeal to lift this ban."
+msgstr ""
+
+#: banned.php:132 inc/html.class.php:530 resetpassword.php:31
+#: scripts/givetag.php:41 scripts/modals/getreportform.php:88
+msgid "Submit"
+msgstr "Einreichen"
+
+#: banned.php:136
+msgid "We have not yet reviewed the message you sent. Please check back later."
+msgstr ""
+
+#: banned.php:137
+msgid "Your message is:"
+msgstr ""
+
+#: banned.php:141
+msgid ""
+"After considering the message you sent, we are sorry to say that your ban "
+"was not lifted."
+msgstr ""
+
+#: banned.php:142
+msgid "Your message was:"
+msgstr ""
+
+#: banned.php:149
+msgid "Banned!"
+msgstr "Gesperrt!"
+
+#: board.php:48
+msgid "Sorry, there are no threads on this board."
+msgstr "Es tut uns leid, hier befinden sich keine Fäden auf dem Board."
+
+#: clearcss.php:17
+msgid "Clear Custom CSS"
+msgstr "Custom CSS zurücksetzen"
+
+#: customboard.php:36 inc/html.class.php:354
+msgid "My threads"
+msgstr "Meine Fäden"
+
+#: customboard.php:37
+msgid "The threads you have made are shown on this page."
+msgstr "Die von dir erstellen Fäden werden auf dieser Seite angezeigt."
+
+#: customboard.php:45 inc/html.class.php:355
+msgid "Replied threads"
+msgstr "Beantwortete Fäden"
+
+#: customboard.php:46
+msgid "The threads you have replied to are shown on this page."
+msgstr "Die Fäden, die du beantwortet hast, werden auf dieser Seite angezeigt."
+
+#: customboard.php:62 inc/html.class.php:145 inc/html.class.php:353
+msgid "Followed threads"
+msgstr "Verfolgte Fäden"
+
+#: customboard.php:63
+msgid "The threads you are following are shown on this page."
+msgstr "Die Fäden, denen zu folgst, werden auf dieses Seite angezeigt."
+
+#: customboard.php:75 inc/html.class.php:352
+msgid "All threads"
+msgstr "Alle Fäden"
+
+#: customboard.php:76
+msgid "Threads from all boards are shown on this page."
+msgstr "Threads aller Bretter werden auf dieser Seite angezeigt."
+
+#: customboard.php:92 inc/html.class.php:356
+msgid "Hidden threads"
+msgstr "Verborgene Fäden"
+
+#: customboard.php:93
+msgid "Threads you have hidden are shown on this page."
+msgstr "Von dir verborgenen Fäden werden auf dieser Seite angezeigt."
+
+#: customboard.php:115
+msgid "You have no threads here."
+msgstr "Sie haben hier keine Fäden."
+
+#: gold.php:78 preferences.php:24
+msgid "Gold account"
+msgstr "Goldkonto"
+
+#: inc/board.class.php:123 mod/actions/modlog.php:34
+msgid "Thread"
+msgstr "Faden"
+
+#: inc/config/tags.php:5
+msgid "Gold"
+msgstr "Gold"
+
+#: inc/config/tags.php:9
+msgid "Have a Gold account"
+msgstr ""
+
+#: inc/config/tags.php:12
+msgid "Platinum"
+msgstr "Platin"
+
+#: inc/config/tags.php:16
+msgid "Have a permanent Gold account"
+msgstr ""
+
+#: inc/config/tags.php:19
+msgid "The King of Ylilauta"
+msgstr "Die Könige von Ylilauta"
+
+#: inc/config/tags.php:23
+msgid "Have a maximum level platinum account"
+msgstr "Verfüge über ein Platin-Konto auf Maximalstufe"
+
+#: inc/config/tags.php:26
+msgid "Bier"
+msgstr "Bier"
+
+#: inc/config/tags.php:30
+msgid ""
+"Have spent a total of 10€ on any Ylilauta items to help the admins to "
+"relieve their work stresi wories"
+msgstr ""
+"Gib einen Gesamtbetrag von 10€ für beliebige Ylilauta-Gegenstände aus, um "
+"die Admins vor dem Stresi der Arbeit zu schützen"
+
+#: inc/config/tags.php:34
+msgid "Unique snowflake"
+msgstr "Besondere Schneeflocke"
+
+#: inc/config/tags.php:38
+msgid "Be a unique snowflake"
+msgstr "Sei eine besondere Schneeflocke"
+
+#: inc/config/tags.php:42
+msgid "Epic guy"
+msgstr "Epischer Typ"
+
+#: inc/config/tags.php:46
+msgid "Epic threads give epic tags - have an archived thread"
+msgstr ""
+"Epische Fäden bringen episcche Etiketten - verfüge über einen archivierten "
+"Fadem"
+
+#: inc/config/tags.php:49
+msgid "Adventburger"
+msgstr "Adventburger"
+
+#: inc/config/tags.php:53
+msgid "Get your thread to the advent calendar of Ylilauta"
+msgstr "Schaffe es mit deinem Faden in den Ylilauta-Adventskalender"
+
+#: inc/config/tags.php:57
+msgid "Midsummer beer"
+msgstr "Mittsommer-Bier"
+
+#: inc/config/tags.php:61
+msgid "Submit a post during midsummer"
+msgstr "Schicke einen Pfosten an Mittsommer ab"
+
+#: inc/config/tags.php:65
+msgid "Hyperactive"
+msgstr "Hyperaktiv"
+
+#: inc/config/tags.php:69
+msgid "Have at least 100 000 activity points"
+msgstr ""
+
+#: inc/config/tags.php:72
+msgid "Top commenter"
+msgstr "Top-Kommentator"
+
+#: inc/config/tags.php:76
+msgid "Your posts have received at least 1000 upboats"
+msgstr "Deine Pfosten wurden mindestens 1000 mal aufgebootet"
+
+#: inc/config/tags.php:79
+msgid "Upboated :D"
+msgstr "Aufgebootet :D"
+
+#: inc/config/tags.php:83
+msgid "Given at least 1000 upboats"
+msgstr "Vergib mindestens 1000 Aufbootungen"
+
+#: inc/config/tags.php:86
+msgid "Gold commenter"
+msgstr "Gold-Kommentator"
+
+#: inc/config/tags.php:90
+msgid "You have received a Gold account from any of your posts"
+msgstr ""
+
+#: inc/config/tags.php:93
+msgid "Goldboated :D"
+msgstr "Goldgebootet :D"
+
+#: inc/config/tags.php:97
+msgid "Donated a Gold account to another user"
+msgstr ""
+
+#: inc/config/tags.php:100
+msgid "YOLO-pro"
+msgstr "YOLO-Pro"
+
+#: inc/config/tags.php:104
+msgid "Have achieved a YOLO-jackpot"
+msgstr "Einen YOLO-Jackpot erreicht"
+
+#: inc/config/tags.php:108
+msgid "Assburger"
+msgstr "Arschbürger"
+
+#: inc/config/tags.php:112 inc/config/tags.php:119
+msgid "You need to figure out how to find this"
+msgstr "Du musst herausfinden, wie du dies findest"
+
+#: inc/config/tags.php:115
+msgid "BTW I'm a grill"
+msgstr "Bei dem Weg, ich bin ich Mädchen"
+
+#: inc/config/tags.php:122
+msgid "Anonymous is a leguan"
+msgstr "Anonymous ist ein Leguan"
+
+#: inc/config/tags.php:126
+msgid "There might be a few ways to obtain this - someday, somewhere..."
+msgstr "Es mag einige Wege geben, dies zu erreichen - irgendwo, irgendwann ..."
+
+#: inc/config/tags.php:130
+msgid "Seal of Ylilauta"
+msgstr "Siegel Ylilautas"
+
+#: inc/config/tags.php:134
+msgid ""
+"You have done something good for Ylilauta, like reported a bug or given a "
+"good development idea"
+msgstr ""
+"Du warst Ylilauta irgendwie nützlich, hast z.B. einen Bug gemeldet oder eine "
+"\""
+
+#: inc/config/tags.php:137
+msgid "Ylilauta-pro"
+msgstr "Ylilauta-Pro"
+
+#: inc/config/tags.php:141
+msgid "Have an user account older than a year"
+msgstr "Haben Sie ein Benutzerkonto, das älter als ein Jahr ist"
+
+#: inc/config/tags.php:144
+msgid "Always been here"
+msgstr "Schon immer hier gewesen"
+
+#: inc/config/tags.php:148
+msgid "Have an user account older than 3 years"
+msgstr "Haben Sie ein Benutzerkonto älter als 3 Jahre"
+
+#: inc/config/tags.php:151
+msgid "What the heck am I still doing here!?"
+msgstr "Was zum Henker tue ich hier noch!?"
+
+#: inc/config/tags.php:155
+msgid "Have an user account older than 6 years"
+msgstr "Haben Sie ein Benutzerkonto älter als 6 Jahre"
+
+#: inc/config/tags.php:159
+msgid "Markoboy"
+msgstr "Markoboy"
+
+#: inc/config/tags.php:163
+msgid "Took part in the markoboy87 -fundraiser (September 2014)"
+msgstr ""
+
+#: inc/config/tags.php:166
+msgid "niilo22"
+msgstr "niilo22"
+
+#: inc/config/tags.php:170
+msgid "Took part in the niilo22 -fundraiser (October 2015)"
+msgstr ""
+
+#: inc/config/tags.php:173
+msgid "niilo22 Ultimate"
+msgstr "niilo22 Ultimate"
+
+#: inc/config/tags.php:177
+msgid ""
+"Took part in the niilo22 -fundraiser with a sum more than the average "
+"payment (October 2015)"
+msgstr ""
+
+#: inc/config/tags.php:180
+msgid "Transporter"
+msgstr "Transporter"
+
+#: inc/config/tags.php:184
+msgid "Took part in the Ylis Roadtrip -fundraiser (August 2016)"
+msgstr ""
+
+#: inc/config/tags.php:187
+msgid "Transporter with flames"
+msgstr "Transporter mit Flammen"
+
+#: inc/config/tags.php:191
+msgid ""
+"Took part in the Ylis Roadtrip -fundraiser with a sum of 25€ or more (August "
+"2016)"
+msgstr ""
+
+#: inc/config/tags.php:194
+msgid "Invalid"
+msgstr "Ungültig"
+
+#: inc/config/tags.php:198
+msgid "Took part in the Ylis gives back! -fundraiser (June 2017)"
+msgstr ""
+
+#: inc/config/tags.php:201
+msgid "Honorary burger"
+msgstr "Ehrenburger"
+
+#: inc/config/tags.php:205
+msgid ""
+"Took part in the Ylis gives back! -fundraiser with a sum of more than the "
+"average (June 2017)"
+msgstr ""
+
+#: inc/config/tags.php:208
+msgid "Help Helper"
+msgstr ""
+
+#: inc/config/tags.php:212
+msgid "Took part in the Food Help Helping -fundraiser (December 2018)"
+msgstr ""
+
+#: inc/config/tags.php:215
+msgid "Good Apulitan"
+msgstr ""
+
+#: inc/config/tags.php:219
+msgid ""
+"Took part in the Food Help Helping -fundraiser with a sum of more than the "
+"average (December 2018)"
+msgstr ""
+
+#: inc/config/tags.php:222
+msgid "Macaroni"
+msgstr ""
+
+#: inc/config/tags.php:226
+msgid "All of my money went to Hursti, now I will have to eat macaroni"
+msgstr ""
+
+#: inc/config/tags.php:230
+msgid "Coronavirus"
+msgstr ""
+
+#: inc/config/tags.php:234
+msgid "Got infected by a virtual coronavirus"
+msgstr ""
+
+#: inc/config/tags.php:238
+msgid "Christmasburger"
+msgstr "Weihnachtsburger"
+
+#: inc/config/tags.php:242
+msgid "Purchased a Gold account during december of 2015"
+msgstr ""
+
+#: inc/config/tags.php:245
+msgid "Finland 100 years"
+msgstr "100 Jahre Finnland"
+
+#: inc/config/tags.php:249
+msgid "Purchased a Gold account on Finland's 100th independence day"
+msgstr ""
+
+#: inc/config/tags.php:252
+msgid "Mass storage massacre"
+msgstr "Massenspeicher-Massaker"
+
+#: inc/config/tags.php:256
+msgid "Lived to tell the tales of the great Mass storage massacre (June 2017)"
+msgstr ""
+"Überlebte, um die Legenden des großen Massenspeicher-Massakers zu erzählen "
+"(Juni 2017)"
+
+#: inc/engine.class.php:255 scripts/ajax/donate_gold_key.php:50
+msgid "An error occurred"
+msgstr "Ein Fehler ist aufgetreten"
+
+#: inc/engine.class.php:257 inc/engine.class.php:263
+msgid "Go back"
+msgstr "Gehe zurück"
+
+#: inc/engine.class.php:262
+msgid "Error:"
+msgstr "Fehler:"
+
+#: inc/engine.class.php:355
+#, php-format
+msgid "Protected by reCAPTCHA (%sPrivacy%s - %sTerms%s)"
+msgstr ""
+
+#: inc/html.class.php:152
+msgid "You don't have any followed threads."
+msgstr "Du folgst keinen Fäden."
+
+#: inc/html.class.php:185 mod/actions/reportedposts.php:111
+#: mod/actions/reportedposts.php:115
+msgid "Clear all"
+msgstr "Alles löschen"
+
+#: inc/html.class.php:186
+msgid "Hide"
+msgstr "Verstekcen"
+
+#: inc/html.class.php:187
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: inc/html.class.php:213 inc/html.class.php:222 mod/actions/lockedusers.php:44
+#: mod/actions/spamguard.php:93 preferences.php:209
+#: scripts/modals/getpasswordresetform.php:17
+msgid "Username"
+msgstr "Benutzername"
+
+#: inc/html.class.php:214 inc/html.class.php:223 ownposts.php:59
+#: preferences.php:255
+msgid "Password"
+msgstr "Passwort"
+
+#: inc/html.class.php:216
+msgid "Create account"
+msgstr "Account erstellen"
+
+#: inc/html.class.php:217
+msgid "Log in"
+msgstr ""
+
+#: inc/html.class.php:219
+msgid "Forgot password?"
+msgstr ""
+
+#: inc/html.class.php:223
+#, php-format
+msgid "At least %d characters"
+msgstr ""
+
+#: inc/html.class.php:224 preferences.php:236
+msgid "Password confirmation"
+msgstr ""
+
+#: inc/html.class.php:225
+msgid "Email (optional)"
+msgstr ""
+
+#: inc/html.class.php:227
+msgid "Cancel"
+msgstr "Aufheben"
+
+#: inc/html.class.php:228
+msgid "Create"
+msgstr ""
+
+#: inc/html.class.php:241
+#, php-format
+msgid "Logged in as %s"
+msgstr "Angemeldet als %s"
+
+#: inc/html.class.php:245 inc/html.class.php:333
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: inc/html.class.php:248
+msgid "Preferences"
+msgstr ""
+
+#: inc/html.class.php:250 inc/html.class.php:1313 mod/index.php:25
+msgid "Management"
+msgstr "Management"
+
+#: inc/html.class.php:253 preferences.php:406
+msgid "Log out"
+msgstr ""
+
+#: inc/html.class.php:257 preferences.php:201
+msgid "Activity points"
+msgstr "Aktivitätspunkte"
+
+#: inc/html.class.php:264
+msgid "1 report"
+msgstr "1 Anzeige"
+
+#: inc/html.class.php:264
+#, php-format
+msgid "%s reports"
+msgstr "%s Anzeigen"
+
+#: inc/html.class.php:268
+msgid "1 ban appeal"
+msgstr "1 Banneinspruch"
+
+#: inc/html.class.php:268
+#, php-format
+msgid "%s ban appeals"
+msgstr "%s Banneinsprüche"
+
+#: inc/html.class.php:300 index.php:66 preferences.php:22
+msgid "Boards"
+msgstr ""
+
+#: inc/html.class.php:316 index.php:85
+msgid "readers"
+msgstr "Leser"
+
+#: inc/html.class.php:316 index.php:85
+msgid "reader"
+msgstr "Leser"
+
+#: inc/html.class.php:336
+msgid "Go to bottom"
+msgstr "Nach unten springen"
+
+#: inc/html.class.php:337
+msgid "Back to top"
+msgstr "Zurück nach oben"
+
+#: inc/html.class.php:338 mod/index.php:67
+msgid "Preferences and profile"
+msgstr "Voreinstellungen und Profile"
+
+#: inc/html.class.php:339
+msgid "Refresh page"
+msgstr "Seite auffrüschen"
+
+#: inc/html.class.php:427
+#, php-format
+msgid ""
+"Temporary spam protection active: You will need to wait %d hour(s) or login "
+"to an older user account to post."
+msgstr ""
+
+#: inc/html.class.php:434
+msgid "Click for more info..."
+msgstr "Mehr anzeigen..."
+
+#: inc/html.class.php:446
+msgid "Create thread"
+msgstr "Faden erstellen"
+
+#: inc/html.class.php:464
+msgid "Subject"
+msgstr "Thema"
+
+#: inc/html.class.php:465
+msgid "Subject (optional)"
+msgstr ""
+
+#: inc/html.class.php:471 mod/actions/modlog.php:33
+#: mod/actions/postcounts.php:13
+msgid "Board"
+msgstr "Brett"
+
+#: inc/html.class.php:473
+msgid "Choose board"
+msgstr "Brett auswählen"
+
+#: inc/html.class.php:490
+msgid "File"
+msgstr "Datei"
+
+#: inc/html.class.php:524 mod/actions/addban.php:158
+#: mod/actions/deletepost.php:11 mod/actions/managebans.php:43
+#: mod/actions/modlog.php:35 mod/actions/reportedposts.php:74
+#: scripts/ajax/message.php:43
+msgid "Message"
+msgstr "Nachricht"
+
+#: inc/html.class.php:529
+msgid "Options"
+msgstr "Einstellungen"
+
+#: inc/html.class.php:535
+msgid "Post settings"
+msgstr ""
+
+#: inc/html.class.php:536
+msgid "Don't bump the thread"
+msgstr "SÄGE"
+
+#: inc/html.class.php:537
+msgid "Show username"
+msgstr ""
+
+#: inc/html.class.php:538
+msgid "Show filename"
+msgstr ""
+
+#: inc/html.class.php:539 preferences.php:73
+msgid "Gold account functions"
+msgstr "Gold account Funktionen"
+
+#: inc/html.class.php:540
+msgid "Make post visible only with a Gold account"
+msgstr ""
+
+#: inc/html.class.php:544 inc/html.class.php:1066
+msgid "Moderator functions"
+msgstr "Moderator Funktionen"
+
+#: inc/html.class.php:544
+msgid "(for new threads)"
+msgstr ""
+
+#: inc/html.class.php:545
+msgid "Lock thread"
+msgstr "Faden sperren"
+
+#: inc/html.class.php:546
+msgid "Stick thread"
+msgstr "Faden anheften"
+
+#: inc/html.class.php:547
+msgid "Show admin-tag"
+msgstr ""
+
+#: inc/html.class.php:553 preferences.php:25
+msgid "Tags"
+msgstr ""
+
+#: inc/html.class.php:555
+msgid "You don't have any tags"
+msgstr ""
+
+#: inc/html.class.php:571
+msgid "How to get tags?"
+msgstr "Wie bekomme ich Tags?"
+
+#: inc/html.class.php:599
+msgid "Reply to thread"
+msgstr "Antworten"
+
+#: inc/html.class.php:675
+msgid "Next"
+msgstr "Nächster"
+
+#: inc/html.class.php:741 inc/html.class.php:894
+msgid "Hide thread"
+msgstr "Faden verbergen"
+
+#: inc/html.class.php:742 inc/html.class.php:895
+msgid "Restore thread"
+msgstr "Faden Wiederherstellen"
+
+#: inc/html.class.php:744 inc/html.class.php:897
+msgid "Follow thread"
+msgstr "Faden verfolgen"
+
+#: inc/html.class.php:745 inc/html.class.php:898
+msgid "Remove from followed"
+msgstr "Aus verfolgten Fäden entfernen"
+
+#: inc/html.class.php:748
+msgid "Manage thread"
+msgstr ""
+
+#: inc/html.class.php:752 mod/actions/addban.php:171
+msgid "Delete thread"
+msgstr ""
+
+#: inc/html.class.php:765 inc/html.class.php:884
+msgid "Original post deleted"
+msgstr ""
+
+#: inc/html.class.php:782
+msgid "No replies"
+msgstr "Keine Antworten"
+
+#: inc/html.class.php:785
+msgid "One reply"
+msgstr "Eine Antwort"
+
+#: inc/html.class.php:787
+#, php-format
+msgid "%d replies"
+msgstr "%d Antworten"
+
+#: inc/html.class.php:791
+msgid "from a single user"
+msgstr "von einem Benutzer"
+
+#: inc/html.class.php:793
+#, php-format
+msgid "from %d users"
+msgstr "von %d Benutzern"
+
+#: inc/html.class.php:796
+#, php-format
+msgid "opened once"
+msgstr ""
+
+#: inc/html.class.php:796
+#, php-format
+msgid "opened %d times"
+msgstr ""
+
+#: inc/html.class.php:799
+#, php-format
+msgid "one follower"
+msgstr "ein Verfolger"
+
+#: inc/html.class.php:799
+#, php-format
+msgid "%d followers"
+msgstr "%d Verfolger"
+
+#: inc/html.class.php:801
+#, php-format
+msgid "hidden by one user"
+msgstr "von einem Nutzer verborgen"
+
+#: inc/html.class.php:801
+#, php-format
+msgid "hidden by %d users"
+msgstr "von %d Nutzern verborgen"
+
+#: inc/html.class.php:814
+msgid "Show earlier replies"
+msgstr "Zeige vorherige Antworten"
+
+#: inc/html.class.php:815
+msgid "Hide earlier replies"
+msgstr "Verberge vorherige Antworten"
+
+#: inc/html.class.php:847
+msgid "Open"
+msgstr ""
+
+#: inc/html.class.php:850 inc/html.class.php:1036
+msgid "Reply"
+msgstr "Antwort"
+
+#: inc/html.class.php:901 inc/html.class.php:1054
+msgid "Report message"
+msgstr "Nachricht melden"
+
+#: inc/html.class.php:904 inc/html.class.php:1063 mod/actions/addban.php:6
+msgid "Ban user"
+msgstr "Ban Benutzer"
+
+#: inc/html.class.php:906 inc/html.class.php:1069
+msgid "Share"
+msgstr ""
+
+#: inc/html.class.php:929 inc/html.class.php:1104 scripts/ajax/message.php:58
+#: scripts/ajax/message.php:64
+msgid "This message is only visible to users with a Gold account."
+msgstr ""
+
+#: inc/html.class.php:985
+msgid "Administration"
+msgstr ""
+
+#: inc/html.class.php:991 inc/posts.class.php:566
+msgid "OP"
+msgstr "OP"
+
+#: inc/html.class.php:1013
+msgid "Show edit history"
+msgstr ""
+
+#: inc/html.class.php:1013
+msgid "edited"
+msgstr ""
+
+#: inc/html.class.php:1041
+msgid "Upboat"
+msgstr "Aufboot"
+
+#: inc/html.class.php:1042
+msgid "Donate gold"
+msgstr "Gold spenden"
+
+#: inc/html.class.php:1045
+msgid "Hide post"
+msgstr "Pfosten verstecken"
+
+#: inc/html.class.php:1046
+msgid "Restore post"
+msgstr "Pfosten Wiederherstellen"
+
+#: inc/html.class.php:1049
+msgid "Edit message"
+msgstr "Nachricht editieren"
+
+#: inc/html.class.php:1058 inc/html.class.php:1081 mod/actions/addban.php:161
+#: mod/actions/deletepost.php:7 mod/actions/deletepost.php:19
+msgid "Delete message"
+msgstr "Nachricht löschen"
+
+#: inc/html.class.php:1078
+msgid "IP"
+msgstr "IP"
+
+#: inc/html.class.php:1108
+msgid "Replies"
+msgstr "Antworten"
+
+#: inc/html.class.php:1314 mod/actions/bulletinboard.php:9
+msgid "Bulletin board"
+msgstr "Anschlagbrett"
+
+#: inc/html.class.php:1317
+msgid "Reported posts"
+msgstr "Gemeldete Pfosten"
+
+#: inc/html.class.php:1318 mod/actions/banappeals.php:6
+msgid "Ban appeals"
+msgstr "Bann-Einsprüche"
+
+#: inc/html.class.php:1319
+msgid "Ban a user"
+msgstr "Einen Nutzer bannen"
+
+#: inc/html.class.php:1320 mod/actions/managebans.php:27
+msgid "Manage bans"
+msgstr "Bannierungen verwalten"
+
+#: inc/html.class.php:1323 mod/actions/admins.php:7
+msgid "Moderator list"
+msgstr ""
+
+#: inc/html.class.php:1324 mod/actions/modlog.php:20
+msgid "Moderation log"
+msgstr "Moderationslogbuch"
+
+#: inc/html.class.php:1325 mod/actions/postcounts.php:9
+msgid "Message amounts"
+msgstr ""
+
+#: inc/html.class.php:1328
+msgid "Manage Gold accounts"
+msgstr ""
+
+#: inc/html.class.php:1331
+msgid "Manage boards"
+msgstr "Bretter verwalten"
+
+#: inc/html.class.php:1332
+msgid "Blacklisted words"
+msgstr "Gesperrte Begriffe"
+
+#: inc/html.class.php:1333
+msgid "File search"
+msgstr "Dateisuche"
+
+#: inc/html.class.php:1334
+msgid "Deleted posts"
+msgstr "Gelöschte Pfosten"
+
+#: inc/html.class.php:1335
+msgid "Delete a thread or a post"
+msgstr "Einen Faden oder Pfosten löschen"
+
+#: inc/html.class.php:1336
+msgid "Update thread options"
+msgstr "Faden-Optionen aktualisieren"
+
+#: inc/html.class.php:1337
+msgid "Post stream"
+msgstr ""
+
+#: inc/html.class.php:1338
+msgid "Search multiple posts"
+msgstr ""
+
+#: inc/html.class.php:1339
+msgid "Search user posts"
+msgstr ""
+
+#: inc/html.class.php:1340 mod/actions/spamguard.php:84
+msgid "New users"
+msgstr ""
+
+#: inc/html.class.php:1341 mod/actions/lockedusers.php:39
+msgid "Locked users"
+msgstr ""
+
+#: inc/user.class.php:192
+msgid "Other reason"
+msgstr ""
+
+#: inc/user.class.php:193
+msgid "Illegal or dangerous content"
+msgstr ""
+
+#: inc/user.class.php:194
+msgid "Spam"
+msgstr ""
+
+#: inc/user.class.php:195
+msgid "Malicious content"
+msgstr ""
+
+#: inc/user.class.php:196
+msgid "Advertising"
+msgstr ""
+
+#: inc/user.class.php:197
+msgid "Harassment"
+msgstr ""
+
+#: inc/user.class.php:198
+msgid "Sexually explicit content"
+msgstr ""
+
+#: inc/user.class.php:199
+msgid "Inappropriate content"
+msgstr ""
+
+#: inc/user.class.php:200 scripts/ajax/post.php:279
+msgid "Your message contained a blacklisted word"
+msgstr ""
+
+#: inc/user.class.php:1274
+msgid "day"
+msgstr "Tag"
+
+#: inc/user.class.php:1277
+msgid "week"
+msgstr "Woche"
+
+#: inc/user.class.php:1280
+msgid "month"
+msgstr "Monat"
+
+#: inc/user.class.php:1283 inc/user.class.php:1286
+msgid "months"
+msgstr "Monate"
+
+#: inc/user.class.php:1289
+msgid "year"
+msgstr "Jahr"
+
+#: inc/user.class.php:1292
+msgid "years"
+msgstr "Jahre"
+
+#: inc/user.class.php:1295
+msgid "seconds"
+msgstr "Sekunden"
+
+#: inc/user.class.php:1360
+msgid "This key has already been used."
+msgstr "Dieser Schlüssel wurde bereits benutzt."
+
+#: inc/user.class.php:1364
+msgid ""
+"You already have a platinum account, you cannot activate Gold account keys."
+msgstr ""
+
+#: inc/user.class.php:1893
+msgid "Exists"
+msgstr ""
+
+#: inc/user.class.php:1896
+msgid "Not set"
+msgstr ""
+
+#: index.php:35
+#, php-format
+msgid "%s sent messages already!"
+msgstr "%s bereits Nachrichten gesendet!"
+
+#: index.php:67
+#, php-format
+msgid "%s users online"
+msgstr "%s Benutzer online"
+
+#: index.php:69
+#, php-format
+msgid "%s messages during the last hour"
+msgstr "%s Mitteilungen während der letzten Stunde"
+
+#: index.php:144
+msgid "Popular threads right now"
+msgstr "Momentan beliebte Fäden"
+
+#: index.php:148
+msgid "Popular threads today"
+msgstr "Die beliebtesten Fäden des Tages"
+
+#: mod/actions/addban.php:17
+#, php-format
+msgid "Post %d does not exist"
+msgstr ""
+
+#: mod/actions/addban.php:157
+msgid "Post ID"
+msgstr ""
+
+#: mod/actions/addban.php:165
+msgid "Delete all posts by the user in the last 24h"
+msgstr "Lösche alle Pfosten des Benutzers der letzten 24 Stunden"
+
+#: mod/actions/addban.php:177
+msgid "Delete all threads by the user in the last 24h"
+msgstr ""
+
+#: mod/actions/addban.php:181
+msgid "Ban user account"
+msgstr ""
+
+#: mod/actions/addban.php:185
+msgid "Ban IP-address"
+msgstr ""
+
+#: mod/actions/addban.php:190
+msgid "Reason and length"
+msgstr "Grund und Dauer"
+
+#: mod/actions/addban.php:192
+msgid "Choose reason"
+msgstr "Wähle Begründung"
+
+#: mod/actions/addban.php:242
+msgid "Additional info (optional)"
+msgstr "Zusätzliche Info (optional)"
+
+#: mod/actions/addban.php:243
+msgid "Ban length in seconds"
+msgstr "Banndauer in Sekunden"
+
+#: mod/actions/admins.php:10
+msgid "User (ID)"
+msgstr ""
+
+#: mod/actions/admins.php:11
+msgid "Class"
+msgstr ""
+
+#: mod/actions/admins.php:12
+msgid "Log rows (last month)"
+msgstr ""
+
+#: mod/actions/admins.php:13
+msgid "(last 6 months)"
+msgstr ""
+
+#: mod/actions/admins.php:14
+msgid "Last active"
+msgstr ""
+
+#: mod/actions/admins.php:27
+msgid "Admin"
+msgstr "Administrator"
+
+#: mod/actions/admins.php:29
+msgid "Super moderator"
+msgstr ""
+
+#: mod/actions/admins.php:31 mod/actions/modlog.php:31
+msgid "Moderator"
+msgstr "Moderator"
+
+#: mod/actions/banappeals.php:13 mod/actions/banappeals.php:19
+#: mod/actions/managebans.php:17
+msgid "Database error"
+msgstr "Datenbank Fehler"
+
+#: mod/actions/banappeals.php:29 mod/actions/managebans.php:44
+msgid "Banned by"
+msgstr "Gebannt von"
+
+#: mod/actions/banappeals.php:30 mod/actions/managebans.php:46
+msgid "Added"
+msgstr "Hinzugefügt"
+
+#: mod/actions/banappeals.php:31 mod/actions/managebans.php:47
+msgid "Ends"
+msgstr "Endet"
+
+#: mod/actions/banappeals.php:32 mod/actions/managebans.php:45
+#: mod/actions/reportedposts.php:75
+msgid "Reason"
+msgstr "Grund"
+
+#: mod/actions/banappeals.php:33 mod/actions/lockedusers.php:48
+#: mod/actions/managebans.php:48 mod/actions/reportedposts.php:81
+#: mod/actions/spamguard.php:98 preferences.php:388
+msgid "Actions"
+msgstr ""
+
+#: mod/actions/banappeals.php:58
+msgid "Accept"
+msgstr "Akzeptieren"
+
+#: mod/actions/banappeals.php:59
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: mod/actions/banappeals.php:64
+msgid "Appeal"
+msgstr "Anfechtenl"
+
+#: mod/actions/banappeals.php:67
+msgid "Post"
+msgstr "Pfostieren"
+
+#: mod/actions/banappeals.php:79
+msgid "No unchecked ban appeals"
+msgstr "Keine unüberprüften Einsprüche gegen einen Bann"
+
+#: mod/actions/bulletinboard.php:12
+msgid "No announcements"
+msgstr "Keine Ankündigungen"
+
+#: mod/actions/deletepost.php:12
+msgid "Message ID"
+msgstr "Nachrichten ID"
+
+#: mod/actions/deletepost.php:16
+msgid "Delete file only"
+msgstr "Lösche nur die Datei"
+
+#: mod/actions/deletepost.php:22 mod/actions/deletepost.php:25
+msgid "Delete messages by the user"
+msgstr "Lösche Nachrichten dieses Benutzers"
+
+#: mod/actions/deletepost.php:27
+msgid "Interval in seconds (0 = all)"
+msgstr "Intervall in Sekunden (0 = alle)"
+
+#: mod/actions/deletepost.php:30
+msgid "Delete multiple messages"
+msgstr "Lösche mehrere Nachrichten"
+
+#: mod/actions/deletepost.php:37 scripts/ajax/checkreport.php:34
+#: scripts/ajax/delete.php:29 scripts/ajax/embedhtml.php:20
+#: scripts/ajax/message.php:48 scripts/ajax/message.php:51
+#: scripts/ajax/message.php:61 scripts/ajax/report.php:52
+#: scripts/ajax/savemessage.php:30 scripts/modals/getreportform.php:28
+msgid "Post does not exist"
+msgstr ""
+
+#: mod/actions/deletepost.php:66
+msgid "File deleted from message"
+msgstr "Datei von der Nachricht gelöscht"
+
+#: mod/actions/deletepost.php:68
+#, php-format
+msgid "File deleted from %d messages"
+msgstr "Datei von %d Nachrichten gelöscht"
+
+#: mod/actions/deletepost.php:71
+msgid "Deleting the file failed"
+msgstr "Löschen der Datei schlug fehl"
+
+#: mod/actions/deletepost.php:81
+msgid "Message deleted"
+msgstr "Nachricht gelöscht"
+
+#: mod/actions/deletepost.php:83
+#, php-format
+msgid "%d messages deleted"
+msgstr "%d Nachrichten gelöscht"
+
+#: mod/actions/deletepost.php:86
+msgid "Deleting the message failed"
+msgstr "Löschen der Nachricht schlug fehl"
+
+#: mod/actions/lockedusers.php:22 mod/actions/lockedusers.php:61
+#: mod/actions/spamguard.php:42 mod/actions/spamguard.php:112
+msgid "Lock account"
+msgstr ""
+
+#: mod/actions/lockedusers.php:26 mod/actions/lockedusers.php:61
+#: mod/actions/spamguard.php:46 mod/actions/spamguard.php:112
+msgid "Unlock account"
+msgstr ""
+
+#: mod/actions/lockedusers.php:43 mod/actions/spamguard.php:92
+msgid "Id"
+msgstr ""
+
+#: mod/actions/lockedusers.php:45 mod/actions/spamguard.php:94
+#: preferences.php:182
+msgid "Account created"
+msgstr "Konto erstellt"
+
+#: mod/actions/lockedusers.php:46 mod/actions/spamguard.php:96
+msgid "Last IP"
+msgstr ""
+
+#: mod/actions/lockedusers.php:47 mod/actions/spamguard.php:95
+msgid "Has email"
+msgstr ""
+
+# This is the text that appears next to the post ID, it's a shortening for "Number".
+#: mod/actions/lockedusers.php:58 mod/actions/spamguard.php:107
+#: preferences.php:316
+msgid "No"
+msgstr ""
+
+#: mod/actions/lockedusers.php:58 mod/actions/spamguard.php:107
+#: preferences.php:316
+msgid "Yes"
+msgstr ""
+
+#: mod/actions/managebans.php:7
+msgid "Delete ban"
+msgstr "Begnadigen"
+
+#: mod/actions/managebans.php:9 mod/actions/reportedposts.php:10
+#: mod/actions/reportedposts.php:25
+msgid "Invalid token"
+msgstr "Ungültiger Token"
+
+#: mod/actions/managebans.php:15
+msgid "Ban deleted"
+msgstr "Ban entfernt"
+
+#: mod/actions/managebans.php:15 mod/actions/reportedposts.php:18
+#: mod/actions/reportedposts.php:31
+msgid "Return"
+msgstr "Zurück"
+
+#: mod/actions/managebans.php:31
+msgid "All active bans"
+msgstr "Alle aktiven Bans"
+
+#: mod/actions/managebans.php:32
+msgid "Show expired bans"
+msgstr "Abgelaufene Bans anzeigen"
+
+#: mod/actions/managebans.php:35
+msgid "Expired bans"
+msgstr "Abgelaufene Bans"
+
+#: mod/actions/managebans.php:36
+msgid "Show active bans"
+msgstr "Aktive Bans anzeigen"
+
+#: mod/actions/managebans.php:64 ownposts.php:72
+msgid "Delete"
+msgstr "Löschen"
+
+#: mod/actions/modlog.php:24
+#, php-format
+msgid "Viewing the moderation log of %s"
+msgstr "Moderationslog von %s ansehen"
+
+#: mod/actions/modlog.php:25
+msgid "Show all"
+msgstr "Alle anzeigen"
+
+#: mod/actions/modlog.php:32
+msgid "Action"
+msgstr "Aktion"
+
+#: mod/actions/modlog.php:36
+msgid "Information"
+msgstr "Information"
+
+#: mod/actions/modlog.php:37
+msgid "Timestamp"
+msgstr "Zeitstempel"
+
+#: mod/actions/modlog.php:38 preferences.php:385
+msgid "IP-address"
+msgstr ""
+
+#: mod/actions/modlog.php:43
+msgid "Deleted a message"
+msgstr "Löschte eine Nachricht"
+
+#: mod/actions/modlog.php:44
+msgid "Banned an user"
+msgstr "Sperrte einen Benutzer"
+
+#: mod/actions/modlog.php:45
+msgid "Sent a message as an admin"
+msgstr "Sendete eine N<chricht als Administrator"
+
+#: mod/actions/modlog.php:46
+msgid "Invalid login"
+msgstr "Ungültiger login"
+
+#: mod/actions/modlog.php:47
+msgid "Stickied a thread"
+msgstr "Faden angeheftet"
+
+#: mod/actions/modlog.php:48
+msgid "Unstickied a thread"
+msgstr "Faden losgelöst"
+
+#: mod/actions/modlog.php:49
+msgid "Locked a thread"
+msgstr "Faden gesperrt"
+
+#: mod/actions/modlog.php:50
+msgid "Unlocked a thread"
+msgstr "Faden entsperrt"
+
+#: mod/actions/modlog.php:51
+#| msgid "Delete a thread or a post"
+msgid "Deleted a thread"
+msgstr ""
+
+#: mod/actions/modlog.php:52
+#| msgid "Deleted posts"
+msgid "Deleted a post"
+msgstr ""
+
+#: mod/actions/modlog.php:53
+msgid "Deleted a file from a message"
+msgstr "Datei aus einer Nachricht gelöscht"
+
+#: mod/actions/modlog.php:54
+msgid "Changed blacklisted words"
+msgstr ""
+
+#: mod/actions/modlog.php:55
+msgid "Created a Gold account key"
+msgstr ""
+
+#: mod/actions/modlog.php:56
+msgid "Moved a thread"
+msgstr ""
+
+#: mod/actions/modlog.php:57
+msgid "Checked a report"
+msgstr ""
+
+#: mod/actions/modlog.php:58
+msgid "Marked all reports as checked"
+msgstr ""
+
+#: mod/actions/modlog.php:59
+msgid "Logged in"
+msgstr ""
+
+#: mod/actions/modlog.php:60
+#| msgid "Added an user"
+msgid "Locked an user"
+msgstr ""
+
+#: mod/actions/modlog.php:61
+#| msgid "Banned an user"
+msgid "Unlocked an user"
+msgstr ""
+
+#: mod/actions/modlog.php:62
+msgid "Enabled antispam"
+msgstr ""
+
+#: mod/actions/modlog.php:63
+msgid "Disabled antispam"
+msgstr ""
+
+#: mod/actions/postcounts.php:14
+msgid "Messages per month"
+msgstr ""
+
+#: mod/actions/postcounts.php:15
+msgid "Messages per day"
+msgstr ""
+
+#: mod/actions/postcounts.php:16
+msgid "Messages per hour"
+msgstr ""
+
+#: mod/actions/postcounts.php:66
+msgid "Total"
+msgstr "Gesamt"
+
+#: mod/actions/poststream.php:20 scripts/ajax/activategold.php:13
+#: scripts/ajax/changepassword.php:12 scripts/ajax/changepassword.php:33
+#: scripts/ajax/changepassword.php:66 scripts/ajax/changepassword.php:75
+#: scripts/ajax/checkreport.php:15 scripts/ajax/checkreport.php:25
+#: scripts/ajax/delete.php:20 scripts/ajax/deleteprofile.php:14
+#: scripts/ajax/deletethread.php:20 scripts/ajax/donate_gold_key.php:19
+#: scripts/ajax/expand.php:18 scripts/ajax/follow.php:16
+#: scripts/ajax/get_new_replies.php:18 scripts/ajax/hide_ping.php:17
+#: scripts/ajax/message.php:18 scripts/ajax/post.php:89
+#: scripts/ajax/savedisplaystyle.php:21 scripts/ajax/savemessage.php:18
+#: scripts/ajax/sendrecoverycode.php:21 scripts/ajax/spamguard.php:18
+#: scripts/ajax/spamguard.php:33 scripts/ajax/spamguard.php:44
+#: scripts/managesessions.php:13 scripts/modals/getedits.php:18
+#: scripts/modals/getgolddonateform.php:13 scripts/modals/getreportform.php:17
+msgid "Bad request"
+msgstr ""
+
+#: mod/actions/poststream.php:24 scripts/ajax/spamguard.php:27
+msgid "Unauthorized"
+msgstr ""
+
+#: mod/actions/reportedposts.php:6
+msgid "Reported messages"
+msgstr ""
+
+#: mod/actions/reportedposts.php:12
+msgid "Invalid IP-address"
+msgstr ""
+
+#: mod/actions/reportedposts.php:18
+msgid "All reports from ip cleared"
+msgstr ""
+
+#: mod/actions/reportedposts.php:20 mod/actions/reportedposts.php:33
+#: mod/actions/updatethread.php:69 scripts/ajax/checkreport.php:41
+msgid "Action failed"
+msgstr ""
+
+#: mod/actions/reportedposts.php:31
+msgid "All reports from user cleared"
+msgstr ""
+
+#: mod/actions/reportedposts.php:59
+msgid "Uncleared reports"
+msgstr ""
+
+#: mod/actions/reportedposts.php:61
+msgid "Show cleared reports"
+msgstr ""
+
+#: mod/actions/reportedposts.php:64
+msgid "Cleared reports"
+msgstr ""
+
+#: mod/actions/reportedposts.php:65
+msgid "Show uncleared reports"
+msgstr ""
+
+#: mod/actions/reportedposts.php:76
+msgid "By IP"
+msgstr ""
+
+#: mod/actions/reportedposts.php:77
+msgid "By user"
+msgstr ""
+
+#: mod/actions/reportedposts.php:78
+msgid "Reported"
+msgstr "Berichtet"
+
+#: mod/actions/reportedposts.php:84
+msgid "Checked by"
+msgstr "Geprüft von"
+
+#: mod/actions/reportedposts.php:143
+msgid "No reports"
+msgstr "Keine Berichte"
+
+#: mod/actions/spamguard.php:54 mod/actions/spamguard.php:88
+msgid "Disable"
+msgstr ""
+
+#: mod/actions/spamguard.php:59 mod/actions/spamguard.php:88
+msgid "Enable"
+msgstr ""
+
+#: mod/actions/spamguard.php:86
+msgid "Anti spam:"
+msgstr ""
+
+#: mod/actions/spamguard.php:97
+msgid "Accounts from IP"
+msgstr ""
+
+#: mod/actions/updatethread.php:13
+msgid "Manage thread options"
+msgstr ""
+
+#: mod/actions/updatethread.php:49
+msgid "Thread locked"
+msgstr "Faden verschlossen"
+
+#: mod/actions/updatethread.php:52
+msgid "Thread unlocked"
+msgstr ""
+
+#: mod/actions/updatethread.php:55
+msgid "Thread stickied"
+msgstr ""
+
+#: mod/actions/updatethread.php:58
+msgid "Thread unstickied"
+msgstr ""
+
+#: mod/actions/updatethread.php:61
+msgid "Thread moved"
+msgstr ""
+
+#: mod/actions/updatethread.php:64
+msgid "Go to thread"
+msgstr ""
+
+#: mod/actions/updatethread.php:65
+msgid "Go to board"
+msgstr ""
+
+#: mod/actions/updatethread.php:76 mod/actions/updatethread.php:77
+msgid "Thread ID"
+msgstr "Faden ID"
+
+#: mod/actions/updatethread.php:80
+msgid "Lock or stick thread"
+msgstr ""
+
+#: mod/actions/updatethread.php:83
+msgid "Lock"
+msgstr "Sperren"
+
+#: mod/actions/updatethread.php:86
+msgid "Unlock"
+msgstr "Freischalten"
+
+#: mod/actions/updatethread.php:89
+msgid "Stick"
+msgstr "Anheften"
+
+#: mod/actions/updatethread.php:92
+msgid "Unstick"
+msgstr "Ablösen"
+
+#: mod/actions/updatethread.php:98
+msgid "Move to another board"
+msgstr "In ein anderes Brett bewegen"
+
+#: mod/actions/updatethread.php:102
+msgid "Bump thread"
+msgstr ""
+
+#: mod/actions/updatethread.php:104
+msgid "Move"
+msgstr "Bewegen"
+
+#: mod/index.php:66
+msgid "Reports"
+msgstr ""
+
+#: mod/index.php:73
+msgid "Insufficient permissions"
+msgstr "Ungenügende Rechte"
+
+#: mod/mod_functions.php:10 mod/mod_functions.php:11 mod/mod_functions.php:12
+#: mod/mod_functions.php:13
+#, php-format
+msgid "%dh"
+msgstr "%dh"
+
+#: mod/mod_functions.php:14 mod/mod_functions.php:15
+#, php-format
+msgid "%dd"
+msgstr "%dd"
+
+#: mod/mod_functions.php:16 mod/mod_functions.php:17
+#, php-format
+msgid "%dw"
+msgstr "%dw"
+
+#: mod/mod_functions.php:18
+#, php-format
+msgid "%dm"
+msgstr "%dm"
+
+#: mod/mod_functions.php:36
+msgid "Choose"
+msgstr "Wählen"
+
+#: ownposts.php:31
+msgid "Threads you have made"
+msgstr ""
+
+#: ownposts.php:37
+#, php-format
+msgid "Total: %d threads"
+msgstr ""
+
+#: ownposts.php:39
+msgid "Replies you have sent"
+msgstr ""
+
+#: ownposts.php:45
+#, php-format
+msgid "Total: %d replies"
+msgstr ""
+
+#: ownposts.php:47
+msgid "Posts you have upvoted"
+msgstr ""
+
+#: ownposts.php:53
+#, php-format
+msgid "Total: %d posts"
+msgstr ""
+
+#: ownposts.php:56
+msgid "Delete data"
+msgstr ""
+
+#: ownposts.php:63
+msgid "Delete all threads I have made"
+msgstr ""
+
+#: ownposts.php:66
+msgid "Delete all thread replies I have sent (excluding your own threads)"
+msgstr ""
+
+#: ownposts.php:69
+msgid "Delete all upvotes I have given"
+msgstr ""
+
+#: preferences.php:21
+msgid "Site preferences"
+msgstr "Site Einstellungen"
+
+#: preferences.php:23
+msgid "User profile"
+msgstr "Benutzerprofil"
+
+#: preferences.php:26 preferences.php:376
+msgid "Active logins"
+msgstr ""
+
+#: preferences.php:33
+msgid "General preferences"
+msgstr ""
+
+#: preferences.php:36
+msgid "Hide image thumbnails"
+msgstr ""
+
+#: preferences.php:39
+msgid "Notifications and subscribed threads"
+msgstr ""
+
+#: preferences.php:42
+msgid "Automatically subscribe to all threads I create"
+msgstr ""
+
+#: preferences.php:46
+msgid "Automatically subscribe to all threads I reply to"
+msgstr ""
+
+#: preferences.php:50
+msgid "Notify me about new replies to my threads"
+msgstr ""
+
+#: preferences.php:54
+msgid "Notify me about new replies to threads I am subscribed to"
+msgstr ""
+
+#: preferences.php:58
+msgid "Notify me about new replies to my posts"
+msgstr ""
+
+#: preferences.php:62
+msgid "Notify me about upvotes to my posts"
+msgstr ""
+
+#: preferences.php:66
+msgid "Show floating followed threads -box"
+msgstr ""
+
+#: preferences.php:68
+msgid "Order of followed threads"
+msgstr ""
+
+#: preferences.php:70
+msgid "Threads with most unread replies first"
+msgstr ""
+
+#: preferences.php:71
+msgid "Threads with latest replies first"
+msgstr ""
+
+#: preferences.php:77 preferences.php:126
+msgid "To activate these functions, you need to have a Ylilauta Gold account."
+msgstr ""
+"Um diese Funktionen zu aktivieren, brauchst du einen Ylilauta Gold-Account."
+
+#: preferences.php:83
+msgid "Remove advertisements and analytics"
+msgstr ""
+
+#: preferences.php:86
+msgid "Hide all posts from these users (one per row)"
+msgstr ""
+
+#: preferences.php:89
+msgid "Custom CSS"
+msgstr ""
+
+#: preferences.php:91
+msgid "Display text input"
+msgstr ""
+
+#: preferences.php:101
+#, php-format
+msgid ""
+"If you accidentally do something stupid with this field, just open <b>%s</b> "
+"to restore the defaults."
+msgstr ""
+
+#: preferences.php:107
+msgid "Display language"
+msgstr "Sprache"
+
+#: preferences.php:116
+msgid "Layout and appearance"
+msgstr ""
+
+#: preferences.php:117
+msgid "Stylesheet"
+msgstr "Gestaltungsbögen"
+
+#: preferences.php:129
+msgid "Threads per board page"
+msgstr ""
+
+#: preferences.php:138
+msgid "Posts per thread on board page"
+msgstr ""
+
+#: preferences.php:148 preferences.php:174
+msgid "Save changes to preferences"
+msgstr ""
+
+#: preferences.php:154
+msgid "Hiding of boards"
+msgstr ""
+
+#: preferences.php:155
+msgid ""
+"Select the boards to be hidden from board listings and from pages that show "
+"threads from multiple boards."
+msgstr ""
+
+#: preferences.php:156
+msgid ""
+"The percentage after the board name tells you how many users have hidden "
+"that particular board."
+msgstr ""
+
+#: preferences.php:157
+msgid "Toggle all"
+msgstr ""
+
+#: preferences.php:180
+msgid "Trivia"
+msgstr ""
+
+#: preferences.php:184
+msgid "User ID"
+msgstr "Benutzer ID"
+
+#: preferences.php:185
+msgid "Started threads"
+msgstr "Eröffnete Fäden"
+
+#: preferences.php:186
+msgid "Sent messages"
+msgstr "Gesendete Nachrichten"
+
+#: preferences.php:187
+msgid "Total pageloads"
+msgstr ""
+
+#: preferences.php:188
+msgid "Total characters in messages"
+msgstr ""
+
+#: preferences.php:189
+msgid "Average message length"
+msgstr "Durchschnittliche Nachrichtenlänge"
+
+#: preferences.php:189
+msgid "characters"
+msgstr "zeichen"
+
+#: preferences.php:190
+msgid "Epic threads"
+msgstr "Epische Fäden"
+
+#: preferences.php:191
+msgid "Threads hidden"
+msgstr "Verborgene Fäden"
+
+#: preferences.php:192
+msgid "Threads followed"
+msgstr "Verfolgte Fäden"
+
+#: preferences.php:193
+msgid "Uploaded files"
+msgstr "Hochgeladene Dokumente"
+
+#: preferences.php:194
+msgid "Total uploaded data"
+msgstr ""
+
+#: preferences.php:196
+msgid "Upboats given"
+msgstr ""
+
+#: preferences.php:197
+msgid "Upboats received"
+msgstr ""
+
+#: preferences.php:199
+msgid "Gold accounts donated"
+msgstr ""
+
+#: preferences.php:200
+msgid "Gold account donations received"
+msgstr ""
+
+#: preferences.php:202
+msgid "View a list of my posts"
+msgstr ""
+
+#: preferences.php:206
+msgid "User account"
+msgstr ""
+
+#: preferences.php:211 preferences.php:216
+msgid "Change"
+msgstr "Ändern"
+
+#: preferences.php:214 scripts/modals/getpasswordresetform.php:21
+msgid "Email"
+msgstr ""
+
+#: preferences.php:218
+msgid ""
+"Your email address is only used for account recovery. We can not see it or "
+"use it to contact you."
+msgstr ""
+
+#: preferences.php:220 preferences.php:228
+msgid "Current password"
+msgstr "Aktuelles Passwort"
+
+#: preferences.php:223
+msgid "Save"
+msgstr "Speichern"
+
+#: preferences.php:225 preferences.php:239
+#: scripts/modals/getpasswordresetform.php:44
+msgid "Change password"
+msgstr "Passwort ändern"
+
+#: preferences.php:232 scripts/modals/getpasswordresetform.php:37
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: preferences.php:244
+msgid "Delete user account"
+msgstr ""
+
+#: preferences.php:245
+msgid ""
+"Deleting your user account permanently removes all your site preferences, "
+"statistics and other account related data."
+msgstr ""
+
+#: preferences.php:247
+msgid ""
+"Deleting your user account also removes any Gold account time you have left. "
+"It cannot be restored afterwards!"
+msgstr ""
+
+#: preferences.php:250
+msgid ""
+"As you have not registered, your user account will be deleted automatically "
+"after a few days of inactivity."
+msgstr ""
+
+#: preferences.php:259
+msgid "Yes, I want to permanently delete my user account"
+msgstr ""
+
+#: preferences.php:262
+msgid "Also delete all posts I have sent"
+msgstr ""
+
+#: preferences.php:265
+msgid "Delete account"
+msgstr ""
+
+#: preferences.php:274
+msgid "You don't have a Gold account"
+msgstr ""
+
+#: preferences.php:276
+msgid "You have a Gold account"
+msgstr ""
+
+#: preferences.php:279
+msgid ""
+"You risk losing your Gold account because you have not created an user "
+"account. Please create an account to make sure it does not suddenly "
+"disappear."
+msgstr ""
+
+#: preferences.php:282
+#, php-format
+msgid "Your Gold account expires %s."
+msgstr ""
+
+#: preferences.php:288
+msgid "Activate Gold account"
+msgstr ""
+
+#: preferences.php:290
+msgid "Gold account key"
+msgstr ""
+
+#: preferences.php:291 preferences.php:310
+msgid "Activate"
+msgstr ""
+
+#: preferences.php:296
+msgid "Your Gold account duration will be extended with the length of the key."
+msgstr ""
+
+#: preferences.php:300
+msgid "Purchase a Gold account"
+msgstr ""
+
+#: preferences.php:306
+msgid "Your user account has unused gold keys"
+msgstr ""
+
+#: preferences.php:311
+msgid "Copy"
+msgstr ""
+
+#: preferences.php:313 scripts/modals/getgolddonateform.php:38
+#, php-format
+msgid "Length: %s"
+msgstr ""
+
+#: preferences.php:314
+#, php-format
+msgid "Expires: %s"
+msgstr ""
+
+#: preferences.php:316
+#, php-format
+msgid "Donatable: %s"
+msgstr ""
+
+#: preferences.php:349
+msgid "These tags are no longer obtainable"
+msgstr ""
+
+#: preferences.php:386
+msgid "Login time"
+msgstr ""
+
+#: preferences.php:387
+msgid "Last activity"
+msgstr ""
+
+#: preferences.php:403
+msgid "Current session"
+msgstr ""
+
+#: preferences.php:414
+msgid "Log out from other places"
+msgstr ""
+
+#: resetpassword.php:16 resetpassword.php:20
+msgid "Password reset"
+msgstr ""
+
+#: resetpassword.php:22
+msgid "You can reset a forgotten password with this form."
+msgstr ""
+
+#: resetpassword.php:23
+msgid ""
+"To make sure, the reset is not going for a wrong account, you are required "
+"to input the login name and UID of the account."
+msgstr ""
+
+#: resetpassword.php:26
+msgid "Login name"
+msgstr ""
+
+#: resetpassword.php:28 scripts/givetag.php:30
+msgid "UID"
+msgstr ""
+
+#: resetpassword.php:51
+msgid "Password changed"
+msgstr ""
+
+#: resetpassword.php:51
+#, php-format
+msgid "New password for user %s is %s"
+msgstr "Neues Passwort für den Benutzer %s ist %s"
+
+#: resetpassword.php:54
+msgid "Password not changed!"
+msgstr "Passwort nicht geändert!"
+
+#: resetpassword.php:54
+msgid "User not found or invalid UID"
+msgstr ""
+
+#: scripts/ajax/activategold.php:18 scripts/ajax/addthis.php:17
+#: scripts/ajax/changepassword.php:17 scripts/ajax/checkname.php:17
+#: scripts/ajax/checkreport.php:20 scripts/ajax/delete.php:15
+#: scripts/ajax/deletedata.php:14 scripts/ajax/deleteprofile.php:19
+#: scripts/ajax/deletethread.php:15 scripts/ajax/donate_gold_key.php:14
+#: scripts/ajax/expand.php:23 scripts/ajax/follow.php:21
+#: scripts/ajax/ftupdate.php:17 scripts/ajax/get_new_replies.php:23
+#: scripts/ajax/hide_ping.php:22 scripts/ajax/login.php:23
+#: scripts/ajax/logout.php:15 scripts/ajax/message.php:23
+#: scripts/ajax/ping.php:24 scripts/ajax/post.php:25
+#: scripts/ajax/register.php:15 scripts/ajax/removeemail.php:18
+#: scripts/ajax/report.php:15 scripts/ajax/savedisplaystyle.php:16
+#: scripts/ajax/saveloginname.php:18 scripts/ajax/savemessage.php:23
+#: scripts/ajax/sendrecoverycode.php:17 scripts/ajax/spamguard.php:23
+#: scripts/ajax/toggle_name.php:16 scripts/ajax/toggle_sidebar.php:16
+#: scripts/modals/getedits.php:23 scripts/modals/getgolddonateform.php:19
+#: scripts/modals/getreportform.php:22 scripts/notifications/get.php:16
+msgid "Your session has expired. Please refresh the page and try again."
+msgstr ""
+
+#: scripts/ajax/activategold.php:24
+msgid "Invalid Gold account key"
+msgstr ""
+
+#: scripts/ajax/addthis.php:22
+msgid "You don't have have enough activity to upvote"
+msgstr ""
+
+#: scripts/ajax/addthis.php:34
+msgid "Message does not exist"
+msgstr "Diese Nachricht existiert nicht"
+
+#: scripts/ajax/addthis.php:38
+msgid "You cannot upvote your own posts"
+msgstr ""
+
+#: scripts/ajax/addthis.php:47
+msgid "You have already upvoted this post"
+msgstr ""
+
+#: scripts/ajax/changepassword.php:21 scripts/ajax/register.php:19
+msgid "Your password needs to be at least six characters long"
+msgstr "Your password needs to be at least six characters long"
+
+#: scripts/ajax/changepassword.php:25
+msgid "New passwords do not match"
+msgstr ""
+
+#: scripts/ajax/changepassword.php:30
+msgid "Wrong current password"
+msgstr "Falsches aktuelles Passwort"
+
+#: scripts/ajax/changepassword.php:40 scripts/ajax/checkaccess.php:15
+#: scripts/ajax/login.php:36 scripts/ajax/post.php:105
+#: scripts/ajax/register.php:38 scripts/ajax/report.php:26
+#: scripts/ajax/sendrecoverycode.php:27
+msgid ""
+"Your browser did not send us a Google reCAPTCHA response. Check that you are "
+"not blocking it. Please refresh this page and try again."
+msgstr ""
+
+#: scripts/ajax/changepassword.php:45 scripts/ajax/checkaccess.php:22
+#: scripts/ajax/login.php:44 scripts/ajax/post.php:112
+#: scripts/ajax/register.php:43 scripts/ajax/report.php:31
+#: scripts/ajax/sendrecoverycode.php:32
+msgid ""
+"Google reCAPTCHA thinks you are a robot. Please refresh this page and try "
+"again."
+msgstr ""
+
+#: scripts/ajax/changepassword.php:60
+msgid "Account recovery information was incorrect"
+msgstr ""
+
+#: scripts/ajax/checkname.php:23 scripts/ajax/register.php:27
+#: scripts/ajax/saveloginname.php:40
+msgid "Allowed characters are: a-Ö 0-9 _ -"
+msgstr ""
+
+#: scripts/ajax/checkname.php:27
+#, php-format
+msgid "Too long - max allowed length is %s characters"
+msgstr ""
+
+#: scripts/ajax/checkname.php:31
+msgid "Already in use"
+msgstr ""
+
+#: scripts/ajax/delete.php:34 scripts/ajax/deletethread.php:34
+msgid "You can only delete your own messages."
+msgstr ""
+
+#: scripts/ajax/delete.php:56
+msgid "Deleting the message failed."
+msgstr ""
+
+#: scripts/ajax/deletedata.php:20 scripts/ajax/deletedata.php:25
+#: scripts/ajax/deleteprofile.php:30 scripts/ajax/deleteprofile.php:35
+#: scripts/ajax/login.php:64 scripts/ajax/removeemail.php:28
+#: scripts/ajax/saveloginname.php:23 scripts/ajax/saveloginname.php:28
+msgid "Invalid password"
+msgstr "Ungültiges Passwort"
+
+#: scripts/ajax/deletedata.php:40
+msgid "Deleting your threads failed!"
+msgstr ""
+
+#: scripts/ajax/deletedata.php:58
+msgid "Deleting your replies failed!"
+msgstr ""
+
+#: scripts/ajax/deletedata.php:70
+msgid "Deleting your upvotes failed!"
+msgstr ""
+
+#: scripts/ajax/deleteprofile.php:24
+msgid "You did not confirm the deletion of your profile. No actions taken."
+msgstr ""
+
+#: scripts/ajax/deleteprofile.php:43 scripts/ajax/register.php:77
+msgid "Unexpected error"
+msgstr "Unerwarteter Fehler"
+
+#: scripts/ajax/deleteprofile.php:54
+msgid ""
+"Your user account was deleted successfully, but an error occurred while "
+"trying to delete your posts. Please contact us to continue with the deletion "
+"of your posts."
+msgstr ""
+
+#: scripts/ajax/deletethread.php:29 scripts/ajax/hide_ping.php:29
+msgid "Thread does not exist"
+msgstr "Faden existiert nicht"
+
+#: scripts/ajax/deletethread.php:45
+msgid "You cannot delete this thread now because it's still active."
+msgstr ""
+
+#: scripts/ajax/deletethread.php:59
+msgid "Deleting the thread failed."
+msgstr ""
+
+#: scripts/ajax/donate_gold_key.php:27 scripts/ajax/donate_gold_key.php:32
+msgid "The user account this post was made with does not exist anymore..."
+msgstr ""
+
+#: scripts/ajax/donate_gold_key.php:37
+msgid "You cannot donate Gold account keys to yourself."
+msgstr ""
+
+#: scripts/ajax/donate_gold_key.php:43
+msgid "This Gold account key has already been donated!"
+msgstr ""
+
+#: scripts/ajax/embedhtml.php:14
+msgid "Invalid post"
+msgstr ""
+
+#: scripts/ajax/embedhtml.php:24
+msgid "This file is being processed..."
+msgstr "Diese Datei wird gerade verarbeitet..."
+
+#: scripts/ajax/follow.php:28
+msgid "There was an error removing the thread from followed threads."
+msgstr ""
+
+#: scripts/ajax/follow.php:34 scripts/ajax/post.php:55
+msgid "Thread does not exist."
+msgstr "Faden existiert nicht."
+
+#: scripts/ajax/follow.php:43
+msgid "There was an error adding the thread to followed threads."
+msgstr ""
+
+#: scripts/ajax/login.php:28
+msgid "Invalid username or password"
+msgstr ""
+
+#: scripts/ajax/login.php:52 scripts/ajax/login.php:57
+msgid "User account does not exist"
+msgstr ""
+
+#: scripts/ajax/login.php:68
+msgid "This user account has been suspended"
+msgstr ""
+
+#: scripts/ajax/message.php:39
+msgid "Sent"
+msgstr ""
+
+#: scripts/ajax/message.php:41
+msgid "Deleted"
+msgstr ""
+
+#: scripts/ajax/post.php:29
+msgid "No message received (Re-sending by refreshing the page does not work)."
+msgstr ""
+
+#: scripts/ajax/post.php:36
+msgid "Invalid thread."
+msgstr ""
+
+#: scripts/ajax/post.php:43
+msgid ""
+"This function requires you to have cookies enabled. Please allow cookies "
+"from your browser settings to continue."
+msgstr ""
+"Diese Funktion bedingt Cookies. Bitte erlaube Cookies in deinem "
+"Internetbrowser, um fortzufahren."
+
+#: scripts/ajax/post.php:61
+msgid "This thread is locked, and cannot be replied to."
+msgstr ""
+
+#: scripts/ajax/post.php:70
+msgid ""
+"You are sending messages too fast. Please wait a while between your posts."
+msgstr ""
+
+#: scripts/ajax/post.php:75 scripts/ajax/post.php:81 scripts/ajax/post.php:84
+msgid "Invalid board"
+msgstr ""
+
+#: scripts/ajax/post.php:78
+msgid "Your message was not saved because this discussion board is locked."
+msgstr ""
+
+#: scripts/ajax/post.php:97
+msgid ""
+"Your post was not accepted because you fell into the honeypot meant for "
+"robots."
+msgstr ""
+
+#: scripts/ajax/post.php:125
+msgid ""
+"The internet connection you are using was recently used for abuse, so "
+"posting from it is temporarily not allowed."
+msgstr ""
+
+#: scripts/ajax/post.php:131
+msgid ""
+"The internet connection you are using is commonly used for abuse, so posting "
+"from it is not allowed."
+msgstr ""
+
+#: scripts/ajax/post.php:137 scripts/ajax/post.php:142
+#, php-format
+msgid ""
+"Temporary spam protection enabled - you will need an user account older than "
+"%d hour(s) to post."
+msgstr ""
+
+#: scripts/ajax/post.php:194
+msgid "Saving the file failed."
+msgstr "Das Speichern der Datei ist fehlgeschlagen."
+
+#: scripts/ajax/post.php:210
+msgid "Your message has more newlines than anyone would need."
+msgstr ""
+
+#: scripts/ajax/post.php:218
+msgid "A message is required to create a thread."
+msgstr ""
+
+#: scripts/ajax/post.php:228
+#, php-format
+msgid ""
+"To prevent spam, messages with more than %d replies are not allowed. You may "
+"remove this limit by purchasing a Gold account."
+msgstr ""
+
+#: scripts/ajax/post.php:274
+#, php-format
+msgid ""
+"Your message contained a blacklisted word. Posting blocked for %d minute(s)."
+msgstr ""
+
+#: scripts/ajax/post.php:286
+msgid "A text or a file is required to send a message."
+msgstr ""
+
+#: scripts/ajax/post.php:293
+msgid "Your file is larger than the biggest allowed file size."
+msgstr ""
+
+#: scripts/ajax/post.php:297
+msgid ""
+"The received file is empty, probably the file upload was interrupted. Please "
+"try again."
+msgstr ""
+
+#: scripts/ajax/post.php:304
+msgid "Creating a file directory failed."
+msgstr ""
+
+#: scripts/ajax/post.php:310
+msgid "File uploads are temporarily disabled. Please try again in a while."
+msgstr ""
+
+#: scripts/ajax/post.php:327
+msgid "Your filename contained a blacklisted word"
+msgstr ""
+
+#: scripts/ajax/post.php:389 scripts/ajax/post.php:401
+msgid "The type of the file you sent is not allowed."
+msgstr ""
+
+#: scripts/ajax/post.php:394
+#, php-format
+msgid ""
+"Invalid file extension or corrupted file. The file extension is %s, but the "
+"detected file type was %s."
+msgstr ""
+
+#: scripts/ajax/post.php:418 scripts/ajax/post.php:434
+#: scripts/ajax/post.php:462 scripts/ajax/post.php:476
+msgid "An error occurred while saving the file. The file may be corrupted."
+msgstr ""
+
+#: scripts/ajax/post.php:441 scripts/ajax/post.php:489
+#: scripts/ajax/post.php:527
+msgid ""
+"The dimensions of the image you uploaded are too big. Scale it down with an "
+"image editing software."
+msgstr ""
+
+#: scripts/ajax/post.php:448
+msgid "The GIF you uploaded is too long. Please upload a video file instead."
+msgstr ""
+
+#: scripts/ajax/post.php:502 scripts/ajax/post.php:549
+#: scripts/ajax/post.php:587 scripts/ajax/post.php:730
+msgid "An error occurred while saving the file."
+msgstr ""
+
+#: scripts/ajax/post.php:557
+msgid "An error occurred while saving the file. The file could be corrupted."
+msgstr ""
+
+#: scripts/ajax/post.php:568
+msgid ""
+"Cannot determine the duration or bitrate of the audio file you uploaded. The "
+"file may be corrupted."
+msgstr ""
+
+#: scripts/ajax/post.php:577
+msgid "Audio bitrate too low. This file cannot be saved."
+msgstr ""
+
+#: scripts/ajax/post.php:581
+msgid "The audio file you tried to upload is too long."
+msgstr ""
+
+#: scripts/ajax/post.php:598
+msgid "No streams found in the uploaded file. The file may be corrupted."
+msgstr ""
+
+#: scripts/ajax/post.php:615
+msgid "No video streams found in the uploaded file. The file may be corrupted."
+msgstr ""
+
+#: scripts/ajax/post.php:628
+msgid ""
+"Cannot determine the duration of the video you uploaded. The file may be "
+"corrupted."
+msgstr ""
+
+#: scripts/ajax/post.php:635
+#, php-format
+msgid "The video you tried to upload is too long. Max length is %d minutes."
+msgstr ""
+
+#: scripts/ajax/post.php:645 scripts/ajax/post.php:651
+msgid "Generating the thumbnail failed. Please try again."
+msgstr ""
+
+#: scripts/ajax/post.php:694 scripts/ajax/post.php:701
+msgid "An error occurred while saving the file"
+msgstr "Fehler beim Speichern des Files"
+
+#: scripts/ajax/post.php:803
+msgid "Creating the thread failed."
+msgstr ""
+
+#: scripts/ajax/post.php:1006
+msgid "Saving the message failed."
+msgstr ""
+
+#: scripts/ajax/register.php:23
+msgid "Please type in a login name"
+msgstr "Bitte geben Sie einen Login-Namen ein"
+
+#: scripts/ajax/register.php:32 scripts/ajax/saveloginname.php:35
+#, php-format
+msgid "Your name is too long. Max allowed length is %s characters"
+msgstr ""
+
+#: scripts/ajax/register.php:49
+msgid "You are already logged in."
+msgstr ""
+
+#: scripts/ajax/register.php:56 scripts/ajax/saveloginname.php:56
+msgid "This name is already in use. Please choose another one."
+msgstr ""
+
+#: scripts/ajax/register.php:64
+#, php-format
+msgid ""
+"Welcome to Ylilauta %s,\n"
+"\n"
+"This message confirms that this email address was added to your new account "
+"and can now be used for password recovery.\n"
+"\n"
+"We do not save your email address in a readable form. We can never see it or "
+"use it to contact you. We cannot even search user accounts by email "
+"addresses. It can only be used for password recovery purposes.\n"
+"\n"
+"Best regards,\n"
+"Ylilauta.org"
+msgstr ""
+
+#: scripts/ajax/register.php:68
+msgid "Welcome to Ylilauta"
+msgstr ""
+
+#: scripts/ajax/removeemail.php:13 scripts/ajax/saveloginname.php:13
+msgid "Please refresh this page and try again."
+msgstr ""
+
+#: scripts/ajax/removeemail.php:23
+msgid "Please give your current password"
+msgstr ""
+
+#: scripts/ajax/report.php:20
+msgid ""
+"The internet connection you are using is commonly used for abuse, so "
+"reporting from it is not allowed."
+msgstr ""
+
+#: scripts/ajax/report.php:43
+msgid "You have to give a reason for your report."
+msgstr ""
+
+#: scripts/ajax/report.php:67
+msgid "Reporting the message failed."
+msgstr ""
+
+#: scripts/ajax/saveloginname.php:45
+msgid "You have changed your username recently, so you can't do it again yet."
+msgstr ""
+
+#: scripts/ajax/saveloginname.php:63
+#, php-format
+msgid ""
+"Hi %s,\n"
+"\n"
+"This message confirms that this email address was added to your account and "
+"can now be used for password recovery.\n"
+"\n"
+"We do not save your email address in a readable form. We can never see it or "
+"use it to contact you. We cannot even search user accounts by email "
+"addresses. It can only be used for password recovery purposes.\n"
+"\n"
+"Best regards,\n"
+"Ylilauta.org"
+msgstr ""
+
+#: scripts/ajax/saveloginname.php:67
+msgid "Email address added to account"
+msgstr ""
+
+#: scripts/ajax/savemessage.php:35
+msgid "Permission denied."
+msgstr "Erlaubnis verweigert."
+
+#: scripts/ajax/savemessage.php:58
+#, php-format
+msgid "Your message contained a blacklisted word (%s)"
+msgstr ""
+
+#: scripts/ajax/savemessage.php:67
+msgid "You cannot edit posts on a locked board."
+msgstr ""
+
+#: scripts/ajax/savesettings.php:51
+msgid "Error saving preferences"
+msgstr ""
+
+#: scripts/ajax/sendrecoverycode.php:48
+#, php-format
+msgid ""
+"Hi %s,\n"
+"\n"
+"Someone has requested an account recovery key using your username and email "
+"address. If this wasn't you, you can just ignore this email.\n"
+"\n"
+"Recovery key: %s\n"
+"The recovery key is valid for one hour.\n"
+"\n"
+"Best regards,\n"
+"Ylilauta.org"
+msgstr ""
+
+#: scripts/ajax/sendrecoverycode.php:52
+msgid "Ylilauta account recovery"
+msgstr ""
+
+#: scripts/ajax/spamguard.php:38
+msgid "Account locked"
+msgstr ""
+
+#: scripts/ajax/spamguard.php:48
+msgid "Account unlocked"
+msgstr ""
+
+#: scripts/ajax/spamguard.php:55
+msgid "Antispam enabled"
+msgstr ""
+
+#: scripts/ajax/spamguard.php:59
+msgid "Antispam disabled"
+msgstr ""
+
+#: scripts/ajax/spamguard.php:63
+msgid "Unknown command"
+msgstr ""
+
+#: scripts/givetag.php:33
+msgid "Tag"
+msgstr "Tag"
+
+#: scripts/modals/getedits.php:32
+msgid "This post has not been edited."
+msgstr ""
+
+#: scripts/modals/getedits.php:37
+#, php-format
+msgid "Old version at %s"
+msgstr ""
+
+#: scripts/modals/getedits.php:42
+#, php-format
+msgid ", edited by %s"
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:25
+msgid "Choose the Gold account key you wish to donate to this user."
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:26
+#, php-format
+msgid "Selected post: %s"
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:31
+msgid "You have no Gold account keys available to be donated."
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:32
+msgid "Purchase Gold account keys"
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:37
+msgid "Donate"
+msgstr "Spenden"
+
+#: scripts/modals/getgolddonateform.php:44
+msgid "Terms and conditions"
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:45
+msgid ""
+"The donation may not reach the person who sent the message if they are not "
+"using the same user account anymore."
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:46
+msgid ""
+"If the user account with which the message was sent with does not exist at "
+"all, the Gold account key is returned to your user account."
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:47
+msgid "Each individual Gold account key can only be donated once."
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:48
+msgid ""
+"Other terms apply, please read the terms and conditions from the regular "
+"Gold account purchase page."
+msgstr ""
+
+#: scripts/modals/getgolddonateform.php:49
+msgid "You agree to these terms by continuing."
+msgstr ""
+
+#: scripts/modals/getpasswordresetform.php:24
+msgid "Send recovery code"
+msgstr ""
+
+#: scripts/modals/getpasswordresetform.php:29
+msgid ""
+"If the email address was correct, we just sent you a recovery key. Please "
+"check your email for it."
+msgstr ""
+
+#: scripts/modals/getpasswordresetform.php:30
+msgid "Did not get it? Close this window and try again."
+msgstr ""
+
+#: scripts/modals/getpasswordresetform.php:33
+msgid "Recovery key"
+msgstr ""
+
+#: scripts/modals/getpasswordresetform.php:41
+msgid "Confirm password"
+msgstr ""
+
+#: scripts/modals/getreportform.php:34
+msgid "How is this post violating the rules?"
+msgstr ""
+
+#: scripts/modals/getreportform.php:36
+msgid "Please select"
+msgstr ""
+
+#: scripts/modals/getreportform.php:85
+msgid "Additional details"
+msgstr ""
+
+#: scripts/modals/getreportform.php:86
+msgid "Optional"
+msgstr ""
+
+#: scripts/notifications/get.php:22
+msgid "You don't have any notifications."
+msgstr ""
+
+#: scripts/notifications/get.php:30
+#, php-format
+msgid "Your post has a new reply"
+msgstr ""
+
+#: scripts/notifications/get.php:32
+#, php-format
+msgid "Your post has %s new replies"
+msgstr ""
+
+#: scripts/notifications/get.php:38
+#, php-format
+msgid "Your thread %s has a new reply"
+msgstr ""
+
+#: scripts/notifications/get.php:40
+#, php-format
+msgid "Your thread %s has %s new replies"
+msgstr ""
+
+#: scripts/notifications/get.php:46
+#, php-format
+msgid "Thread %s has a new reply"
+msgstr ""
+
+#: scripts/notifications/get.php:48
+#, php-format
+msgid "Thread %s has %s new replies"
+msgstr ""
+
+#: scripts/notifications/get.php:53
+#, php-format
+msgid "Your post has been upvoted!"
+msgstr ""
+
+#: scripts/notifications/get.php:55
+#, php-format
+msgid "Your post has been upvoted %s times!"
+msgstr ""
+
+#: scripts/notifications/get.php:60
+msgid "Someone just gave you a Gold account!"
+msgstr ""
+
+#: scripts/notifications/get.php:63
+msgid "Someone just gave you a Gold account for your post!"
+msgstr ""
+
+#: scripts/notifications/get.php:65
+#, php-format
+msgid "You received %d Gold accounts for your post!"
+msgstr ""
+
+#: scripts/notifications/get.php:71
+msgid "Nothing to announce. Stupid admins forgot the message."
+msgstr ""
+
+#: scripts/notifications/get.php:73
+#, php-format
+msgid "Announcement: %s"
+msgstr ""
+
+#: scripts/notifications/get.php:78
+msgid "This was a tag that does not exist anymore..."
+msgstr ""
+
+#: scripts/notifications/get.php:84
+msgid "Weird, we don't even know which tag it was!"
+msgstr ""
+
+#: scripts/notifications/get.php:86
+#, php-format
+msgid "You got a new tag: %s"
+msgstr ""
+
+#: scripts/notifications/get.php:119
+msgid "Mark all as read"
+msgstr "Alle als gelesen markieren"
+
+#: thread.php:23
+msgid "Automatic due to inactivity"
+msgstr ""
+
+#: thread.php:24
+#| msgid "Delete all posts by the user in the last 24h"
+msgid "Deleted by the user who created the thread"
+msgstr ""
+
+#: thread.php:25
+#| msgid "Deleted a message"
+msgid "Deleted by a moderator"
+msgstr ""
+
+#: thread.php:26
+msgid ""
+"Moderator deleted multiple posts from this user (e.g. because of spamming)"
+msgstr ""
+
+#: thread.php:28
+#, php-format
+msgid "Reason for deletion: %s"
+msgstr ""
+
+#~ msgid "404!"
+#~ msgstr "404!"
+
+#~ msgid ""
+#~ "Have a user account older than 6 years (or account created right away "
+#~ "when it became possible)"
+#~ msgstr ""
+#~ "Verfüge über ein Nutzerkonto, das älter als sechs Jahre ist (oder bereits "
+
+#~ msgid "Added a wordfilter"
+#~ msgstr "Fügte einen Wortfilter hinzu"
+
+#~ msgid "Removed a wordfilter"
+#~ msgstr "Entfernte einen Wortfilter"
+
+#~ msgid "Merged threads"
+#~ msgstr "Fäden zusammengeführt"
+
+#~ msgid "Edited an user"
+#~ msgstr "Einen Nutzer bearbeitet"
+
+#~ msgid "Deleted an user"
+#~ msgstr "Einen Nutzer gelöscht"
+
+#~ msgid "Update timestamp"
+#~ msgstr "Zeitstempel aktualisieren"
+
+#~ msgid ""
+#~ "This ban was not given to your user account, but as you are using the "
+#~ "same IP-address, it affects you also."
+#~ msgstr ""
+#~ "Dieser Bann wurde nicht an dein Benutzerkonto vergeben, da du aber "
+#~ "dieselbe IP-Adresse verwendest, bist du ebenfalls betroffen."
+
+#~ msgid ""
+#~ "As this ban was not given to you, you cannot appeal it. Sorry. If you "
+#~ "still feel this is wrong, you can contact us by email."
+#~ msgstr ""
+#~ "Da nicht dir der Bann gegeben wurde, kannst du ihn nicht anfechten. Es "
+#~ "tut uns leid. Falls du trotzdem der Meinung bist, das wäre falsch, kannst "
+#~ "du uns über e-mail kontaktieren."
+
+#, php-format
+#~ msgid "You can appeal this ban after %s."
+#~ msgstr "Du kannst den Bann nach %s anfechten."
+
+#~ msgid "You can appeal this ban with the form below."
+#~ msgstr "Du kannst den BsiwgheilFormular anfechten."
+
+#~ msgid ""
+#~ "Please remember that your appeal can only be accepted or denied, it "
+#~ "cannot be replied to."
+#~ msgstr ""
+#~ "Bitte bedenke, dass dein Antrag nur entweder akzeptiert oder abgelehnt "
+#~ "werden kann. Er kann nicht beantwortet werden."
+
+#~ msgid ""
+#~ "You have appealed this ban and your appeal is still waiting for a review."
+#~ msgstr ""
+#~ "Du hast zu diesem Bann angefochten und dein Antrag muss noch bearbeitet "
+#~ "werden."
+
+#~ msgid "Your appeal to this ban was denied."
+#~ msgstr "Dein Antrag wurde abgelehnt."
+
+#~ msgid "SWR"
+#~ msgstr "SWR"
+
+#~ msgid "Stresi worry remover"
+#~ msgstr "Stresi-Sorgenentferner"
+
+#~ msgid "Have a platinum account"
+#~ msgstr "Verfüge über ein Platin-Konto"
+
+#~ msgid "VIP-Gentleman"
+#~ msgstr "VIP-Ehrenmann"
+
+#~ msgid "Have at least a level 5 platinum account"
+#~ msgstr "Verfüge mindestens über ein Stufe-5 Platin-Konto"
+
+#~ msgid "Moneybags"
+#~ msgstr "Geldbeutel"
+
+#~ msgid "Have at least a level 10 platinum account"
+#~ msgstr "Verfüge mindestens über ein Stufe-10 Platin-Konto"
+
+#~ msgid "Rainmaker"
+#~ msgstr "Regenmacher"
+
+#~ msgid "Have at least a level 15 platinum account"
+#~ msgstr "Verfüge mindestens über ein Stufe-15 Platin-Konto"
+
+#~ msgid "Assembly"
+#~ msgstr "Assembler"
+
+#~ msgid "Submit a post from Assembly Computer Festival"
+#~ msgstr "Schicke einen Pfosten vom Assembler-Computer-Festival ab"
+
+#~ msgid "YOLO"
+#~ msgstr "DLNE"
+
+#~ msgid "NSFW"
+#~ msgstr "NSFA"
+
+#~ msgid "SFW"
+#~ msgstr "SFA"
+
+#, php-format
+#~ msgid ""
+#~ "Posting with user accounts created less than %d hour(s) ago is "
+#~ "temporarily limited due to increase in spam. You can skip this wait by "
+#~ "purchasing a gold account, click here for more details."
+#~ msgstr ""
+#~ "Das Pfostieren mit Nutzerkonten, die vor weniger als %d Stunde(n) "
+#~ "erstellt wurden, ist vorübergehend eingeschränkt. Du kannst die Wartezeit "
+#~ "überspringen, indem du ein Gold-Konto kaufst. Klicke hier für Details."
+
+#~ msgid "Embed"
+#~ msgstr "Einbinden"
+
+#~ msgid "Functions"
+#~ msgstr "Funktionen"
+
+#~ msgid "Preserve original file name for this post"
+#~ msgstr "Originalen Dateinamen behalten"
+
+#~ msgid "Hide your username from this post"
+#~ msgstr "Username verstecken"
+
+#~ msgid "Show your username in this post"
+#~ msgstr "Username anzeigen"
+
+#~ msgid "Banned"
+#~ msgstr "Verbannt"
+
+#~ msgid "Manage notifications"
+#~ msgstr "Benachrichtigungen verwalten"
+
+#~ msgid "level for platinum"
+#~ msgstr "stufe für Platin"
+
+#~ msgid ""
+#~ "This is a promotion key, you cannot activate it as you already have a "
+#~ "gold account."
+#~ msgstr ""
+#~ "Dies ist ein Aktionsschlüssel. Du kannst ihn nicht verwenden, da du "
+#~ "bereits ein Gold-Konto hast."
+
+#~ msgid "Your user account already has the maximum level."
+#~ msgstr "Dein Nutzerkonto hat bereits die höchste Stufe."
+
+#~ msgid "Add a note about the ban to the message"
+#~ msgstr "Füge der Bannachricht eine Notiz bei"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Bist du dir sicher?"
+
+#~ msgid "Reported by"
+#~ msgstr "Berichtet von"
+
+#~ msgid "Merge threads"
+#~ msgstr "Fäden zusammenführen"
+
+#~ msgid "Destination thread ID"
+#~ msgstr "Ziel Faden-ID"
+
+#~ msgid "Merge"
+#~ msgstr "Zusammenführen"
+
+#~ msgid "Files and media"
+#~ msgstr "Dateien und Medien"
+
+#~ msgid "Hide advertisements"
+#~ msgstr "Werbung verbergen"
+
+#~ msgid ""
+#~ "Tin foil hat mode (remove all possible trackers, eg. Google Analytics, "
+#~ "does not include ads)"
+#~ msgstr ""
+#~ "Aluhut-Modus (Entferne alle möglichen Tracker, wie z.B. Google "
+#~ "Analytics, )beinhaltet nicht die Werbeanzeigen)"
+
+#~ msgid "Purchase ID"
+#~ msgstr "Kauf ID"
+
+#~ msgid "Product"
+#~ msgstr "Produkt"
+
+#~ msgid "Count"
+#~ msgstr "Anzahl"
+
+#~ msgid ""
+#~ "Access to this file has been denied. This error has been logged and "
+#~ "reported to Fobba."
+#~ msgstr ""
+#~ "Der Zugang zu dieser Datei wurde verweigert. Dieser Fehler wurde "
+#~ "gespeichert und an Fobba übermittelt."
+
+#~ msgid "Operation completed"
+#~ msgstr "Vorgang abgeschlossen"
+
+#~ msgid "Success:"
+#~ msgstr "Erfolg:"
+
+#~ msgid "Menu"
+#~ msgstr "Menü"
+
+#~ msgid "Loading"
+#~ msgstr "Beladung"
+
+#~ msgid ""
+#~ "Are you sure you want to remove ALL of your followed threads on each "
+#~ "board?"
+#~ msgstr ""
+#~ "Bist Du Dir sicher, dass Du ALLE von Dir verfolgten Fäden löschen willst?"
+
+#~ msgid "Login"
+#~ msgstr "Einloggen"
+
+#~ msgid "Logout"
+#~ msgstr "Ausloggen"
+
+#~ msgid "Replying to a thread"
+#~ msgstr "Einen Faden beantworten"
+
+#~ msgid "Do not compress uploaded image"
+#~ msgstr "Hochgeladenes Bild nicht komprimieren"
+
+#~ msgid "Force bump"
+#~ msgstr "Gewaltstoß"
+
+#~ msgid "Supersage"
+#~ msgstr "Supersäge"
+
+#~ msgid "Expand all images"
+#~ msgstr "Alle Bilder ausklappen"
+
+#~ msgid "Search posts by UID"
+#~ msgstr "Posts nach UID durchsichen"
+
+#~ msgid "Welcome, <b>%s</b>."
+#~ msgstr "Willkommen, <b>%s</b>."
+
+#~ msgid "User class"
+#~ msgstr "Benutzerklasse"
+
+#~ msgid "Front page"
+#~ msgstr "Startseite"
+
+#~ msgid "Message counts"
+#~ msgstr "Message counts"
+
+#~ msgid "Admin accounts"
+#~ msgstr "Admin-Konten"
+
+#~ msgid "Front page categories"
+#~ msgstr "Kategorien auf Startseite"
+
+#~ msgid "Front page posts"
+#~ msgstr "Pfosten auf Startseite"
+
+#~ msgid "Wordfilters"
+#~ msgstr "Wortfilter"
+
+#~ msgid "Message search (IP/UID)"
+#~ msgstr "Nachrichtensuche (IP/UID)"
+
+#~ msgid "Loading..."
+#~ msgstr "Wird geladen..."
+
+#~ msgid "Hide flash"
+#~ msgstr "Flash verbergen"
+
+#~ msgid "Fixate"
+#~ msgstr "Fixieren"
+
+#~ msgid "Release"
+#~ msgstr "Freisetzung"
+
+#~ msgid "Updated"
+#~ msgstr "Aktualisiert"
+
+#~ msgid "Supersaged"
+#~ msgstr "Super gesägt"
+
+#~ msgid "Thread added to followed threads."
+#~ msgstr "Faden zu verfolgten Fäden hinzugefügt."
+
+#~ msgid "Remove from followed threads"
+#~ msgstr "Aus verfolgten Fäden entfernen"
+
+#~ msgid "Thread removed from followed threads."
+#~ msgstr "Faden aus verfolgten Fäden entfernt"
+
+#~ msgid "Contract thread"
+#~ msgstr "Faden einklappen"
+
+#~ msgid "Expand thread"
+#~ msgstr "Faden aufklappen"
+
+#~ msgid "Hide embed"
+#~ msgstr "Verbergen embed"
+
+#~ msgid "Revived"
+#~ msgstr "Wiederbelebt"
+
+#~ msgid "Saving..."
+#~ msgstr "Speicheln..."
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "Invalid activation code!"
+#~ msgstr "Ungültiger Aktivierungscode!"
+
+#~ msgid "Gold account activation code successfully used!"
+#~ msgstr "Gold-Aktivierungskot erfolgreich eingesetzt!"
+
+#~ msgid "Poster name saved"
+#~ msgstr "Pfostiername gespeichert"
+
+#~ msgid "Please type in a password"
+#~ msgstr "Bitte ein Passwort eingeben"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Das Passwort wurde erfolgreich geändert"
+
+#~ msgid "Profile deleted successfully."
+#~ msgstr "Profil erfolgreich gelöscht."
+
+#~ msgid ""
+#~ "You seem to be using an ad hiding software, so please read this notice"
+#~ msgstr ""
+#~ "Du scheinst einer dieser perversen Konsumverweigerer zu sein, die sich "
+#~ "nicht gerne IQ-reduzierende Internetwerbung anschauen."
+
+#~ msgid "Message sent"
+#~ msgstr "Nachricht gesendet"
+
+#~ msgid "Uploading..."
+#~ msgstr "Hochladen..."
+
+#~ msgid "Saving message..."
+#~ msgstr "Nachricht speichern…"
+
+#~ msgid "Name changed"
+#~ msgstr "Name geändert"
+
+#~ msgid "You"
+#~ msgstr "Du"
+
+#~ msgid "Force bump this thread?"
+#~ msgstr "Stoß erzwingen?"
+
+#~ msgid "Supersage this thread?"
+#~ msgstr "Faden supersägen?"
+
+#~ msgid "Revive this thread?"
+#~ msgstr "Faden Wiederbeleben?"
+
+#~ msgid "Your message might disappear if you leave this page."
+#~ msgstr "Deine Nachricht könnte verschwinden, wenn du diese Seite verlässt."
+
+#~ msgid "Selected message"
+#~ msgstr "Ausgewählte Nachrichten"
+
+#~ msgid "Gold account donated successfully!"
+#~ msgstr "Gold-Account erfolgreich gespendet!"
+
+#~ msgid "Rules and terms"
+#~ msgstr "Regeln und Bedingungen"
+
+#~ msgid "View full post"
+#~ msgstr "Vollständigen Pfosten anzeigen"
+
+#~ msgid "IP / User"
+#~ msgstr "IP / Benutzer"
+
+#~ msgid "Message sent by the user"
+#~ msgstr "Nachricht vom Benutzer gesendet"
+
+#~ msgid "Clear"
+#~ msgstr "Löschen"
+
+#~ msgid "Ban"
+#~ msgstr "Ban"
+
+#~ msgid "User IP"
+#~ msgstr "Benutzer IP"
+
+#~ msgid "Internalization and localization"
+#~ msgstr "Internalization and localization"
+
+#~ msgid "Time format"
+#~ msgstr "Zeitformat"
+
+#~ msgid "Timezone"
+#~ msgstr "Zeitzone"
+
+#~ msgid "No sidebar"
+#~ msgstr "Keine Seitenleiste"
+
+#~ msgid "a week"
+#~ msgstr "Eine Woche"
+
+#~ msgid "Continue"
+#~ msgstr "Weiter"
+
+#~ msgid ""
+#~ "We have placed some cookies on your device and by using this website, you "
+#~ "agree with that. Please don't eat our cookies."
+#~ msgstr ""
+#~ "We have placed some cookies on your device and by using this website, you "
+#~ "agree with that. Please don't eat our cookies."
+
+#~ msgid ""
+#~ "Sorry for the inconvenience, but we are required by the EU laws to tell "
+#~ "you that like almost every single website you've ever heard of, we also "
+#~ "use cookies."
+#~ msgstr ""
+#~ "Sorry for the inconvenience, but we are required by the EU laws to tell "
+#~ "you that like almost every single website you've ever heard of, we also "
+#~ "use cookies."
+
+#~ msgid ""
+#~ "Some of the cookies are essential for the site to function. Some of them "
+#~ "are used to personalize ads and to collect anonymous usage statistics."
+#~ msgstr ""
+#~ "Some of the cookies are essential for the site to function. Some of them "
+#~ "are used to personalize ads and to collect anonymous usage statistics."
+
+#~ msgid ""
+#~ "If you don't agree with our use of cookies, you may disallow them from "
+#~ "your browser settings."
+#~ msgstr ""
+#~ "If you don't agree with our use of cookies, you may disallow them from "
+#~ "your browser settings."
+
+#~ msgid "More information"
+#~ msgstr "Mehr Informationen"
+
+#~ msgid "Less information"
+#~ msgstr "Weniger Informationen"
+
+#~ msgid "Google reverse image search"
+#~ msgstr "Google reverse image search"
+
+#~ msgid "Total purchases"
+#~ msgstr "Total purchases"
+
+#~ msgid "Mod"
+#~ msgstr "Mod"

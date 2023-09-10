@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana;
+    font-size: 11px;
+    margin: 40px;
+    border: 1px solid black;
+    padding: 15px;
+    width: 400px;
+}
+
+img {
+    float: left;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 30px 40px;
+}
+
+hr {
+    border: 0;
+    margin: 20px 0 25px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 20px 0 40px 0;
+}
+
+a {
+    color: #f00;
+}
+
+.strike {
+    text-decoration: line-through;
+}

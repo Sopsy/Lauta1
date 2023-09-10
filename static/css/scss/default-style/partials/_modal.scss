@@ -1,0 +1,162 @@
+#modal-root {
+    position: fixed;
+    z-index: 30000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    overflow: auto;
+}
+
+.modal {
+    margin: auto;
+    z-index: 2;
+    box-sizing: border-box;
+    min-height: 200px;
+    min-width: 300px;
+    background: $bgcolor;
+    color: $text-color;
+    box-shadow: 0 0 20px -5px black;
+    border: 5px solid $answer-border-color;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 499px) {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    &:not(:last-of-type) {
+        display: none;
+    }
+
+    h3 {
+        margin: 10px 0 0 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .title {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        flex: 0 0 auto;
+        width: 100%;
+        background-color: $bgcolor;
+        display: flex;
+        font-size: 1.25em;
+        color: $text-color;
+        min-height: 30px;
+
+        span {
+            padding: 5px 10px;
+        }
+    }
+
+    .close {
+        flex: 0 0 auto;
+        margin-left: auto;
+        cursor: pointer;
+        width: 40px;
+        border: 0;
+        background: none;
+
+        &:focus {
+            outline: 0;
+        }
+
+        &:hover {
+            color: #fff;
+            background-color: #ff2222;
+        }
+
+        &:active {
+            color: #fff;
+            background-color: lighten(#ff2222, 10%);
+        }
+    }
+
+    .content {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        .loading {
+            margin: auto;
+            //font-size: 40px;
+        }
+    }
+
+    .buttons {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 10px;
+        background-color: $bgcolor;
+        padding: 10px 0 0 0;
+        box-shadow: 0 10px 0 0 $bgcolor;
+        margin-top: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 auto;
+
+        &.wide {
+            width: 600px;
+            max-width: 100%;
+
+            textarea {
+                flex: 1 0 auto;
+                @media (min-height: 640px) {
+                    height: 400px;
+                }
+            }
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input, textarea {
+            border: 1px solid $postform-async-border-color;
+        }
+
+        label {
+            margin-top: 5px;
+            display: block;
+        }
+    }
+
+    .async-form {
+        label {
+            span, input, select {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        .linkbutton {
+            margin-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+<?php
+declare(strict_types=1);
+
+/** @var $navigationBar NavigationBar */
+/** @var $staticUrl string * @var $staticUrl string
+ */
+/** @var bool $radio */
+
+use TVGuide\View\Model\NavigationBar; ?>
+<div id="navigation-bar">
+    <span class="button-group-left">
+        <a id="menu-button" class="button icon-menu"></a>
+    </span>
+        <?php if($radio): ?>
+            <a class="title" href="/radio/">
+            <?= _('Radio guide') ?>
+        <?php else: ?>
+            <a class="title" href="/">
+            <?= _('TV-guide') ?>
+        <?php endif ?>
+    </a>
+    <span class="button-group-right">
+        <a id="lightswitch" class="button icon-lamp"></a>
+        <a class="button icon-chevron-left" href="<?= $navigationBar->previousDate() ?>"></a>
+        <label for="date-input" id="date-button">
+            <span class="icon-calendar-full"></span>
+            <span class="text"><?= $navigationBar->currentDateIntl() ?></span>
+            <input id="date-input" type="date" min="<?= $navigationBar->firstProgramDate() ?>"
+                   max="<?= $navigationBar->lastProgramDate() ?>" value="<?= $navigationBar->currentDate() ?>">
+        </label>
+        <a class="button icon-chevron-right" href="<?= $navigationBar->nextDate() ?>"></a>
+    </span>
+</div>
+<div id="space">
+</div>

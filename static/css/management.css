@@ -1,0 +1,29 @@
+.pure-table-striped tr:nth-child(2n-1) td { background-color: rgba(0, 0, 0, 0.05); }
+
+#right.mod { overflow: auto; }
+
+#right.mod > *:not(#topbar):not(table) { margin: 10px 20px; box-sizing: border-box; max-width: 100%; }
+
+#right.mod h1 { text-align: center; margin-top: 0; font-weight: 100; }
+
+#right.mod .pure-button.button-red { background: #B94343; color: #fff; }
+
+#right.mod hr { margin: 20px 0; border: 0; border-top: 1px solid; }
+
+#right.mod table { max-width: 100%; overflow: auto; display: block; }
+
+#right.mod table td span { display: block; font-weight: 600; }
+
+#right.mod .pure-table thead { background-color: rgba(0, 0, 0, 0.1); }
+
+#right.mod .pure-table thead th { font-weight: 300; font-size: 1.1em; }
+
+#right.mod .pure-form legend, #right.mod h2 { border-bottom: 1px solid; font-weight: 300; border-color: inherit; color: inherit; font-size: 1.65em; padding: 5px 0; margin-top: 20px; }
+
+#right.mod h3, #right.mod h4 { margin: 0; }
+
+#right.mod .icon-button { font-size: 26px; width: 26px; line-height: 26px; padding: 6px; }
+
+#right.mod .nowrap { white-space: nowrap; }
+
+#right.mod .checked { opacity: 0.2; }

@@ -1,0 +1,57 @@
+<?php
+declare(strict_types=1);
+
+/** @var \TVGuide\Module\Program\Model\ProgramList[] $programLists */
+/** @var string $staticUrl */
+/** @var bool $radio */
+?>
+<?php require 'NavigationBar.phtml' ?>
+<?php require 'Sidebar.phtml' ?>
+<div class="program-lists">
+    <?php foreach ($programLists as $programList): ?>
+        <?php if (empty($programList->programs())) {
+            continue;
+        } ?>
+        <div id="<?= $programList->channel()->urlSafeName() ?>" class="program-list" data-groups="<?= $programList->channel()->groupsString() ?>">
+            <a href="#<?= $programList->channel()->urlSafeName() ?>">
+                <div class="logo-container">
+                    <?php if (is_file(__DIR__ . '/../../static/img/logo/light/' . $programList->channel()->urlSafeName() . '.png')): ?>
+                        <img class="light logo"
+                             src="<?= $staticUrl ?>/img/logo/light/<?= $programList->channel()->urlSafeName() ?>.png"
+                             alt="<?= $programList->channel()->name() ?>">
+                    <?php else: ?>
+                        <span class="light logo"><?= $programList->channel()->name() ?></span>
+                    <?php endif ?>
+                    <?php if (is_file(__DIR__ . '/../../static/img/logo/dark/' . $programList->channel()->urlSafeName() . '.png')): ?>
+                        <img class="dark logo"
+                             src="<?= $staticUrl ?>/img/logo/dark/<?= $programList->channel()->urlSafeName() ?>.png"
+                             alt="<?= $programList->channel()->name() ?>">
+                    <?php else: ?>
+                        <span class="dark logo"><?= $programList->channel()->name() ?></span>
+                    <?php endif ?>
+                </div>
+            </a>
+            <div class="programs" style="--count: <?= count($programList->programs())-1 ?>">
+                <?php foreach ($programList->programs() as $program): ?>
+                    <span class="time <?= $program->running() ? ' running' : '' ?><?= $program->hasEnded() ? ' ended' : '' ?>"
+                          data-starttime="<?= $program->startTime()->getTimestamp() ?>"
+                          data-endtime="<?= $program->endTime()->getTimestamp() ?>">
+                        <span class="starttime"><?= $program->startTimeLocal() ?></span>
+                    </span>
+                    <div id="<?= $program->id() ?>" class="program">
+                        <span class="title"><?= $program->title() ?><span
+                                    class="episode"><?= $program->getEpisodeString() ?></span></span>
+                        <div class="description"><?= $program->description() ?></div>
+                        <div class="progressbar">
+                            <div class="progress" style="width:<?= $program->runningPercentage() ?>%"></div>
+                        </div>
+                        <div class="runningtime">
+                            <span class="starttime"><?= $program->startTimeLocal() ?></span>
+                            <span class="endtime"><?= $program->endTimeLocal() ?></span>
+                        </div>
+                    </div>
+                <?php endforeach ?>
+            </div>
+        </div>
+    <?php endforeach ?>
+</div>

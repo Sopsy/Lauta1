@@ -1,0 +1,10 @@
+User-Agent: Googlebot
+User-Agent: Mediapartners-Google
+User-Agent: DuckDuckBot
+User-Agent: bingbot
+User-agent: sukibot_heritrix
+Disallow: /html/
+Disallow: /cf/
+
+User-Agent: *
+Disallow: /

@@ -1,0 +1,9 @@
+MAILTO=aleksi@lauta.media
+* * * * * www-data /usr/bin/php /srv/www/ylilauta/cron/cron_minutely.php > /dev/null
+2 * * * * www-data /usr/bin/php /srv/www/ylilauta/cron/cron_hourly.php > /dev/null
+30 0 * * * www-data /usr/bin/php /srv/www/ylilauta/cron/cron_daily.php > /dev/null
+4 1 1 * * www-data /usr/bin/php /srv/www/ylilauta/cron/cron_monthly.php > /dev/null
+
+11 1 * * 1 root /usr/sbin/service nginx reload
+17 16 * * * www-data /bin/sh /srv/www/ylilauta/cli/ip2location-update.sh xxx PX1BIN /srv/www/ylilauta/data/ip2location-db/px2.bin
+21 1 2 * * www-data /bin/sh /srv/www/ylilauta/cli/ip2location-update.sh xxx DB1BINIPV6 /srv/www/ylilauta/data/ip2location-db/db12-ipv6.bin

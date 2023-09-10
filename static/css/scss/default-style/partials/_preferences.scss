@@ -1,0 +1,165 @@
+.preferences {
+    padding: 20px 10px;
+    h1 {
+        margin: 0
+    }
+    h2 {
+        margin: 10px 0 0 0;
+        border-bottom: 1px solid $preferences-border-color;
+        text-align: center;
+        padding: 3px;
+    }
+    h3 {
+        margin: 20px 0 0 0
+    }
+    h4 {
+        margin: 5px 0 0 0;
+        font-weight: 600;
+    }
+    p {
+        margin: 3px 0
+    }
+    .info {
+        font-style: oblique
+    }
+    .warning, .error {
+        color: $warning-color;
+        font-weight: 600
+    }
+    .success {
+        color: $success-color
+    }
+
+    span.block {
+        display: block;
+        margin-top: 5px
+    }
+    label.fixedwidth {
+        width: 160px;
+        display: inline-block;
+    }
+    input[type="text"], input[type="password"], input[type="email"] {
+        width: 200px
+    }
+    form {
+        select {
+            width: 300px
+        }
+        input[type="submit"] {
+            margin-top: 10px
+        }
+        textarea {
+            width: 300px;
+            height: 100px
+        }
+    }
+    .trivia p span {
+        display: inline-block;
+        width: 200px;
+        font-weight: 600
+    }
+
+    #tabchooser {
+        margin: 0;
+        padding: 0;
+        font-size: 1.2em;
+        font-weight: 600;
+        display: -webkit-flex;
+        display: flex;
+
+        li {
+            display: inline-block;
+            text-align: center;
+            border-bottom: 1px solid $preferences-tabchooser-border-color;
+            border-radius: 2px 2px 0 0;
+        }
+        li:not(.tab) {
+            padding: 10px 5px
+        }
+        li.tab {
+            padding: 10px 20px;
+            cursor: pointer
+        }
+        li.cur {
+            padding: 9px 19px 10px 19px;
+            border: 1px solid $preferences-tabchooser-border-color;
+            border-bottom: 0;
+            background: $preferences-active-tab-background;
+        }
+        li.tab:not(.cur):hover {
+            background: $preferences-inactive-tab-background
+        }
+        li:last-of-type {
+            -webkit-flex-grow: 1;
+            flex-grow: 1
+        }
+    }
+
+    .tag-preview-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tag-preview-box {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        margin: 5px;
+        border: 1px solid $threadlist-border-color;
+        border-radius: 2px;
+        background-color: $threadlist-thread-bgcolor;
+        flex-grow: 1;
+        flex-basis: 170px;
+        min-width: 170px;
+        max-width: 370px;
+        h4 {
+            display: block;
+            padding: 3px 5px;
+            line-height: 25px;
+            height: 25px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 1.3em;
+            font-weight: 300;
+            background-color: $threadlist-postsubject-bgcolor;
+            border-bottom: 1px solid $threadlist-border-color;
+            margin: 0;
+        }
+        .tag-preview {
+            padding: 10px;
+            text-align: center;
+            background-color: $threadlist-image-bgcolor;
+        }
+        &.not-usable {
+            opacity: 0.4;
+        }
+        p {
+            margin: 10px;
+        }
+    }
+
+    .board_hide_table {
+        margin-top: 20px;
+        columns: 250px;
+        -moz-columns: 250px;
+        -webkit-columns: 250px;
+        label {
+            display: block;
+            padding-bottom: 5px;
+        }
+    }
+
+    .gold-key {
+        margin-top: 5px;
+        button {
+            margin-left: 5px;
+        }
+        .loading {
+            margin-left: 5px;
+        }
+    }
+
+    #changeinfo {
+        display: none;
+    }
+}

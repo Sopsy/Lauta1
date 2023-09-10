@@ -1,0 +1,56 @@
+.pure-table-striped tr:nth-child(2n-1) td { background-color: rgba(0,0,0,0.05) }
+
+#right.mod {
+    overflow: auto;
+    > *:not(#topbar):not(table) {
+        margin: 10px 20px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 0;
+        font-weight: 100;
+    }
+
+    .pure-button.button-red {
+        background: #B94343;
+        color: #fff;
+    }
+
+    hr { margin: 20px 0; border: 0; border-top: 1px solid }
+    table {
+        max-width: 100%;
+        overflow: auto;
+        display: block;
+    }
+    table td span { display: block; font-weight: 600 }
+
+    .pure-table thead { background-color: rgba(0,0,0,0.1) }
+    .pure-table thead th { font-weight: 300; font-size: 1.1em }
+    .pure-form legend, h2 {
+        border-bottom: 1px solid;
+        font-weight: 300;
+        border-color: inherit;
+        color: inherit;
+        font-size: 1.65em;
+        padding: 5px 0;
+        margin-top: 20px;
+    }
+    h3, h4 {
+        margin: 0;
+    }
+    .icon-button {
+        font-size: 26px;
+        width: 26px;
+        line-height: 26px;
+        padding: 6px;
+    }
+    .nowrap {
+        white-space: nowrap;
+    }
+    .checked {
+        opacity: 0.2;
+    }
+}

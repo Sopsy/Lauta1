@@ -1,0 +1,127 @@
+.front {
+    text-align: center;
+    margin: 20px 5px auto 5px;
+
+    #title {
+        margin: 40px 0 20px 0;
+    }
+
+    h1 {
+        margin: 40px 0 0 0;
+    }
+
+    h2 {
+        margin: 0;
+        font-weight: 300;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: 1.5em;
+        font-weight: 300;
+        color: #000;
+        padding: 5px;
+        background: $front-header-bg;
+        text-align: center;
+
+        span {
+            margin: 0 10px;
+        }
+
+        span.statslink {
+            font-weight: 300;
+            font-size: 0.8em;
+            white-space: nowrap;
+        }
+    }
+
+    h4 {
+        margin: 10px 0;
+        font-size: 1.1em;
+    }
+
+    h5, h6 {
+        margin: 0;
+        font-weight: 700
+    }
+
+    h5 {
+        font-size: 1.2em;
+        clear: both
+    }
+
+    h6 {
+        font-size: 1.1em
+    }
+
+    ul {
+        margin-top: 0;
+    }
+
+    .box {
+        text-align: left;
+        margin: 20px 0;
+        background: $front-box-bgcolor;
+        overflow: hidden;
+    }
+
+    nav#front-boards {
+        line-height: 25px;
+        columns: 250px;
+        -moz-columns: 250px;
+        -webkit-columns: 280px;
+        column-gap: 0;
+        -moz-column-gap: 0;
+        -webkit-column-gap: 0;
+
+        a {
+            page-break-inside: avoid;
+            break-inside: avoid;
+            display: block;
+            padding: 5px 10px;
+
+            &:hover {
+                background-color: $front-row-alternating-bgcolor
+            }
+        }
+
+        .hidden {
+            font-style: italic;
+            opacity: 0.4;
+        }
+
+        .boardname {
+            font-weight: 400
+        }
+
+        .onlinecount,
+        .description {
+            font-size: 0.75em;
+            opacity: 0.5;
+            display: block;
+            line-height: 1.25em;
+        }
+
+        .onlinecount {
+            margin-top: 3px;
+        }
+    }
+
+    .news {
+        text-align: left;
+        margin-bottom: 20px;
+
+        .newstext {
+            padding: 5px;
+            overflow: hidden;
+        }
+
+        .newstext p {
+            margin: 0 0 5px
+        }
+
+        .newstext table {
+            width: 100%
+        }
+    }
+}

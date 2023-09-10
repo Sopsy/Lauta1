@@ -1,0 +1,341 @@
+.thread-boardinfo {
+    display: block;
+    padding: 5px;
+    margin: 0;
+    font-size: 1.25em;
+    background-color: $thread-subheader-bgcolor;
+}
+
+.thread-info,
+.more-replies {
+    color: $thread-omitted-color;
+    font-size: 0.9em;
+}
+.thread-info {
+    margin: 5px 10px 0 10px;
+}
+.more-replies {
+    margin: 5px 5px 0 5px;
+}
+
+.just-hidden {
+    margin: 0 10px;
+    opacity: 0.4;
+    border: 0 !important;
+    display: flex;
+    align-items: center;
+    .hiddensubject {
+        font-weight: 600;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    button {
+        margin-left: auto;
+        font-size: 18px;
+        padding: 5px;
+    }
+    span {
+        margin-right: 5px;
+    }
+}
+
+.thread {
+    #post {
+        margin: 5px auto;
+        padding: 0 5px;
+    }
+
+    .expand-container .loading {
+        margin: 5px;
+    }
+
+    &.hidden .thread-hide {
+        display: none;
+    }
+    &:not(.hidden) .thread-unhide {
+        display: none;
+    }
+
+    &.followed .thread-follow {
+        display: none;
+    }
+    &:not(.followed) .thread-unfollow {
+        display: none;
+    }
+
+    .morereplies, .lessreplies {
+        margin: 5px 0 5px;
+    }
+
+    .morereplies.hidden {
+        display: none;
+    }
+
+    .lessreplies:not(.visible) {
+        display: none;
+    }
+
+    .threadbuttons {
+        margin: 5px 5px 0 5px;
+        display: flex;
+        .buttons_left {
+            display: flex;
+        }
+    }
+
+    .postinfo {
+        background-color: $thread-subheader-bgcolor;
+    }
+
+    .flag {
+        margin-right: 5px;
+    }
+
+    .answer {
+        $threadMargin: 5px;
+        &:not(:first-of-type) {
+            margin: $threadMargin 0 0 0;
+        }
+        background-color: $answer-bgcolor;
+
+        &.highlighted, &:target {
+            background-color: $answer-highlighted-bgcolor;
+            border-color: $answer-highlighted-border-color;
+            .postinfo {
+                background-color: $answer-highlighted-header-bgcolor;
+                border-color: $answer-highlighted-header-border-color;
+            }
+        }
+    }
+    .post {
+        &.hidden {
+            background: none;
+            border: 0;
+            margin: 5px 0;
+            .postinfo {
+                background: none;
+                border: 0;
+            }
+            .messageoptions_mobile,
+            .message,
+            .replies,
+            .modbar,
+            .postuid,
+            .tags,
+            .icon-reply {
+                display: none;
+            }
+            &.op-hide .messageoptions :not(.post-unhide):not(.post-unhide-op) {
+                display: none;
+            }
+            &:not(.op-hide) .messageoptions :not(.post-unhide) {
+                display: none;
+            }
+        }
+    }
+}
+
+.threads.style-replies {
+    .thread {
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        background-color: $thread-bgcolor;
+    }
+}
+
+.customboard .threads.style-box .thread {
+    grid-template-rows: auto 1fr auto;
+}
+
+.threads.style-box {
+    display: grid;
+    align-items: start;
+
+    @media (max-width: 1299px) {
+        grid-gap: 1px;
+        background-color: $threadlist-border-color;
+    }
+    @media (min-width: 1300px) {
+        grid-gap: 10px;
+        padding: 0 10px;
+    }
+
+    @media (max-width: 500px) {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+    @media (min-width: 501px) {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    > div:not(.thread) {
+        margin: auto;
+        grid-column: 1 / -1;
+    }
+
+    .thread {
+        margin: 0;
+        @media (max-width: 1299px) {
+            font-size: 0.85em;
+        }
+        @media (min-width: 1300px) {
+            font-size: 0.9em;
+            border-radius: 2px;
+            border: 1px solid $threadlist-border-color;
+        }
+        background-color: $threadlist-thread-bgcolor;
+        position: relative;
+        height: 360px;
+        overflow: hidden;
+        display: grid;
+        grid-template-rows: 1fr auto;
+
+        &.just-hidden {
+            height: auto;
+        }
+
+        .thread-info {
+            background-color: $threadlist-thread-bgcolor;
+            box-shadow: 0 0 10px 10px $threadlist-thread-bgcolor;
+            margin: 3px 5px;
+            font-size: 0.85em;
+        }
+
+        .post {
+            overflow: hidden;
+        }
+        .extrainfo, .icon-trash2, .icon-share2 {
+            display: none
+        }
+        .postinfo .right button {
+            &.icon-reply,
+            &.icon-medal-empty,
+            &.icon-pencil-line,
+            &.icon-badge {
+                display: none;
+            }
+        }
+        .postinfo {
+            box-shadow: none;
+        }
+
+        .postheader {
+            overflow: hidden;
+        }
+
+        .postsubject {
+            font-size: 1.2em;
+            line-height: 2em;
+            height: auto;
+            gap: 0;
+            .subject {
+                padding: 0 5px;
+            }
+            [class^="icon-"], [class*=" icon-"] {
+                padding: 0 2px;
+            }
+        }
+        .postcontent {
+            padding: 3px 5px;
+        }
+        .filecontainer {
+            float: none;
+            padding: 0;
+            margin: 0;
+            background-color: #cccccc;
+            display: block;
+            text-align: center;
+        }
+        .post-file {
+            margin: 0 !important;
+            float: none !important;
+            width: 100%;
+            max-width: 100%;
+            @media (max-width: 499px) {
+                max-height: 120px;
+            }
+            @media (min-width: 500px) {
+                max-height: 160px;
+            }
+            display: block;
+            text-align: center;
+            background-color: $threadlist-image-bgcolor;
+            overflow: hidden;
+            img {
+                @media (max-width: 499px) {
+                    max-height: 120px;
+                }
+                @media (min-width: 500px) {
+                    max-height: 160px;
+                }
+                width: auto;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.threads.style-compact {
+    background-color: $thread-bgcolor;
+
+    .thread {
+        margin: 0 !important;
+        position: relative;
+        &:nth-of-type(even) {
+            background-color: $thread-header-bgcolor;
+        }
+        display: flex;
+        flex-wrap: wrap;
+
+        @media (max-width: 599px) {
+            flex-direction: column;
+            .postinfo {
+                margin: 0 5px;
+                padding: 0;
+            }
+        }
+        @media (min-width: 600px) {
+            align-items: center;
+            .postinfo {
+                flex: 0 0 auto;
+                margin-left: auto;
+            }
+        }
+
+        .postsubject {
+            flex: 1 0 auto;
+        }
+
+        .thread-info {
+            margin: 0 5px 5px 5px;
+            flex: 1 1 100%;
+        }
+        .postinfo {
+            background-color: transparent;
+            box-shadow: none;
+            border-bottom: 0;
+        }
+        .postsubject {
+            display: inline-block;
+            font-size: 1.25em;
+            background-color: transparent;
+            height: auto;
+            line-height: 1.25em;
+            padding: 5px;
+            span {
+                padding: 0;
+                line-height: 1.25em;
+                background-color: transparent;
+            }
+        }
+        .upvote_count {
+            float: none;
+            margin-right: 10px;
+        }
+        .tag, .message-edited, .postuid, .answers, .threadbuttons, .replies,
+        .postnumber, .fileinfo, .morereplies, .filecontainer, .messageoptions,
+        .modbar, .message, .tags, .icon-button {
+            display: none
+        }
+    }
+}

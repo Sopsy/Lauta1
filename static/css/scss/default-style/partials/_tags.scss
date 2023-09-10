@@ -1,0 +1,12 @@
+.tag {
+}
+.tag.text {
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 7px;
+    font-size: 0.85em;
+}
+.admin { background-color: $admin-tag-color }
+.goldaccount { background-color: $gold-tag-color; text-shadow: $gold-tag-shadow }
+.platinumaccount { background-color: $platinum-tag-color; text-shadow: $platinum-tag-shadow }
+.supporteraccount { background-color: $supporter-tag-color; text-shadow: $supporter-tag-shadow }

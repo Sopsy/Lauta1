@@ -1,0 +1,32 @@
+<?php
+declare(strict_types=1);
+
+/** @var string $imgUrl */
+/** @var \TVGuide\Module\Program\Model\StoredProgram $program */
+/** @var \TVGuide\Module\Program\Model\StoredProgram[] $broadcasts */
+?>
+<div class="modal-container close">
+    <div class="modal">
+        <div class="header">
+            <div class="name">
+                <?= htmlspecialchars($program->title(), ENT_QUOTES | ENT_HTML5) ?>,
+                <?= htmlspecialchars($program->channel()->name(), ENT_QUOTES | ENT_HTML5) ?>,
+                <?= $program->startTimeLocalLong() ?>
+            </div>
+            <button class="close icon-cross2"></button>
+        </div>
+        <div class="info">
+            <div class="description"><?= $program->description() ?></div>
+            <?php if (!empty($broadcasts)) : ?>
+                <div id="broadcast-list-button"><?= _('Show upcoming broadcasts') ?></div>
+                <div id="broadcast-list" hidden>
+                    <?php foreach ($broadcasts as $broadcast) : ?>
+                        <div class="date"><?= $broadcast->startTimeLocalLong() ?></div>
+                        <div><?= $broadcast->channel()->name() ?></div>
+                        <div class="broadcast-description"><?= $broadcast->description() ?></div>
+                    <?php endforeach ?>
+                </div>
+            <?php endif ?>
+        </div>
+    </div>
+</div>

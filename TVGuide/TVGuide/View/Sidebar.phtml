@@ -1,0 +1,45 @@
+<?php
+    /** @var $staticUrl string */
+    /** @var \TVGuide\Module\Channel\Model\ChannelGroup[] $groups */
+    /** @var \TVGuide\Module\Program\Model\ProgramList[] $programLists */
+?>
+<div id="sidebar-container" hidden>
+    <div id="sidebar">
+        <a class="ylilauta-logo" href="https://ylilauta.org/">
+            <img src="<?= $staticUrl ?>/img/norppa_ylilauta.svg" alt="Ylilauta">
+            <span>Ylilauta</span>
+        </a>
+        <nav class="meta">
+            <a href="/"><?= _("TV-guide") ?></a>
+            <a href="/radio/"><?= _("Radio guide") ?></a>
+            <a href="https://ylilauta.org/palaute/" target="_blank"><?= _('Feedback') ?></a>
+        </nav>
+        <div class="channel-container meta">
+            <?php foreach ($groups as $group): ?>
+                <span data-id="<?= $group->id() ?>" class="group"><?= $group->name ()?></span>
+                <!--<?php foreach ($group->channels() as $channel): ?>
+                - <?= $channel->name ()?><br>
+                <?php endforeach ?>-->
+            <?php endforeach ?>
+            <span data-id="0" class="group"><?= _('All') ?></span>
+        </div>
+        <div class="channel-container">
+            <?php  foreach ($programLists as $programList): ?>
+                <div class="logo-container" data-groups="<?= $programList->channel()->groupsString() ?>">
+                    <a class="channel-container-link" href="#<?= $programList->channel()->urlSafeName() ?>">
+                        <?php if(is_file(__DIR__ . '/../../static/img/logo/light/' . $programList->channel()->urlSafeName() . '.png')): ?>
+                            <img class="light logo" src="<?= $staticUrl ?>/img/logo/light/<?= $programList->channel()->urlSafeName() ?>.png" alt="<?= $programList->channel()->name() ?>">
+                        <?php else:  ?>
+                            <span class="light logo"><?= $programList->channel()->name() ?></span>
+                        <?php endif ?>
+                        <?php if(is_file(__DIR__ . '/../../static/img/logo/dark/' . $programList->channel()->urlSafeName() . '.png')): ?>
+                            <img class="dark logo" src="<?= $staticUrl ?>/img/logo/dark/<?= $programList->channel()->urlSafeName() ?>.png" alt="<?= $programList->channel()->name() ?>">
+                        <?php else:  ?>
+                            <span class="dark logo"><?= $programList->channel()->name() ?></span>
+                        <?php endif ?>
+                    </a>
+                </div>
+            <?php endforeach ?>
+        </div>
+    </div>
+</div>

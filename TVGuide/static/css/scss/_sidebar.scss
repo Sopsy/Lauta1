@@ -1,0 +1,93 @@
+#sidebar {
+    position: fixed;
+    top: 35px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 1em;
+    padding: 1px 5px;
+    background: var(--background);
+    float: none;
+    box-sizing: content-box;
+    background-clip: padding-box;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, var(--header) 0, var(--background) 200px);
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+    .channel-container-link {
+        color: var(--logo-text)
+    }
+
+    .ylilauta-logo {
+        text-align: center;
+        font-size: 1.75em;
+        font-weight: 300;
+        padding: 20px;
+        display: block;
+        text-decoration: none;
+        color: var(--logo-text);
+    }
+
+    .logo {
+        height: 30px;
+        object-fit: contain;
+    }
+
+    .logo-container {
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .group {
+        text-align: center;
+        cursor: pointer;
+    }
+
+    img {
+        height: 60px;
+        vertical-align: middle;
+        max-width: 100%;
+    }
+}
+
+.meta {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    display: grid;
+    grid-gap: 0 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--sidebar-line);
+
+    a {
+        padding: 10px;
+        color: var(--logo-text);
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+.channel-container {
+    display: grid;
+    grid-gap: 30px 20px;
+    align-items: center;
+    padding: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-content: center;
+    color: var(--logo-text);
+    a {
+        text-decoration: none;
+        display: block;
+    }
+}
+
+#sidebar-container {
+    z-index: 3;
+    position: fixed;
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}

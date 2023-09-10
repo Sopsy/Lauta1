@@ -1,0 +1,4025 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YBoard 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 17:18+0200\n"
+"PO-Revision-Date: 2020-10-15 17:21+0200\n"
+"Last-Translator: Ylilauta Admin <yllapito@ylilauta.org>\n"
+"Language-Team: Ylilauta Admin <yllapito@ylilauta.org>\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: ../../../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SearchPath-0: public\n"
+"X-Poedit-SearchPath-1: cli\n"
+
+#: cli/generatefiles.php:22
+msgid "Google reCAPTCHA is verifying that you are not a robot. Please wait..."
+msgstr "Google reCAPTCHA varmistaa ettet ole robotti. Odota hetki..."
+
+#: cli/generatefiles.php:23
+msgid "Remove"
+msgstr "Poista"
+
+#: cli/generatefiles.php:24
+msgid "Email address removed"
+msgstr "Sähköpostiosoite poistettu"
+
+#: cli/generatefiles.php:25
+msgid "Reset password"
+msgstr "Palauta salasana"
+
+#: cli/generatefiles.php:26
+msgid "Are you sure?"
+msgstr "Oletko varma?"
+
+#: cli/generatefiles.php:27
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: cli/generatefiles.php:28 public/inc/html.class.php:227
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: cli/generatefiles.php:29
+msgid "Close media"
+msgstr "Sulje media"
+
+#: cli/generatefiles.php:30 public/inc/html.class.php:846
+#: public/inc/html.class.php:1032
+msgid "Reply"
+msgstr "Vastaa"
+
+#: cli/generatefiles.php:31 public/preferences.php:223
+msgid "Save"
+msgstr "Tallenna"
+
+#: cli/generatefiles.php:32
+msgid "Saving..."
+msgstr "Tallennetaan..."
+
+#: cli/generatefiles.php:33
+msgid "Close"
+msgstr "Sulje"
+
+#: cli/generatefiles.php:34 public/inc/html.class.php:245
+#: public/inc/html.class.php:333
+msgid "Notifications"
+msgstr "Ilmoitukset"
+
+#: cli/generatefiles.php:35 public/scripts/notifications/get.php:119
+msgid "Mark all as read"
+msgstr "Merkitse kaikki luetuksi"
+
+#: cli/generatefiles.php:36
+msgid "Your message might disappear if you leave this page."
+msgstr "Viestisi saattaa hävitä jos poistut tältä sivulta."
+
+#: cli/generatefiles.php:37
+msgid "Loading timed out – please check your internet connection"
+msgstr "Lataus aikakatkaistiin – tarkista internet-yhteytesi"
+
+#: cli/generatefiles.php:38
+msgid "Network error – please check that you are connected to the internet"
+msgstr "Yhteysvirhe – tarkista että olet yhteydessä internetiin"
+
+#: cli/generatefiles.php:39
+msgid "Invalid data received. This is an internal error."
+msgstr "Virheellistä dataa vastaanotettu. Tämä on sisäinen virhe."
+
+#: cli/generatefiles.php:40
+msgid "No data received. This is an internal error."
+msgstr "Dataa ei vastaanotettu. Tämä on sisäinen virhe."
+
+#: cli/generatefiles.php:41
+msgid "User information changed"
+msgstr "Käyttäjätunnuksen tiedot päivitetty"
+
+#: cli/generatefiles.php:42 public/inc/engine.class.php:255
+#: public/scripts/ajax/donate_gold_key.php:50
+msgid "An error occurred"
+msgstr "Tapahtui virhe"
+
+#: cli/generatefiles.php:43 public/preferences.php:311
+msgid "Copy"
+msgstr "Kopioi"
+
+#: cli/generatefiles.php:44
+msgid "Copied to clipboard"
+msgstr "Kopioitu leikepöydälle"
+
+#: cli/generatefiles.php:45
+msgid "Could not copy to clipboard"
+msgstr "Leikepöydälle kopioiminen epäonnistui"
+
+#: cli/generatefiles.php:47 public/inc/html.class.php:464
+msgid "Subject"
+msgstr "Aihe"
+
+#: cli/generatefiles.php:48 public/inc/html.class.php:752
+#: public/mod/actions/addban.php:195
+msgid "Delete thread"
+msgstr "Poista lanka"
+
+#: cli/generatefiles.php:49
+msgid "Thread deleted"
+msgstr "Lanka poistettu"
+
+#: cli/generatefiles.php:50
+msgid "Are you sure you want to delete this thread?"
+msgstr "Haluatko varmasti poistaa tämän langan?"
+
+#: cli/generatefiles.php:51
+msgid "Delete the thread"
+msgstr "Poista lanka"
+
+#: cli/generatefiles.php:52 cli/generatefiles.php:56
+msgid "No new replies"
+msgstr "Ei uusia vastauksia"
+
+#: cli/generatefiles.php:54
+msgid "This thread was deleted"
+msgstr "Tämä lanka on poistettu"
+
+#: cli/generatefiles.php:55
+msgid "Thread AutoUpdater is not initialized. Please report this bug."
+msgstr ""
+"Lankojen AutoUpdater ei ole käynnistetty. Ilmoitathan tästä ongelmasta."
+
+#: cli/generatefiles.php:57
+msgid "Loading new replies failed with an unknown error"
+msgstr "Uusien viestien hakeminen epäonnistui tuntemattoman virheen vuoksi"
+
+#: cli/generatefiles.php:58
+msgid "Loading new replies failed, trying again..."
+msgstr "Uusien viestien hakeminen epäonnistui, yritetään uudelleen..."
+
+#: cli/generatefiles.php:59
+msgid ""
+"Loading new posts automatically was stopped because there were no new posts "
+"for a long time"
+msgstr ""
+"Uusien viestien hakeminen on pysäytetty, koska niitä ei ole tullut pitkään "
+"aikaan"
+
+#: cli/generatefiles.php:62 public/inc/html.class.php:744
+#: public/inc/html.class.php:893
+msgid "Follow thread"
+msgstr "Seuraa lankaa"
+
+#: cli/generatefiles.php:63
+msgid "Thread added to followed threads"
+msgstr "Lanka lisätty seurattuihin lankoihin"
+
+#: cli/generatefiles.php:64
+msgid "Remove from followed threads"
+msgstr "Poista seuratuista langoista"
+
+#: cli/generatefiles.php:65
+msgid "Thread removed from followed threads"
+msgstr "Lanka poistettu seuratuista langoista"
+
+#: cli/generatefiles.php:66
+msgid ""
+"Are you sure you want to remove ALL of your followed threads on each board?"
+msgstr "Haluatko varmasti poistaa kaikki seuratut lankasi?"
+
+#: cli/generatefiles.php:67
+msgid "Followed threads updated"
+msgstr "Seuratut langat päivitetty"
+
+#: cli/generatefiles.php:70 public/inc/html.class.php:741
+#: public/inc/html.class.php:890
+msgid "Hide thread"
+msgstr "Piilota lanka"
+
+#: cli/generatefiles.php:71 public/inc/html.class.php:742
+#: public/inc/html.class.php:891
+msgid "Restore thread"
+msgstr "Palauta lanka"
+
+#: cli/generatefiles.php:75
+msgid "Activate this Gold account key?"
+msgstr "Aktivoi tämä Kultatiliavain?"
+
+#: cli/generatefiles.php:76 public/scripts/ajax/activategold.php:24
+msgid "Invalid Gold account key"
+msgstr "Virheellinen Kultatiliavain"
+
+#: cli/generatefiles.php:77
+msgid "Gold account activated!"
+msgstr "Kultatili aktivoitu!"
+
+#: cli/generatefiles.php:80
+msgid ""
+"Do you really want to completely delete your user account? You will lose any "
+"Gold account time you have left! This operation cannot be undone."
+msgstr ""
+"Haluatko varmasti poistaa käyttäjätunnuksesi kokonaan? Menetät kaiken "
+"kultatiliajan, mitä sinulla on jäljellä! Tätä toimintoa ei voi peruuttaa."
+
+#: cli/generatefiles.php:81
+msgid "User account deletion was not confirmed, account not deleted"
+msgstr "Käyttäjätunnuksen poistoa ei vahvistettu, tunnusta ei poistettu"
+
+#: cli/generatefiles.php:82
+msgid "User account deleted"
+msgstr "Käyttäjätunnus poistettu"
+
+#: cli/generatefiles.php:85
+msgid ""
+"Do you really want to delete the selected data? All of them will be deleted "
+"permanently and cannot be restored afterwards."
+msgstr ""
+"Haluatko varmasti poistaa valitut tiedot? Kaikki niistä poistetaan "
+"pysyvästi, eikä niitä voida enää jälkikäteen palauttaa."
+
+#: cli/generatefiles.php:86
+msgid "Deletion cancelled, nothing deleted."
+msgstr "Poisto peruutettu, mitään ei poistettu."
+
+#: cli/generatefiles.php:87
+msgid "Selected data is now permanently deleted."
+msgstr "Valitut tiedot ovat nyt pysyvästi poistettu."
+
+#: cli/generatefiles.php:90
+msgid "Passwords do not match"
+msgstr "Salasanat eivät täsmää"
+
+#: cli/generatefiles.php:91
+msgid "Please type in a password"
+msgstr "Kirjoita salasana"
+
+#: cli/generatefiles.php:92
+msgid "Please type in a your current password"
+msgstr "Kirjoita nykyinen salasanasi"
+
+#: cli/generatefiles.php:93
+msgid "This password is too weak"
+msgstr "Tämä salasana on liian heikko"
+
+#: cli/generatefiles.php:94
+msgid "Password changed successfully"
+msgstr "Salasana vaihdettu"
+
+#: cli/generatefiles.php:97
+msgid "Edit post"
+msgstr "Muokkaa viestiä"
+
+#: cli/generatefiles.php:98
+msgid "Post edits"
+msgstr "Viestin muokkaukset"
+
+#: cli/generatefiles.php:99
+msgid "Cancel editing? You will lose your changes."
+msgstr "Peruuta muokkaaminen? Menetät muutoksesi."
+
+#: cli/generatefiles.php:100
+msgid "Cancel this post?"
+msgstr "Peruuta tämä viesti?"
+
+#: cli/generatefiles.php:101
+msgid "Delete post"
+msgstr "Poista viesti"
+
+#: cli/generatefiles.php:102
+msgid "Post deleted"
+msgstr "Viesti poistettu"
+
+#: cli/generatefiles.php:103
+msgid "Are you sure you want to delete this post?"
+msgstr "Haluatko varmasti poistaa tämän viestin?"
+
+#: cli/generatefiles.php:104
+msgid "Only delete the file"
+msgstr "Poista vain tiedosto"
+
+#: cli/generatefiles.php:105
+msgid "Delete the post"
+msgstr "Poista viesti"
+
+#: cli/generatefiles.php:106
+msgid "Post sent"
+msgstr "Viesti lähetety"
+
+#: cli/generatefiles.php:107
+msgid "Sending..."
+msgstr "Lähetetään..."
+
+#: cli/generatefiles.php:108
+msgid "Uploading file..."
+msgstr "Lähetetään..."
+
+#: cli/generatefiles.php:109
+msgid ""
+"The file you have chosen exceeds the maximum file size limit of your user "
+"account"
+msgstr ""
+"Valitsemasi tiedosto ylittää käyttäjätunnuksellesi sallitun tiedoston "
+"maksimikoon"
+
+#: cli/generatefiles.php:110
+msgid "Saving post..."
+msgstr "Tallennetaan..."
+
+#: cli/generatefiles.php:111 public/inc/html.class.php:1104
+msgid "Replies"
+msgstr "Vastaukset"
+
+#: cli/generatefiles.php:112 public/inc/html.class.php:524
+#: public/mod/actions/addban.php:182 public/mod/actions/deletepost.php:11
+#: public/mod/actions/managebans.php:43 public/mod/actions/modlog.php:35
+#: public/mod/actions/reportedposts.php:74 public/scripts/ajax/message.php:43
+msgid "Message"
+msgstr "Viesti"
+
+#: cli/generatefiles.php:113
+msgid "Share post"
+msgstr "Jaa viesti"
+
+#: cli/generatefiles.php:114 public/inc/html.class.php:987
+#: public/inc/posts.class.php:566
+msgid "OP"
+msgstr "AP"
+
+#: cli/generatefiles.php:115
+msgid "You"
+msgstr "Sinä"
+
+#: cli/generatefiles.php:116
+msgid "Link to this post"
+msgstr "Linkki tähän viestiin"
+
+#: cli/generatefiles.php:117
+msgid "Your files exceed the maximum upload size."
+msgstr "Tiedostosi ylittävät suurimman sallitun tiedostokoon."
+
+#: cli/generatefiles.php:118
+msgid "Your message will be sent after the file upload is completed."
+msgstr "Viestisi lähetetään tiedoston lähetyksen valmistuttua."
+
+#: cli/generatefiles.php:119
+msgid "File deleted"
+msgstr "Tiedosto poistettu"
+
+#: cli/generatefiles.php:120
+msgid "Number of posts"
+msgstr "Viestien määrä"
+
+#: cli/generatefiles.php:122 public/inc/html.class.php:1041
+msgid "Hide post"
+msgstr "Piilota viesti"
+
+#: cli/generatefiles.php:123 public/inc/html.class.php:1042
+msgid "Restore post"
+msgstr "Palauta viesti"
+
+#: cli/generatefiles.php:126
+msgid "Report a rule violation"
+msgstr "Ilmianna sääntörikkomus"
+
+#: cli/generatefiles.php:127
+msgid "Rule violation reported"
+msgstr "Sääntörikkomus ilmiannettu"
+
+#: cli/generatefiles.php:130
+msgid "Donate a Gold account"
+msgstr "Lahjoita Kultatili"
+
+#: cli/generatefiles.php:131
+msgid "Gold account donated!"
+msgstr "Kultatili lahjoitettu!"
+
+#: cli/generatefiles.php:134
+msgid "Update your browser"
+msgstr "Päivitä selaimesi"
+
+#: cli/generatefiles.php:135
+msgid ""
+"You are using an outdated browser. This site will not function properly with "
+"it."
+msgstr ""
+"Käytät vanhentunutta selainta. Tämä sivusto ei toimi oikein sen kanssa."
+
+#: cli/generatefiles.php:136
+msgid ""
+"Please check for updates for your browser and operating system - or switch "
+"to Firefox or Chrome."
+msgstr ""
+"Tarkista selaimesi ja käyttöjärjestelmäsi päivitykset - tai vaihda "
+"Firefoxiin tai Chromeen."
+
+#: public/404.php:20 public/404.php:36
+msgid "410 Gone"
+msgstr "410 Hävinnyt"
+
+#: public/404.php:22 public/404.php:39
+msgid "404 Not Found"
+msgstr "404 Ei Löydy"
+
+#: public/404.php:36
+msgid "The thread has been deleted"
+msgstr "Lanka on poistettu"
+
+#: public/404.php:39
+msgid "The page or file you were looking for does not exist"
+msgstr "Sivua tai tiedostoa jota etsit, ei ole olemassa"
+
+#: public/404.php:40
+msgid "This thread has been deleted or it never even existed."
+msgstr "Tämä lanka on poistettu tai sitä ei koskaan ollutkaan."
+
+#: public/404.php:45 public/inc/html.class.php:330
+msgid "Return to board"
+msgstr "Palaa laudalle"
+
+#: public/banned.php:61 public/banned.php:71 public/inc/html.class.php:434
+#: public/scripts/ajax/post.php:33 public/scripts/ajax/report.php:38
+msgid "You are banned."
+msgstr "Olet bannattu."
+
+#: public/banned.php:71
+msgid "You were banned."
+msgstr "Olit bannattu."
+
+#: public/banned.php:75
+msgid "Reason:"
+msgstr "Syy:"
+
+#: public/banned.php:75 public/banned.php:85 public/inc/user.class.php:1097
+#: public/mod/actions/addban.php:302 public/mod/actions/banappeals.php:54
+#: public/mod/actions/managebans.php:57 public/thread.php:22
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: public/banned.php:83
+msgid "Your post which resulted in this ban is the following"
+msgstr "Viestisi joka johti tähän banniin on seuraava"
+
+#: public/banned.php:85 public/banned.php:105
+#, php-format
+msgid "Board: %s"
+msgstr "Lauta: %s"
+
+#: public/banned.php:93 public/inc/html.class.php:998
+#: public/inc/html.class.php:1000
+msgid "No."
+msgstr "Nro."
+
+#: public/banned.php:104
+msgid "Your post only contained a file, so it is not shown here."
+msgstr "Viestisi sisälsi vain tiedoston, joten sitä ei näytetä tässä."
+
+#: public/banned.php:111
+msgid "Please read the rules of Ylilauta."
+msgstr "Luethan Ylilaudan säännöt."
+
+#: public/banned.php:113
+msgid "Your ban is now over."
+msgstr "Bannisi on nyt ohi."
+
+#: public/banned.php:115
+#, php-format
+msgid "Your ban ends %s."
+msgstr "Bannisi päättyy %s."
+
+#: public/banned.php:124
+msgid "Ban appeal"
+msgstr "Muutoksenhaku banniin"
+
+#: public/banned.php:127
+msgid ""
+"We understand that people make mistakes. Us included. Please send us a "
+"message and we'll reconsider your ban."
+msgstr ""
+"Ymmärrämme, että ihmiset tekevät virheitä. Me mukaanluettuna. Lähetä meille "
+"viesti, niin voimme arvioida bannisi uudelleen."
+
+#: public/banned.php:130
+#, php-format
+msgid "Your message (max %s characters)"
+msgstr "Viestisi (max %s merkkiä)"
+
+#: public/banned.php:131
+msgid ""
+"Note: We can not reply to your message. We can only approve or reject your "
+"appeal to lift this ban."
+msgstr ""
+"Huom: Emme voi vastata viestiisi. Voimme vain hyväksyä tai hylätä "
+"muutoksenhaun banniisi."
+
+#: public/banned.php:132 public/inc/html.class.php:530
+#: public/resetpassword.php:31 public/scripts/givetag.php:41
+#: public/scripts/modals/getreportform.php:88
+msgid "Submit"
+msgstr "Lähetä"
+
+#: public/banned.php:136
+msgid "We have not yet reviewed the message you sent. Please check back later."
+msgstr ""
+"Emme ole vielä tarkistaneet lähettämääsi viestiä. Tarkista tilanne myöhemmin "
+"uudelleen."
+
+#: public/banned.php:137
+msgid "Your message is:"
+msgstr "Viestisi on:"
+
+#: public/banned.php:141
+msgid ""
+"After considering the message you sent, we are sorry to say that your ban "
+"was not lifted."
+msgstr ""
+"Tarkistimme lähettämäsi viestin, mutta valitettavasti banniasi ei peruttu."
+
+#: public/banned.php:142
+msgid "Your message was:"
+msgstr "Viestisi oli:"
+
+#: public/banned.php:149
+msgid "Banned!"
+msgstr "Bannattu!"
+
+#: public/board.php:48
+msgid "Sorry, there are no threads on this board."
+msgstr "Tällä laudalla ei ole lankoja."
+
+#: public/clearcss.php:17
+msgid "Clear Custom CSS"
+msgstr "Tyhjennä oma CSS"
+
+#: public/customboard.php:40 public/inc/html.class.php:354
+msgid "My threads"
+msgstr "Omat langat"
+
+#: public/customboard.php:41
+msgid "The threads you have made are shown on this page."
+msgstr "Tekemäsi langat näytetään tällä sivulla."
+
+#: public/customboard.php:49 public/inc/html.class.php:355
+msgid "Replied threads"
+msgstr "Vastatut langat"
+
+#: public/customboard.php:50
+msgid "The threads you have replied to are shown on this page."
+msgstr "Langat joihin olet vastannut näytetään tällä sivulla."
+
+#: public/customboard.php:66 public/inc/html.class.php:145
+#: public/inc/html.class.php:353
+msgid "Followed threads"
+msgstr "Seuratut langat"
+
+#: public/customboard.php:67
+msgid "The threads you are following are shown on this page."
+msgstr "Langat joita seuraat näytetään tällä sivulla."
+
+#: public/customboard.php:79 public/inc/html.class.php:352
+msgid "All threads"
+msgstr "Kaikki langat"
+
+#: public/customboard.php:80
+msgid "Threads from all boards are shown on this page."
+msgstr "Langat kaikilta laudoilta näytetään tällä sivulla."
+
+#: public/customboard.php:96 public/inc/html.class.php:356
+msgid "Hidden threads"
+msgstr "Piilotetut langat"
+
+#: public/customboard.php:97
+msgid "Threads you have hidden are shown on this page."
+msgstr "Piilottamasi langat näytetään tällä sivulla."
+
+#: public/customboard.php:119
+msgid "You have no threads here."
+msgstr "Sinulla ei ole lankoja täällä."
+
+#: public/gold.php:78 public/preferences.php:24
+msgid "Gold account"
+msgstr "Kultatili"
+
+#: public/inc/board.class.php:123 public/mod/actions/modlog.php:34
+msgid "Thread"
+msgstr "Lanka"
+
+#: public/inc/config/tags.php:5
+msgid "Gold"
+msgstr "Kulta"
+
+#: public/inc/config/tags.php:9
+msgid "Have a Gold account"
+msgstr "Sinulla on Kultatili"
+
+#: public/inc/config/tags.php:12
+msgid "Platinum"
+msgstr "Platina"
+
+#: public/inc/config/tags.php:16
+msgid "Have a permanent Gold account"
+msgstr "Tunnuksellasi on ikuinen Kultatili"
+
+#: public/inc/config/tags.php:19
+msgid "The King of Ylilauta"
+msgstr "Ylilaudan kuningas"
+
+#: public/inc/config/tags.php:23
+msgid "Have a maximum level platinum account"
+msgstr "Tunnuksellasi on maksimitason platinatili"
+
+#: public/inc/config/tags.php:26
+msgid "Bier"
+msgstr "Kalia"
+
+#: public/inc/config/tags.php:30
+msgid ""
+"Have spent a total of 10€ on any Ylilauta items to help the admins to "
+"relieve their work stresi wories"
+msgstr ""
+"Olet käyttänyt yhteensä vähintään 10€ mihin tahansa Ylilaudan ostokseen "
+"auttaaksesi ylläpitäjiä poistamaan työ stresi huolia"
+
+#: public/inc/config/tags.php:34
+msgid "Unique snowflake"
+msgstr "Uniikki lumihiutale"
+
+#: public/inc/config/tags.php:38
+msgid "Be a unique snowflake"
+msgstr "Ole uniikki lumihiutale"
+
+#: public/inc/config/tags.php:42
+msgid "Epic guy"
+msgstr "Eeppinen kaveri"
+
+#: public/inc/config/tags.php:46
+msgid "Epic threads give epic tags - have an archived thread"
+msgstr ""
+"Eeppiset langat antavat eeppisiä tageja - tunnuksellasi on arkistoitu lanka"
+
+#: public/inc/config/tags.php:49
+msgid "Adventburger"
+msgstr "Adventtiburgeri"
+
+#: public/inc/config/tags.php:53
+msgid "Get your thread to the advent calendar of Ylilauta"
+msgstr "Saa lankasi Ylilaudan joulukalenteriin"
+
+#: public/inc/config/tags.php:57
+msgid "Midsummer beer"
+msgstr "Juhannusolut"
+
+#: public/inc/config/tags.php:61
+msgid "Submit a post during midsummer"
+msgstr "Lähetä viesti juhannuksena"
+
+#: public/inc/config/tags.php:65
+msgid "Hyperactive"
+msgstr "Hyperaktiivinen"
+
+#: public/inc/config/tags.php:69
+msgid "Have at least 100 000 activity points"
+msgstr "Tunnuksellasi on vähintään 100 000 aktiivisuuspistettä"
+
+#: public/inc/config/tags.php:72
+msgid "Top commenter"
+msgstr "Huippukommentoija"
+
+#: public/inc/config/tags.php:76
+msgid "Your posts have received at least 1000 upboats"
+msgstr "Viestisi ovat saaneet vähintään 1000 tää-ääntä"
+
+#: public/inc/config/tags.php:79
+msgid "Upboated :D"
+msgstr "Tää :D"
+
+#: public/inc/config/tags.php:83
+msgid "Given at least 1000 upboats"
+msgstr "Annettu vähintään 1000 tää-ääntä"
+
+#: public/inc/config/tags.php:86
+msgid "Gold commenter"
+msgstr "Kultakommentoija"
+
+#: public/inc/config/tags.php:90
+msgid "You have received a Gold account from any of your posts"
+msgstr "Olet saanut Kultatilin mistä tahansa viestistäsi"
+
+#: public/inc/config/tags.php:93
+msgid "Goldboated :D"
+msgstr "Kultatää :D"
+
+#: public/inc/config/tags.php:97
+msgid "Donated a Gold account to another user"
+msgstr "Lahjoita Kultatili toiselle käyttäjälle"
+
+#: public/inc/config/tags.php:100
+msgid "YOLO-pro"
+msgstr "YOLO-ammattilainen"
+
+#: public/inc/config/tags.php:104
+msgid "Have achieved a YOLO-jackpot"
+msgstr "Olet saanut YOLO-jackpotin"
+
+#: public/inc/config/tags.php:108
+msgid "Assburger"
+msgstr "Perspurilainen"
+
+#: public/inc/config/tags.php:112 public/inc/config/tags.php:119
+msgid "You need to figure out how to find this"
+msgstr "Sinun täytyy itse selvittää miten tämän saa"
+
+#: public/inc/config/tags.php:115
+msgid "BTW I'm a grill"
+msgstr "Olen muuten grilli"
+
+#: public/inc/config/tags.php:122
+msgid "Anonymous is a leguan"
+msgstr "Anonyymi on leguaani"
+
+#: public/inc/config/tags.php:126
+msgid "There might be a few ways to obtain this - someday, somewhere..."
+msgstr ""
+"Saattaa olla olemassa muutama tapa saada tämä - vielä joskus, vielä "
+"jossain..."
+
+#: public/inc/config/tags.php:130
+msgid "Seal of Ylilauta"
+msgstr "Ylisnorppa"
+
+#: public/inc/config/tags.php:134
+msgid ""
+"You have done something good for Ylilauta, like reported a bug or given a "
+"good development idea"
+msgstr ""
+"Olet tehnyt jotain hyvää Ylilaudalle, kuten esimerkiksi ilmoittanut bugista "
+"tai antanut hyvän kehitysidean"
+
+#: public/inc/config/tags.php:137
+msgid "Ylilauta-pro"
+msgstr "Ylilauta-ammattilainen"
+
+#: public/inc/config/tags.php:141
+msgid "Have an user account older than a year"
+msgstr "Tunnuksesi on vanhempi kuin vuoden"
+
+#: public/inc/config/tags.php:144
+msgid "Always been here"
+msgstr "Aina ollut täällä"
+
+#: public/inc/config/tags.php:148
+msgid "Have an user account older than 3 years"
+msgstr "Tunnuksesi on vanhempi kuin 3 vuotta"
+
+#: public/inc/config/tags.php:151
+msgid "What the heck am I still doing here!?"
+msgstr "Mitäs hemmettiä teen täällä vielä!?"
+
+#: public/inc/config/tags.php:155
+msgid "Have an user account older than 6 years"
+msgstr "Tunnuksesi on vanhempi kuin 6 vuotta"
+
+#: public/inc/config/tags.php:159
+msgid "Markoboy"
+msgstr "Markoboy"
+
+#: public/inc/config/tags.php:163
+msgid "Took part in the markoboy87 -fundraiser (September 2014)"
+msgstr "Ottanut osaa markoboy87 -keräykseen (syyskuu 2014)"
+
+#: public/inc/config/tags.php:166
+msgid "niilo22"
+msgstr "niilo22"
+
+#: public/inc/config/tags.php:170
+msgid "Took part in the niilo22 -fundraiser (October 2015)"
+msgstr "Ottanut osaa niilo22 -keräykseen (lokakuu 2015)"
+
+#: public/inc/config/tags.php:173
+msgid "niilo22 Ultimate"
+msgstr "niilo22 Ultimate"
+
+#: public/inc/config/tags.php:177
+msgid ""
+"Took part in the niilo22 -fundraiser with a sum more than the average "
+"payment (October 2015)"
+msgstr ""
+"Ottanut osaa niilo22 -keräykseen suuremmalla summalla kuin keskimääräinen "
+"maksu (lokakuu 2015)"
+
+#: public/inc/config/tags.php:180
+msgid "Transporter"
+msgstr "Transporter"
+
+#: public/inc/config/tags.php:184
+msgid "Took part in the Ylis Roadtrip -fundraiser (August 2016)"
+msgstr "Ottanut osaa Ylis Roadtrip -keräykseen (elokuu 2016)"
+
+#: public/inc/config/tags.php:187
+msgid "Transporter with flames"
+msgstr "Transporter liekeillä"
+
+#: public/inc/config/tags.php:191
+msgid ""
+"Took part in the Ylis Roadtrip -fundraiser with a sum of 25€ or more (August "
+"2016)"
+msgstr ""
+"Ottanut osaa Ylis Roadtrip -keräykseen summalla 25 € tai enemmän (elokuu "
+"2016)"
+
+#: public/inc/config/tags.php:194
+msgid "Invalid"
+msgstr "Invalidi"
+
+#: public/inc/config/tags.php:198
+msgid "Took part in the Ylis gives back! -fundraiser (June 2017)"
+msgstr "Ottanut osaa Ylis gives back! -keräykseen (kesäkuu 2017)"
+
+#: public/inc/config/tags.php:201
+msgid "Honorary burger"
+msgstr "Kunniaburger"
+
+#: public/inc/config/tags.php:205
+msgid ""
+"Took part in the Ylis gives back! -fundraiser with a sum of more than the "
+"average (June 2017)"
+msgstr ""
+"Ottanut osaa Ylis gives back! -keräykseen suuremmalla summalla kuin "
+"keskimääräinen maksu (kesäkuu 2017)"
+
+#: public/inc/config/tags.php:208
+msgid "Help Helper"
+msgstr "Apu Apustaja"
+
+#: public/inc/config/tags.php:212
+msgid "Took part in the Food Help Helping -fundraiser (December 2018)"
+msgstr "Ottanut osaa Ruoka Apu Apustus -keräykseen (joulukuu 2018)"
+
+#: public/inc/config/tags.php:215
+msgid "Good Apulitan"
+msgstr "Laupias Apulialainen"
+
+#: public/inc/config/tags.php:219
+msgid ""
+"Took part in the Food Help Helping -fundraiser with a sum of more than the "
+"average (December 2018)"
+msgstr ""
+"Ottanut osaa Ruoka Apu Apustus -keräykseen suuremmalla summalla kuin "
+"keskimääräinen maksu (joulukuu 2018)"
+
+#: public/inc/config/tags.php:222
+msgid "Macaroni"
+msgstr "Makaroni"
+
+#: public/inc/config/tags.php:226
+msgid "All of my money went to Hursti, now I will have to eat macaroni"
+msgstr "Kaikki rahat meni Hurstille, nyt täytyy syödä makaronia"
+
+#: public/inc/config/tags.php:230
+msgid "Coronavirus"
+msgstr "Koronavirus"
+
+#: public/inc/config/tags.php:234
+msgid "Got infected by a virtual coronavirus"
+msgstr "Sait virtuaalisen koronavirustartunnan"
+
+#: public/inc/config/tags.php:238
+msgid "Christmasburger"
+msgstr "Jouluburgeri"
+
+#: public/inc/config/tags.php:242
+msgid "Purchased a Gold account during december of 2015"
+msgstr "Ostanut Kultatilin joulukuussa 2015"
+
+#: public/inc/config/tags.php:245
+msgid "Finland 100 years"
+msgstr "Suomi 100 vuotta"
+
+#: public/inc/config/tags.php:249
+msgid "Purchased a Gold account on Finland's 100th independence day"
+msgstr "Ostanut Kultatilin Suomen sadantena itsenäisyyspäivänä"
+
+#: public/inc/config/tags.php:252
+msgid "Mass storage massacre"
+msgstr "Kovokausti"
+
+#: public/inc/config/tags.php:256
+msgid "Lived to tell the tales of the great Mass storage massacre (June 2017)"
+msgstr "Elit suuren Kovokaustin yli (kesäkuu 2017)"
+
+#: public/inc/engine.class.php:257 public/inc/engine.class.php:263
+msgid "Go back"
+msgstr "Palaa takaisin"
+
+#: public/inc/engine.class.php:262
+msgid "Error:"
+msgstr "Virhe:"
+
+#: public/inc/engine.class.php:355
+#, php-format
+msgid "Protected by reCAPTCHA (%sPrivacy%s - %sTerms%s)"
+msgstr "ReCAPTCHAn suojaama (%sTietosuoja%s - %sEhdot%s)"
+
+#: public/inc/html.class.php:152
+msgid "You don't have any followed threads."
+msgstr "Sinulla ei ole seurattuja lankoja."
+
+#: public/inc/html.class.php:185 public/mod/actions/reportedposts.php:111
+#: public/mod/actions/reportedposts.php:115
+msgid "Clear all"
+msgstr "Tyhjennä kaikki"
+
+#: public/inc/html.class.php:186
+msgid "Hide"
+msgstr "Piilota"
+
+#: public/inc/html.class.php:187
+msgid "Update"
+msgstr "Päivitä"
+
+#: public/inc/html.class.php:213 public/inc/html.class.php:222
+#: public/mod/actions/lockedusers.php:44 public/mod/actions/spamguard.php:93
+#: public/preferences.php:209 public/scripts/modals/getpasswordresetform.php:17
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: public/inc/html.class.php:214 public/inc/html.class.php:223
+#: public/ownposts.php:59 public/preferences.php:255
+msgid "Password"
+msgstr "Salasana"
+
+#: public/inc/html.class.php:216
+msgid "Create account"
+msgstr "Luo tunnus"
+
+#: public/inc/html.class.php:217
+msgid "Log in"
+msgstr "Kirjaudu"
+
+#: public/inc/html.class.php:219
+msgid "Forgot password?"
+msgstr "Unohtuiko salasana?"
+
+#: public/inc/html.class.php:223
+#, php-format
+msgid "At least %d characters"
+msgstr "Vähintään %d merkkiä"
+
+#: public/inc/html.class.php:224 public/preferences.php:236
+msgid "Password confirmation"
+msgstr "Salasanavahvistus"
+
+#: public/inc/html.class.php:225
+msgid "Email (optional)"
+msgstr "Sähköposti (valinnainen)"
+
+#: public/inc/html.class.php:228
+msgid "Create"
+msgstr "Luo"
+
+#: public/inc/html.class.php:241
+#, php-format
+msgid "Logged in as %s"
+msgstr "Kirjautuneena: %s"
+
+#: public/inc/html.class.php:248
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: public/inc/html.class.php:250 public/inc/html.class.php:1309
+#: public/mod/index.php:25
+msgid "Management"
+msgstr "Hallinta"
+
+#: public/inc/html.class.php:253 public/preferences.php:406
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: public/inc/html.class.php:257 public/preferences.php:201
+msgid "Activity points"
+msgstr "Aktiivisuuspisteet"
+
+#: public/inc/html.class.php:264
+msgid "1 report"
+msgstr "1 ilmianto"
+
+#: public/inc/html.class.php:264
+#, php-format
+msgid "%s reports"
+msgstr "%s ilmiantoa"
+
+#: public/inc/html.class.php:268
+msgid "1 ban appeal"
+msgstr "1 bannivalitus"
+
+#: public/inc/html.class.php:268
+#, php-format
+msgid "%s ban appeals"
+msgstr "%s bannivalitusta"
+
+#: public/inc/html.class.php:300 public/index.php:66 public/preferences.php:22
+msgid "Boards"
+msgstr "Laudat"
+
+#: public/inc/html.class.php:316 public/index.php:85
+msgid "readers"
+msgstr "lukijaa"
+
+#: public/inc/html.class.php:316 public/index.php:85
+msgid "reader"
+msgstr "lukija"
+
+#: public/inc/html.class.php:336
+msgid "Go to bottom"
+msgstr "Siirry alareunaan"
+
+#: public/inc/html.class.php:337
+msgid "Back to top"
+msgstr "Takaisin ylös"
+
+#: public/inc/html.class.php:338 public/mod/index.php:67
+msgid "Preferences and profile"
+msgstr "Asetukset ja profiili"
+
+#: public/inc/html.class.php:339
+msgid "Refresh page"
+msgstr "Päivitä sivu"
+
+#: public/inc/html.class.php:427
+#, php-format
+msgid ""
+"Temporary spam protection active: You will need to wait %d hour(s) or login "
+"to an older user account to post."
+msgstr ""
+"Väliaikainen roskapostisuoja on aktiivisena: Sinun on odotettava %d tunti(a) "
+"tai kirjauduttava vanhemmalle käyttäjätilille lähettääksesi viestejä."
+
+#: public/inc/html.class.php:434
+msgid "Click for more info..."
+msgstr "Klikkaa tästä saadaksesi lisätietoja..."
+
+#: public/inc/html.class.php:446
+msgid "Create thread"
+msgstr "Luo lanka"
+
+#: public/inc/html.class.php:465
+msgid "Subject (optional)"
+msgstr "Aihe (valinnainen)"
+
+#: public/inc/html.class.php:471 public/mod/actions/modlog.php:33
+#: public/mod/actions/postcounts.php:13
+msgid "Board"
+msgstr "Lauta"
+
+#: public/inc/html.class.php:473
+msgid "Choose board"
+msgstr "Valitse lauta"
+
+#: public/inc/html.class.php:490
+msgid "File"
+msgstr "Tiedosto"
+
+#: public/inc/html.class.php:529
+msgid "Options"
+msgstr "Valinnat"
+
+#: public/inc/html.class.php:535
+msgid "Post settings"
+msgstr "Viestin asetukset"
+
+#: public/inc/html.class.php:536
+msgid "Don't bump the thread"
+msgstr "Älä nosta lankaa"
+
+#: public/inc/html.class.php:537
+msgid "Show username"
+msgstr "Näytä käyttäjänimi"
+
+#: public/inc/html.class.php:538
+msgid "Show filename"
+msgstr "Näytä tiedostonimi"
+
+#: public/inc/html.class.php:539 public/preferences.php:73
+msgid "Gold account functions"
+msgstr "Kultatilitoiminnot"
+
+#: public/inc/html.class.php:540
+msgid "Make post visible only with a Gold account"
+msgstr "Näytä viesti vain Kultatililäisille"
+
+#: public/inc/html.class.php:544 public/inc/html.class.php:1062
+msgid "Moderator functions"
+msgstr "Moderaattoritoiminnot"
+
+#: public/inc/html.class.php:544
+msgid "(for new threads)"
+msgstr "(uusille langoille)"
+
+#: public/inc/html.class.php:545
+msgid "Lock thread"
+msgstr "Lukitse lanka"
+
+#: public/inc/html.class.php:546
+msgid "Stick thread"
+msgstr "Kiinnitä lanka"
+
+#: public/inc/html.class.php:547
+msgid "Show admin-tag"
+msgstr "Näytä ylläpitotagi"
+
+#: public/inc/html.class.php:553 public/preferences.php:25
+msgid "Tags"
+msgstr "Tagit"
+
+#: public/inc/html.class.php:555
+msgid "You don't have any tags"
+msgstr "Sinulla ei ole tageja"
+
+#: public/inc/html.class.php:571
+msgid "How to get tags?"
+msgstr "Miten saan tageja?"
+
+#: public/inc/html.class.php:599
+msgid "Reply to thread"
+msgstr "Vastaa lankaan"
+
+#: public/inc/html.class.php:675
+msgid "Next"
+msgstr "Seuraava"
+
+#: public/inc/html.class.php:745 public/inc/html.class.php:894
+msgid "Remove from followed"
+msgstr "Poista seuratuista"
+
+#: public/inc/html.class.php:748
+msgid "Manage thread"
+msgstr "Hallitse lankaa"
+
+#: public/inc/html.class.php:765 public/inc/html.class.php:880
+msgid "Original post deleted"
+msgstr "Aloitusviesti poistettu"
+
+#: public/inc/html.class.php:782
+msgid "No replies"
+msgstr "Ei vastauksia"
+
+#: public/inc/html.class.php:785
+msgid "One reply"
+msgstr "Yksi vastaus"
+
+#: public/inc/html.class.php:787
+#, php-format
+msgid "%d replies"
+msgstr "%d vastausta"
+
+#: public/inc/html.class.php:791
+msgid "from a single user"
+msgstr "yhdeltä käyttäjältä"
+
+#: public/inc/html.class.php:793
+#, php-format
+msgid "from %d users"
+msgstr "%d käyttäjältä"
+
+#: public/inc/html.class.php:796
+#, php-format
+msgid "opened once"
+msgstr "avattu kerran"
+
+#: public/inc/html.class.php:796
+#, php-format
+msgid "opened %d times"
+msgstr "avattu %d kertaa"
+
+#: public/inc/html.class.php:799
+#, php-format
+msgid "one follower"
+msgstr "yksi seuraaja"
+
+#: public/inc/html.class.php:799
+#, php-format
+msgid "%d followers"
+msgstr "%d seuraajaa"
+
+#: public/inc/html.class.php:801
+#, php-format
+msgid "hidden by one user"
+msgstr "yksi käyttäjä piilottanut"
+
+#: public/inc/html.class.php:801
+#, php-format
+msgid "hidden by %d users"
+msgstr "%d käyttäjää piilottanut"
+
+#: public/inc/html.class.php:814
+msgid "Show earlier replies"
+msgstr "Näytä aiemmat vastaukset"
+
+#: public/inc/html.class.php:815
+msgid "Hide earlier replies"
+msgstr "Piilota aiemmat vastaukset"
+
+#: public/inc/html.class.php:845
+msgid "Open"
+msgstr "Avaa"
+
+#: public/inc/html.class.php:897 public/inc/html.class.php:1050
+msgid "Report message"
+msgstr "Ilmianna viesti"
+
+#: public/inc/html.class.php:900 public/inc/html.class.php:1059
+#: public/mod/actions/addban.php:6
+msgid "Ban user"
+msgstr "Bannaa käyttäjä"
+
+#: public/inc/html.class.php:902 public/inc/html.class.php:1065
+msgid "Share"
+msgstr "Jaa"
+
+#: public/inc/html.class.php:925 public/inc/html.class.php:1100
+#: public/scripts/ajax/message.php:58 public/scripts/ajax/message.php:64
+msgid "This message is only visible to users with a Gold account."
+msgstr "Tämä viesti näkyy vain käyttäjille, joilla on Kultatili."
+
+#: public/inc/html.class.php:981
+msgid "Administration"
+msgstr "Ylläpito"
+
+#: public/inc/html.class.php:1009
+msgid "Show edit history"
+msgstr "Näytä muokkaushistoria"
+
+#: public/inc/html.class.php:1009
+msgid "edited"
+msgstr "muokattu"
+
+#: public/inc/html.class.php:1037
+msgid "Upboat"
+msgstr "Tää :D"
+
+#: public/inc/html.class.php:1038
+msgid "Donate gold"
+msgstr "Lahjoita kultatili"
+
+#: public/inc/html.class.php:1045
+msgid "Edit message"
+msgstr "Muokkaa viestiä"
+
+#: public/inc/html.class.php:1054 public/inc/html.class.php:1077
+#: public/mod/actions/addban.php:185 public/mod/actions/deletepost.php:7
+#: public/mod/actions/deletepost.php:19
+msgid "Delete message"
+msgstr "Poista viesti"
+
+#: public/inc/html.class.php:1074
+msgid "IP"
+msgstr "IP"
+
+#: public/inc/html.class.php:1310 public/mod/actions/bulletinboard.php:9
+msgid "Bulletin board"
+msgstr "Ilmoitustaulu"
+
+#: public/inc/html.class.php:1313
+msgid "Reported posts"
+msgstr "Ilmiannetut viestit"
+
+#: public/inc/html.class.php:1314 public/mod/actions/banappeals.php:6
+msgid "Ban appeals"
+msgstr "Bannivalitukset"
+
+#: public/inc/html.class.php:1315
+msgid "Ban a user"
+msgstr "Bannaa käyttäjä"
+
+#: public/inc/html.class.php:1316 public/mod/actions/managebans.php:27
+msgid "Manage bans"
+msgstr "Hallitse banneja"
+
+#: public/inc/html.class.php:1319 public/mod/actions/admins.php:7
+msgid "Moderator list"
+msgstr "Moderaattorilista"
+
+#: public/inc/html.class.php:1320 public/mod/actions/modlog.php:20
+msgid "Moderation log"
+msgstr "Moderointiloki"
+
+#: public/inc/html.class.php:1321 public/mod/actions/postcounts.php:9
+msgid "Message amounts"
+msgstr "Viestimäärät"
+
+#: public/inc/html.class.php:1324
+msgid "Manage Gold accounts"
+msgstr "Kultatilihallinta"
+
+#: public/inc/html.class.php:1327
+msgid "Manage boards"
+msgstr "Hallitse lautoja"
+
+#: public/inc/html.class.php:1328
+msgid "Blacklisted words"
+msgstr "Mustalistatut sanat"
+
+#: public/inc/html.class.php:1329
+msgid "File search"
+msgstr "Tiedostohaku"
+
+#: public/inc/html.class.php:1330
+msgid "Deleted posts"
+msgstr "Poistetut viestit"
+
+#: public/inc/html.class.php:1331
+msgid "Delete a thread or a post"
+msgstr "Poista lanka tai viesti"
+
+#: public/inc/html.class.php:1332
+msgid "Update thread options"
+msgstr "Päivitä langan tietoja"
+
+#: public/inc/html.class.php:1333
+msgid "Post stream"
+msgstr "Viestisyöte"
+
+#: public/inc/html.class.php:1334
+msgid "Search multiple posts"
+msgstr "Etsi useita viestejä"
+
+#: public/inc/html.class.php:1335
+msgid "Search user posts"
+msgstr "Etsi käyttäjän viestit"
+
+#: public/inc/html.class.php:1336 public/mod/actions/spamguard.php:84
+msgid "New users"
+msgstr "Uudet käyttäjät"
+
+#: public/inc/html.class.php:1337 public/mod/actions/lockedusers.php:39
+msgid "Locked users"
+msgstr ""
+
+#: public/inc/user.class.php:192
+msgid "Other reason"
+msgstr "Jokin muu syy"
+
+#: public/inc/user.class.php:193
+msgid "Illegal or dangerous content"
+msgstr "Laiton tai vaarallinen sisältö"
+
+#: public/inc/user.class.php:194
+msgid "Illegal or dangerous content (extreme violence)"
+msgstr "Laiton tai vaarallinen sisältö (raaka väkivalta)"
+
+#: public/inc/user.class.php:195
+msgid "Illegal or dangerous content (sexual material of children)"
+msgstr "Laiton tai vaarallinen sisältö (lasten seksualisointi)"
+
+#: public/inc/user.class.php:196
+msgid "Illegal or dangerous content (selling/buying drugs)"
+msgstr "Laiton tai vaarallinen sisältö (huumeiden osto/myynti)"
+
+#: public/inc/user.class.php:197
+msgid "Spam"
+msgstr "Roskapostitus"
+
+#: public/inc/user.class.php:198
+msgid "Spam (repetitive or duplicate content)"
+msgstr "Roskapostitus (toistuva tai duplikaatti sisältö)"
+
+#: public/inc/user.class.php:199
+msgid "Spam (post solely intended to bump a thread)"
+msgstr "Roskapostitus (viesti jonka ainoa tarkoitus on nostaa lankaa)"
+
+#: public/inc/user.class.php:200
+msgid "Spam (anime)"
+msgstr "Roskapostitus (anime)"
+
+#: public/inc/user.class.php:201
+msgid "Spam (telling others that you reported a post)"
+msgstr "Roskapostitus (viestin ilmiantamisesta ilmoittaminen muille)"
+
+#: public/inc/user.class.php:202
+msgid "Malicious content"
+msgstr "Haitallinen sisältö"
+
+#: public/inc/user.class.php:203
+msgid "Malicious content (link shorteners)"
+msgstr "Haitallinen sisältö (linkinlyhentimet)"
+
+#: public/inc/user.class.php:204
+msgid "Advertising"
+msgstr "Mainostaminen"
+
+#: public/inc/user.class.php:205
+msgid "Harassment"
+msgstr "Häiriköinti"
+
+#: public/inc/user.class.php:206
+msgid "Sexually explicit content"
+msgstr "Seksuaalinen sisältö"
+
+#: public/inc/user.class.php:207
+msgid "Inappropriate content"
+msgstr "Sopimaton sisältö"
+
+#: public/inc/user.class.php:208 public/scripts/ajax/post.php:279
+msgid "Your message contained a blacklisted word"
+msgstr "Viestisi sisälsi mustalistatun sanan"
+
+#: public/inc/user.class.php:1282
+msgid "day"
+msgstr "päivä"
+
+#: public/inc/user.class.php:1285
+msgid "week"
+msgstr "viikko"
+
+#: public/inc/user.class.php:1288
+msgid "month"
+msgstr "kuukausi"
+
+#: public/inc/user.class.php:1291 public/inc/user.class.php:1294
+msgid "months"
+msgstr "kuukautta"
+
+#: public/inc/user.class.php:1297
+msgid "year"
+msgstr "vuosi"
+
+#: public/inc/user.class.php:1300
+msgid "years"
+msgstr "vuotta"
+
+#: public/inc/user.class.php:1303
+msgid "seconds"
+msgstr "sekuntia"
+
+#: public/inc/user.class.php:1368
+msgid "This key has already been used."
+msgstr "Tämä avain on jo käytetty."
+
+#: public/inc/user.class.php:1372
+msgid ""
+"You already have a platinum account, you cannot activate Gold account keys."
+msgstr "Sinulla on jo platinatili, joten et voi aktivoida Kultatiliavaimia."
+
+#: public/inc/user.class.php:1901
+msgid "Exists"
+msgstr "Asetettu"
+
+#: public/inc/user.class.php:1904
+msgid "Not set"
+msgstr "Ei asetettu"
+
+#: public/index.php:35
+#, php-format
+msgid "%s sent messages already!"
+msgstr "jo %s lähetettyä viestiä!"
+
+#: public/index.php:67
+#, php-format
+msgid "%s users online"
+msgstr "%s käyttäjää paikalla"
+
+#: public/index.php:69
+#, php-format
+msgid "%s messages during the last hour"
+msgstr "%s viestiä viimeisen tunnin aikana"
+
+#: public/index.php:144
+msgid "Popular threads right now"
+msgstr "Suositut langat juuri nyt"
+
+#: public/index.php:148
+msgid "Popular threads today"
+msgstr "Suositut langat tänään"
+
+#: public/mod/actions/addban.php:17
+#, php-format
+msgid "Post %d does not exist"
+msgstr "Viestiä %d ei ole olemassa"
+
+#: public/mod/actions/addban.php:181
+msgid "Post ID"
+msgstr "Viestin ID"
+
+#: public/mod/actions/addban.php:189
+msgid "Delete all posts by the user in the last 24h"
+msgstr "Poista kaikki käyttäjän viestit viimeisen vuorokauden ajalta"
+
+#: public/mod/actions/addban.php:201
+msgid "Delete all threads by the user in the last 24h"
+msgstr "Poista kaikki käyttäjän langat viimeisen vuorokauden ajalta"
+
+#: public/mod/actions/addban.php:205
+msgid "Ban user account"
+msgstr "Bannaa käyttäjätunnus"
+
+#: public/mod/actions/addban.php:209
+msgid "Ban IP-address"
+msgstr "Bannaa IP-osoite"
+
+#: public/mod/actions/addban.php:214
+msgid "Reason and length"
+msgstr "Syy ja pituus"
+
+#: public/mod/actions/addban.php:216
+msgid "Choose reason"
+msgstr "Valitse syy"
+
+#: public/mod/actions/addban.php:266
+msgid "Additional info (optional)"
+msgstr "Lisätiedot (vapaaehtoinen)"
+
+#: public/mod/actions/addban.php:267
+msgid "Ban length in seconds"
+msgstr "Bannin pituus sekunneissa"
+
+#: public/mod/actions/admins.php:10
+msgid "User (ID)"
+msgstr "Käyttäjä (ID)"
+
+#: public/mod/actions/admins.php:11
+msgid "Class"
+msgstr "Luokka"
+
+#: public/mod/actions/admins.php:12
+msgid "Log rows (last month)"
+msgstr "Logirivejä (viimeinen kuukausi)"
+
+#: public/mod/actions/admins.php:13
+msgid "(last 6 months)"
+msgstr "(viimeiset 6 kuukautta)"
+
+#: public/mod/actions/admins.php:14
+msgid "Last active"
+msgstr "Viimeksi aktiivisena"
+
+#: public/mod/actions/admins.php:27
+msgid "Admin"
+msgstr "Ylläpitäjä"
+
+#: public/mod/actions/admins.php:29
+msgid "Super moderator"
+msgstr "Supermoderaattori"
+
+#: public/mod/actions/admins.php:31 public/mod/actions/modlog.php:31
+msgid "Moderator"
+msgstr "Moderaattori"
+
+#: public/mod/actions/banappeals.php:13 public/mod/actions/banappeals.php:19
+#: public/mod/actions/managebans.php:17
+msgid "Database error"
+msgstr "Tietokantavirhe"
+
+#: public/mod/actions/banappeals.php:29 public/mod/actions/managebans.php:44
+msgid "Banned by"
+msgstr "Bannaaja"
+
+#: public/mod/actions/banappeals.php:30 public/mod/actions/managebans.php:46
+msgid "Added"
+msgstr "Lisätty"
+
+#: public/mod/actions/banappeals.php:31 public/mod/actions/managebans.php:47
+msgid "Ends"
+msgstr "Päättyy"
+
+#: public/mod/actions/banappeals.php:32 public/mod/actions/managebans.php:45
+#: public/mod/actions/reportedposts.php:75
+msgid "Reason"
+msgstr "Syy"
+
+#: public/mod/actions/banappeals.php:33 public/mod/actions/lockedusers.php:48
+#: public/mod/actions/managebans.php:48 public/mod/actions/reportedposts.php:81
+#: public/mod/actions/spamguard.php:98 public/preferences.php:388
+msgid "Actions"
+msgstr "Toimenpiteet"
+
+#: public/mod/actions/banappeals.php:58
+msgid "Accept"
+msgstr "Hyväksy"
+
+#: public/mod/actions/banappeals.php:59
+msgid "Reject"
+msgstr "Hylkää"
+
+#: public/mod/actions/banappeals.php:64
+msgid "Appeal"
+msgstr "Valitus"
+
+#: public/mod/actions/banappeals.php:67
+msgid "Post"
+msgstr "Viesti"
+
+#: public/mod/actions/banappeals.php:79
+msgid "No unchecked ban appeals"
+msgstr "Ei tarkistamattomia bannivalituksia"
+
+#: public/mod/actions/bulletinboard.php:12
+msgid "No announcements"
+msgstr "Ei ilmoituksia"
+
+#: public/mod/actions/deletepost.php:12
+msgid "Message ID"
+msgstr "Viestin ID"
+
+#: public/mod/actions/deletepost.php:16
+msgid "Delete file only"
+msgstr "Poista vain tiedosto"
+
+#: public/mod/actions/deletepost.php:22 public/mod/actions/deletepost.php:25
+msgid "Delete messages by the user"
+msgstr "Poista viestit käyttäjältä"
+
+#: public/mod/actions/deletepost.php:27
+msgid "Interval in seconds (0 = all)"
+msgstr "Aikaväli sekunneissa (0 = kaikki)"
+
+#: public/mod/actions/deletepost.php:30
+msgid "Delete multiple messages"
+msgstr "Poista useita viestejä"
+
+#: public/mod/actions/deletepost.php:37 public/scripts/ajax/checkreport.php:34
+#: public/scripts/ajax/delete.php:29 public/scripts/ajax/embedhtml.php:20
+#: public/scripts/ajax/message.php:48 public/scripts/ajax/message.php:51
+#: public/scripts/ajax/message.php:61 public/scripts/ajax/report.php:52
+#: public/scripts/ajax/savemessage.php:30
+#: public/scripts/modals/getreportform.php:28
+msgid "Post does not exist"
+msgstr "Viestiä ei ole olemassa"
+
+#: public/mod/actions/deletepost.php:66
+msgid "File deleted from message"
+msgstr "Tiedosto poistettu viestistä"
+
+#: public/mod/actions/deletepost.php:68
+#, php-format
+msgid "File deleted from %d messages"
+msgstr "Tiedosto poistettu %d viestistä"
+
+#: public/mod/actions/deletepost.php:71
+msgid "Deleting the file failed"
+msgstr "Tiedoston poistaminen epäonnistui"
+
+#: public/mod/actions/deletepost.php:81
+msgid "Message deleted"
+msgstr "Viesti poistettu"
+
+#: public/mod/actions/deletepost.php:83
+#, php-format
+msgid "%d messages deleted"
+msgstr "%d viestiä poistettu"
+
+#: public/mod/actions/deletepost.php:86
+msgid "Deleting the message failed"
+msgstr "Viestin poistaminen epäonnistui"
+
+#: public/mod/actions/lockedusers.php:22 public/mod/actions/lockedusers.php:61
+#: public/mod/actions/spamguard.php:42 public/mod/actions/spamguard.php:112
+msgid "Lock account"
+msgstr "Lukitse tunnus"
+
+#: public/mod/actions/lockedusers.php:26 public/mod/actions/lockedusers.php:61
+#: public/mod/actions/spamguard.php:46 public/mod/actions/spamguard.php:112
+msgid "Unlock account"
+msgstr "Avaa tunnus"
+
+#: public/mod/actions/lockedusers.php:43 public/mod/actions/spamguard.php:92
+msgid "Id"
+msgstr "Id"
+
+#: public/mod/actions/lockedusers.php:45 public/mod/actions/spamguard.php:94
+#: public/preferences.php:182
+msgid "Account created"
+msgstr "Tunnus luotu"
+
+#: public/mod/actions/lockedusers.php:46 public/mod/actions/spamguard.php:96
+msgid "Last IP"
+msgstr ""
+
+#: public/mod/actions/lockedusers.php:47 public/mod/actions/spamguard.php:95
+msgid "Has email"
+msgstr ""
+
+#: public/mod/actions/lockedusers.php:58 public/mod/actions/spamguard.php:107
+#: public/preferences.php:316
+msgid "No"
+msgstr "Ei"
+
+#: public/mod/actions/lockedusers.php:58 public/mod/actions/spamguard.php:107
+#: public/preferences.php:316
+msgid "Yes"
+msgstr "Kyllä"
+
+#: public/mod/actions/managebans.php:7
+msgid "Delete ban"
+msgstr "Poista banni"
+
+#: public/mod/actions/managebans.php:9 public/mod/actions/reportedposts.php:10
+#: public/mod/actions/reportedposts.php:25
+msgid "Invalid token"
+msgstr "Virheellinen tarkiste"
+
+#: public/mod/actions/managebans.php:15
+msgid "Ban deleted"
+msgstr "Banni poistettu"
+
+#: public/mod/actions/managebans.php:15 public/mod/actions/reportedposts.php:18
+#: public/mod/actions/reportedposts.php:31
+msgid "Return"
+msgstr "Palaa takaisin"
+
+#: public/mod/actions/managebans.php:31
+msgid "All active bans"
+msgstr "Kaikki aktiiviset bannit"
+
+#: public/mod/actions/managebans.php:32
+msgid "Show expired bans"
+msgstr "Näytä vanhentuneet bannit"
+
+#: public/mod/actions/managebans.php:35
+msgid "Expired bans"
+msgstr "Vanhentuneet bannit"
+
+#: public/mod/actions/managebans.php:36
+msgid "Show active bans"
+msgstr "Näytä aktiiviset bannit"
+
+#: public/mod/actions/managebans.php:64 public/ownposts.php:72
+msgid "Delete"
+msgstr "Poista"
+
+#: public/mod/actions/modlog.php:24
+#, php-format
+msgid "Viewing the moderation log of %s"
+msgstr "Näytetään käyttäjän %s moderointiloki"
+
+#: public/mod/actions/modlog.php:25
+msgid "Show all"
+msgstr "Näytä kaikki"
+
+#: public/mod/actions/modlog.php:32
+msgid "Action"
+msgstr "Toimenpide"
+
+#: public/mod/actions/modlog.php:36
+msgid "Information"
+msgstr "Tiedot"
+
+#: public/mod/actions/modlog.php:37
+msgid "Timestamp"
+msgstr "Aikaleima"
+
+#: public/mod/actions/modlog.php:38 public/preferences.php:385
+msgid "IP-address"
+msgstr "IP-osoite"
+
+#: public/mod/actions/modlog.php:43
+msgid "Deleted a message"
+msgstr "Poisti viestin"
+
+#: public/mod/actions/modlog.php:44
+msgid "Banned an user"
+msgstr "Bannasi käyttäjän"
+
+#: public/mod/actions/modlog.php:45
+msgid "Sent a message as an admin"
+msgstr "Lähetti viestin ylläpitäjänä"
+
+#: public/mod/actions/modlog.php:46
+msgid "Invalid login"
+msgstr "Virheellinen tunnus"
+
+#: public/mod/actions/modlog.php:47
+msgid "Stickied a thread"
+msgstr "Kiinnitti langan"
+
+#: public/mod/actions/modlog.php:48
+msgid "Unstickied a thread"
+msgstr "Poisti langan kiinnityksen"
+
+#: public/mod/actions/modlog.php:49
+msgid "Locked a thread"
+msgstr "Lukitsi langan"
+
+#: public/mod/actions/modlog.php:50
+msgid "Unlocked a thread"
+msgstr "Avasi langan"
+
+#: public/mod/actions/modlog.php:51
+msgid "Deleted a thread"
+msgstr "Poisti langan"
+
+#: public/mod/actions/modlog.php:52
+msgid "Deleted a post"
+msgstr "Poisti viestin"
+
+#: public/mod/actions/modlog.php:53
+msgid "Deleted a file from a message"
+msgstr "Poisti tiedoston viestistä"
+
+#: public/mod/actions/modlog.php:54
+msgid "Changed blacklisted words"
+msgstr "Vaihtoi mustalistattuja sanoja"
+
+#: public/mod/actions/modlog.php:55
+msgid "Created a Gold account key"
+msgstr "Loi Kultatiliavaimen"
+
+#: public/mod/actions/modlog.php:56
+msgid "Moved a thread"
+msgstr "Siirsi langan"
+
+#: public/mod/actions/modlog.php:57
+msgid "Checked a report"
+msgstr "Tarkisti ilmiannon"
+
+#: public/mod/actions/modlog.php:58
+msgid "Marked all reports as checked"
+msgstr "Merkitsi kaikki ilmiannot tarkistetuksi"
+
+#: public/mod/actions/modlog.php:59
+msgid "Logged in"
+msgstr "Kirjautuneena"
+
+#: public/mod/actions/modlog.php:60
+msgid "Locked an user"
+msgstr "Lukitsi käyttäjän"
+
+#: public/mod/actions/modlog.php:61
+msgid "Unlocked an user"
+msgstr "Avasi käyttäjän"
+
+#: public/mod/actions/modlog.php:62
+msgid "Enabled antispam"
+msgstr ""
+
+#: public/mod/actions/modlog.php:63
+msgid "Disabled antispam"
+msgstr ""
+
+#: public/mod/actions/postcounts.php:14
+msgid "Messages per month"
+msgstr "Viestiä per kuukausi"
+
+#: public/mod/actions/postcounts.php:15
+msgid "Messages per day"
+msgstr "Viestiä per päivä"
+
+#: public/mod/actions/postcounts.php:16
+msgid "Messages per hour"
+msgstr "Viestiä per tunti"
+
+#: public/mod/actions/postcounts.php:66
+msgid "Total"
+msgstr "Yhteensä"
+
+#: public/mod/actions/poststream.php:20 public/scripts/ajax/activategold.php:13
+#: public/scripts/ajax/changepassword.php:12
+#: public/scripts/ajax/changepassword.php:33
+#: public/scripts/ajax/changepassword.php:66
+#: public/scripts/ajax/changepassword.php:75
+#: public/scripts/ajax/checkreport.php:15
+#: public/scripts/ajax/checkreport.php:25 public/scripts/ajax/delete.php:20
+#: public/scripts/ajax/deleteprofile.php:14
+#: public/scripts/ajax/deletethread.php:20
+#: public/scripts/ajax/donate_gold_key.php:19 public/scripts/ajax/expand.php:18
+#: public/scripts/ajax/follow.php:16 public/scripts/ajax/get_new_replies.php:18
+#: public/scripts/ajax/hide_ping.php:17 public/scripts/ajax/message.php:18
+#: public/scripts/ajax/post.php:89 public/scripts/ajax/savedisplaystyle.php:21
+#: public/scripts/ajax/savemessage.php:18
+#: public/scripts/ajax/sendrecoverycode.php:21
+#: public/scripts/ajax/spamguard.php:18 public/scripts/ajax/spamguard.php:33
+#: public/scripts/ajax/spamguard.php:44 public/scripts/managesessions.php:13
+#: public/scripts/modals/getedits.php:18
+#: public/scripts/modals/getgolddonateform.php:13
+#: public/scripts/modals/getreportform.php:17
+msgid "Bad request"
+msgstr "Virheellinen pyyntö"
+
+#: public/mod/actions/poststream.php:24 public/scripts/ajax/spamguard.php:27
+msgid "Unauthorized"
+msgstr "Pääsy evätty"
+
+#: public/mod/actions/reportedposts.php:6
+msgid "Reported messages"
+msgstr "Ilmiannetut viestit"
+
+#: public/mod/actions/reportedposts.php:12
+msgid "Invalid IP-address"
+msgstr "Virheellinen IP-osoite"
+
+#: public/mod/actions/reportedposts.php:18
+msgid "All reports from ip cleared"
+msgstr "Kaikki ilmoitukset IP:ltä poitettu"
+
+#: public/mod/actions/reportedposts.php:20
+#: public/mod/actions/reportedposts.php:33
+#: public/mod/actions/updatethread.php:69
+#: public/scripts/ajax/checkreport.php:41
+msgid "Action failed"
+msgstr "Toimenpide epäonnistui"
+
+#: public/mod/actions/reportedposts.php:31
+msgid "All reports from user cleared"
+msgstr "Kaikki ilmiannot käyttäjältä poistettu"
+
+#: public/mod/actions/reportedposts.php:59
+msgid "Uncleared reports"
+msgstr "Tarkistamattomat ilmiannot"
+
+#: public/mod/actions/reportedposts.php:61
+msgid "Show cleared reports"
+msgstr "Näytä tarkistetut ilmiannot"
+
+#: public/mod/actions/reportedposts.php:64
+msgid "Cleared reports"
+msgstr "Tarkistetut ilmiannot"
+
+#: public/mod/actions/reportedposts.php:65
+msgid "Show uncleared reports"
+msgstr "Näytä tarkistamattomat ilmiannot"
+
+#: public/mod/actions/reportedposts.php:76
+msgid "By IP"
+msgstr "IP:n mukaan"
+
+#: public/mod/actions/reportedposts.php:77
+msgid "By user"
+msgstr "Käyttäjän mukaan"
+
+#: public/mod/actions/reportedposts.php:78
+msgid "Reported"
+msgstr "Ilmiannettu"
+
+#: public/mod/actions/reportedposts.php:84
+msgid "Checked by"
+msgstr "Tarkistaja"
+
+#: public/mod/actions/reportedposts.php:143
+msgid "No reports"
+msgstr "Ei ilmiantoja"
+
+#: public/mod/actions/spamguard.php:54 public/mod/actions/spamguard.php:88
+msgid "Disable"
+msgstr "Poista käytöstä"
+
+#: public/mod/actions/spamguard.php:59 public/mod/actions/spamguard.php:88
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+#: public/mod/actions/spamguard.php:86
+msgid "Anti spam:"
+msgstr "Antispam:"
+
+#: public/mod/actions/spamguard.php:97
+msgid "Accounts from IP"
+msgstr ""
+
+#: public/mod/actions/updatethread.php:13
+msgid "Manage thread options"
+msgstr "Hallitse langan tietoja"
+
+#: public/mod/actions/updatethread.php:49
+msgid "Thread locked"
+msgstr "Lanka lukittu"
+
+#: public/mod/actions/updatethread.php:52
+msgid "Thread unlocked"
+msgstr "Lanka avattu"
+
+#: public/mod/actions/updatethread.php:55
+msgid "Thread stickied"
+msgstr "Lanka kiinnitetty"
+
+#: public/mod/actions/updatethread.php:58
+msgid "Thread unstickied"
+msgstr "Langan kiinnitys poistettu"
+
+#: public/mod/actions/updatethread.php:61
+msgid "Thread moved"
+msgstr "Lanka siirretty"
+
+#: public/mod/actions/updatethread.php:64
+msgid "Go to thread"
+msgstr "Siirry lankaan"
+
+#: public/mod/actions/updatethread.php:65
+msgid "Go to board"
+msgstr "Siirry laudalle"
+
+#: public/mod/actions/updatethread.php:76
+#: public/mod/actions/updatethread.php:77
+msgid "Thread ID"
+msgstr "Langan ID"
+
+#: public/mod/actions/updatethread.php:80
+msgid "Lock or stick thread"
+msgstr "Lukitse tai kiinnitä lanka"
+
+#: public/mod/actions/updatethread.php:83
+msgid "Lock"
+msgstr "Lukitse"
+
+#: public/mod/actions/updatethread.php:86
+msgid "Unlock"
+msgstr "Avaa"
+
+#: public/mod/actions/updatethread.php:89
+msgid "Stick"
+msgstr "Kiinnitä"
+
+#: public/mod/actions/updatethread.php:92
+msgid "Unstick"
+msgstr "Poista kiinnitys"
+
+#: public/mod/actions/updatethread.php:98
+msgid "Move to another board"
+msgstr "Siirrä toiselle laudalle"
+
+#: public/mod/actions/updatethread.php:102
+msgid "Bump thread"
+msgstr "Nosta lanka"
+
+#: public/mod/actions/updatethread.php:104
+msgid "Move"
+msgstr "Siirrä"
+
+#: public/mod/index.php:66
+msgid "Reports"
+msgstr "Ilmiannot"
+
+#: public/mod/index.php:73
+msgid "Insufficient permissions"
+msgstr "Ei oikeuksia"
+
+#: public/mod/mod_functions.php:10 public/mod/mod_functions.php:11
+#: public/mod/mod_functions.php:12 public/mod/mod_functions.php:13
+#, php-format
+msgid "%dh"
+msgstr "%dt"
+
+#: public/mod/mod_functions.php:14 public/mod/mod_functions.php:15
+#, php-format
+msgid "%dd"
+msgstr "%dpv"
+
+#: public/mod/mod_functions.php:16 public/mod/mod_functions.php:17
+#, php-format
+msgid "%dw"
+msgstr "%dvk"
+
+#: public/mod/mod_functions.php:18
+#, php-format
+msgid "%dm"
+msgstr "%dkk"
+
+#: public/mod/mod_functions.php:36
+msgid "Choose"
+msgstr "Valitse"
+
+#: public/ownposts.php:31
+msgid "Threads you have made"
+msgstr "Luomasi langat"
+
+#: public/ownposts.php:37
+#, php-format
+msgid "Total: %d threads"
+msgstr "Yhteensä %d lankaa"
+
+#: public/ownposts.php:39
+msgid "Replies you have sent"
+msgstr "Lähettämäsi vastaukset"
+
+#: public/ownposts.php:45
+#, php-format
+msgid "Total: %d replies"
+msgstr "Yhteensä %d vastausta"
+
+#: public/ownposts.php:47
+msgid "Posts you have upvoted"
+msgstr "Viestit, joille olet antanut tää-äänen"
+
+#: public/ownposts.php:53
+#, php-format
+msgid "Total: %d posts"
+msgstr "Yhteensä %d viestiä"
+
+#: public/ownposts.php:56
+msgid "Delete data"
+msgstr "Poista tietoja"
+
+#: public/ownposts.php:63
+msgid "Delete all threads I have made"
+msgstr "Poista kaikki luomani langat"
+
+#: public/ownposts.php:66
+msgid "Delete all thread replies I have sent (excluding your own threads)"
+msgstr ""
+"Poista kaikki lähettämäni vastaukset lankoihin (lukuunottamatta omia lankoja)"
+
+#: public/ownposts.php:69
+msgid "Delete all upvotes I have given"
+msgstr "Poista kaikki antamani tää-äänet"
+
+#: public/preferences.php:21
+msgid "Site preferences"
+msgstr "Sivuston asetukset"
+
+#: public/preferences.php:23
+msgid "User profile"
+msgstr "Käyttäjäprofiili"
+
+#: public/preferences.php:26 public/preferences.php:376
+msgid "Active logins"
+msgstr "Aktiiviset kirjautumiset"
+
+#: public/preferences.php:33
+msgid "General preferences"
+msgstr "Yleiset asetukset"
+
+#: public/preferences.php:36
+msgid "Hide image thumbnails"
+msgstr "Piilota esikatselukuvat"
+
+#: public/preferences.php:39
+msgid "Notifications and subscribed threads"
+msgstr "Ilmoitukset ja seuratut langat"
+
+#: public/preferences.php:42
+msgid "Automatically subscribe to all threads I create"
+msgstr "Seuraa automaattisesti luomiani lankoja"
+
+#: public/preferences.php:46
+msgid "Automatically subscribe to all threads I reply to"
+msgstr "Seuraa automaattisesti lankoja, joihin vastaan"
+
+#: public/preferences.php:50
+msgid "Notify me about new replies to my threads"
+msgstr "Ilmoita minulle uusista vastauksista lankoihini"
+
+#: public/preferences.php:54
+msgid "Notify me about new replies to threads I am subscribed to"
+msgstr "Ilmoita minulle uusista vastauksista seuraamiini lankoihin"
+
+#: public/preferences.php:58
+msgid "Notify me about new replies to my posts"
+msgstr "Ilmoita minulle uusista vastauksista viesteihini"
+
+#: public/preferences.php:62
+msgid "Notify me about upvotes to my posts"
+msgstr "Ilmoita minulle tää-äänistä viesteihini"
+
+#: public/preferences.php:66
+msgid "Show floating followed threads -box"
+msgstr "Näytä kelluva seuratut langat -laatikko"
+
+#: public/preferences.php:68
+msgid "Order of followed threads"
+msgstr "Seurattujen lankojen järjestys"
+
+#: public/preferences.php:70
+msgid "Threads with most unread replies first"
+msgstr "Ensin langat, joissa on eniten lukemattomia vastauksia"
+
+#: public/preferences.php:71
+msgid "Threads with latest replies first"
+msgstr "Ensin langat, joissa on uusimmat vastaukset"
+
+#: public/preferences.php:77 public/preferences.php:126
+msgid "To activate these functions, you need to have a Ylilauta Gold account."
+msgstr "Aktivoidaksesi nämä toiminnot tarvitset Ylilaudan Kultatilin."
+
+#: public/preferences.php:83
+msgid "Remove advertisements and analytics"
+msgstr "Poista mainokset ja tilastointi"
+
+#: public/preferences.php:86
+msgid "Hide all posts from these users (one per row)"
+msgstr "Piilota kaikki viestit näiltä käyttäjiltä (yksi riviä kohden)"
+
+#: public/preferences.php:89
+msgid "Custom CSS"
+msgstr "Omat CSS-määritykset"
+
+#: public/preferences.php:91
+msgid "Display text input"
+msgstr "Näytä tekstikenttä"
+
+#: public/preferences.php:101
+#, php-format
+msgid ""
+"If you accidentally do something stupid with this field, just open <b>%s</b> "
+"to restore the defaults."
+msgstr ""
+"Jos teet vahingossa jotain tyhmää tämän kentän kanssa, voit palauttaa "
+"oletukset avaamalla <b>%s</b>."
+
+#: public/preferences.php:107
+msgid "Display language"
+msgstr "Näyttökieli"
+
+#: public/preferences.php:116
+msgid "Layout and appearance"
+msgstr "Teema ja ulkonäkö"
+
+#: public/preferences.php:117
+msgid "Stylesheet"
+msgstr "Tyylitiedosto"
+
+#: public/preferences.php:129
+msgid "Threads per board page"
+msgstr "Lankoja per lautasivu"
+
+#: public/preferences.php:138
+msgid "Posts per thread on board page"
+msgstr "Viestejä per lanka lautasivulla"
+
+#: public/preferences.php:148 public/preferences.php:174
+msgid "Save changes to preferences"
+msgstr "Tallenna muutokset asetuksiin"
+
+#: public/preferences.php:154
+msgid "Hiding of boards"
+msgstr "Lautojen piilottaminen"
+
+#: public/preferences.php:155
+msgid ""
+"Select the boards to be hidden from board listings and from pages that show "
+"threads from multiple boards."
+msgstr ""
+"Valitse laudat jotka haluat piilottaa lautaluetteloista ja sivuilta, jotka "
+"näyttävät lankoja useammilta laudoilta."
+
+#: public/preferences.php:156
+msgid ""
+"The percentage after the board name tells you how many users have hidden "
+"that particular board."
+msgstr ""
+"Prosenttimäärä laudan nimen perässä kertoo kuinka moni käyttäjä on "
+"piilottanut kyseisen laudan."
+
+#: public/preferences.php:157
+msgid "Toggle all"
+msgstr "Vaihda kaikki"
+
+#: public/preferences.php:180
+msgid "Trivia"
+msgstr "Nippelitietoa"
+
+#: public/preferences.php:184
+msgid "User ID"
+msgstr "Käyttäjän ID"
+
+#: public/preferences.php:185
+msgid "Started threads"
+msgstr "Aloitettuja lankoja"
+
+#: public/preferences.php:186
+msgid "Sent messages"
+msgstr "Lähetettyjä viestejä"
+
+#: public/preferences.php:187
+msgid "Total pageloads"
+msgstr "Sivulatauksia yhteensä"
+
+#: public/preferences.php:188
+msgid "Total characters in messages"
+msgstr "Merkkejä viesteissä yhteensä"
+
+#: public/preferences.php:189
+msgid "Average message length"
+msgstr "Viestien keskim. pituus"
+
+#: public/preferences.php:189
+msgid "characters"
+msgstr "merkkiä"
+
+#: public/preferences.php:190
+msgid "Epic threads"
+msgstr "Eeppisiä lankoja"
+
+#: public/preferences.php:191
+msgid "Threads hidden"
+msgstr "Piilotettuja lankoja"
+
+#: public/preferences.php:192
+msgid "Threads followed"
+msgstr "Seurattuja lankoja"
+
+#: public/preferences.php:193
+msgid "Uploaded files"
+msgstr "Lähetettyjä tiedostoja"
+
+#: public/preferences.php:194
+msgid "Total uploaded data"
+msgstr "Lähetettyä dataa yhteensä"
+
+#: public/preferences.php:196
+msgid "Upboats given"
+msgstr "Tää-ääniä annettu"
+
+#: public/preferences.php:197
+msgid "Upboats received"
+msgstr "Tää-ääniä vastaanotettu"
+
+#: public/preferences.php:199
+msgid "Gold accounts donated"
+msgstr "Kultatilejä lahjoitettu"
+
+#: public/preferences.php:200
+msgid "Gold account donations received"
+msgstr "Kultatililahjoituksia saatu"
+
+#: public/preferences.php:202
+msgid "View a list of my posts"
+msgstr "Näytä luettelo viesteistäni"
+
+#: public/preferences.php:206
+msgid "User account"
+msgstr "Käyttäjätunnus"
+
+#: public/preferences.php:211 public/preferences.php:216
+msgid "Change"
+msgstr "Vaihda"
+
+#: public/preferences.php:214 public/scripts/modals/getpasswordresetform.php:21
+msgid "Email"
+msgstr "Sähköposti"
+
+#: public/preferences.php:218
+msgid ""
+"Your email address is only used for account recovery. We can not see it or "
+"use it to contact you."
+msgstr ""
+"Sähköpostiosoitettasi käytetään vain tunnuksen palauttamiseen. Me emme voi "
+"nähdä sitä tai ottaa sinuun yhteyttä sen avulla."
+
+#: public/preferences.php:220 public/preferences.php:228
+msgid "Current password"
+msgstr "Nykyinen salasana"
+
+#: public/preferences.php:225 public/preferences.php:239
+#: public/scripts/modals/getpasswordresetform.php:44
+msgid "Change password"
+msgstr "Vaihda salasana"
+
+#: public/preferences.php:232 public/scripts/modals/getpasswordresetform.php:37
+msgid "New password"
+msgstr "Uusi salasana"
+
+#: public/preferences.php:244
+msgid "Delete user account"
+msgstr "Poista käyttäjätunnus"
+
+#: public/preferences.php:245
+msgid ""
+"Deleting your user account permanently removes all your site preferences, "
+"statistics and other account related data."
+msgstr ""
+"Käyttäjätunnuksesi poistaminen poistaa pysyvästi kaikki asetuksesi, "
+"tilastosi ja muut tunnukseen liittyvän datan."
+
+#: public/preferences.php:247
+msgid ""
+"Deleting your user account also removes any Gold account time you have left. "
+"It cannot be restored afterwards!"
+msgstr ""
+"Tunnuksesi poistaminen poistaa myös kaiken jäljellä olevan Kultatiliaikasi. "
+"Sitä ei voida palauttaa jälkikäteen!"
+
+#: public/preferences.php:250
+msgid ""
+"As you have not registered, your user account will be deleted automatically "
+"after a few days of inactivity."
+msgstr ""
+"Koska et ole rekisteröitynyt, käyttäjätunnuksesi poistetaan automaattisesti "
+"mikäli et vieraile Ylilaudalla muutamaan päivään."
+
+#: public/preferences.php:259
+msgid "Yes, I want to permanently delete my user account"
+msgstr "Kyllä, haluan poistaa käyttäjätunnukseni pysyvästi"
+
+#: public/preferences.php:262
+msgid "Also delete all posts I have sent"
+msgstr "Poista myös kaikki lähettämäni viestit"
+
+#: public/preferences.php:265
+msgid "Delete account"
+msgstr "Poista tunnus"
+
+#: public/preferences.php:274
+msgid "You don't have a Gold account"
+msgstr "Sinulla ei ole Kultatiliä"
+
+#: public/preferences.php:276
+msgid "You have a Gold account"
+msgstr "Sinulla on Kultatili"
+
+#: public/preferences.php:279
+msgid ""
+"You risk losing your Gold account because you have not created an user "
+"account. Please create an account to make sure it does not suddenly "
+"disappear."
+msgstr ""
+"Saatat menettää Kultatilisi, koska et ole luonut käyttäjätunnusta. Luo "
+"tunnus varmistaaksesi, ettei kultatilisi yllättäen katoa."
+
+#: public/preferences.php:282
+#, php-format
+msgid "Your Gold account expires %s."
+msgstr "Kultatilisi voimassaoloaika päättyy %s."
+
+#: public/preferences.php:288
+msgid "Activate Gold account"
+msgstr "Aktivoi Kultatili"
+
+#: public/preferences.php:290
+msgid "Gold account key"
+msgstr "Kultatiliavain"
+
+#: public/preferences.php:291 public/preferences.php:310
+msgid "Activate"
+msgstr "Aktivoi"
+
+#: public/preferences.php:296
+msgid "Your Gold account duration will be extended with the length of the key."
+msgstr ""
+"Jos sinulla on jo Kultatili, sen kestoa jatketaan Kultatiliavaimen pituuden "
+"verran."
+
+#: public/preferences.php:300
+msgid "Purchase a Gold account"
+msgstr "Osta Kultatili"
+
+#: public/preferences.php:306
+msgid "Your user account has unused gold keys"
+msgstr "Käyttäjätunnuksellasi on käyttämättömiä kultatiliavaimia"
+
+#: public/preferences.php:313 public/scripts/modals/getgolddonateform.php:38
+#, php-format
+msgid "Length: %s"
+msgstr "Pituus: %s"
+
+#: public/preferences.php:314
+#, php-format
+msgid "Expires: %s"
+msgstr "Vanhenee: %s"
+
+#: public/preferences.php:316
+#, php-format
+msgid "Donatable: %s"
+msgstr "Lahjoitettavissa: %s"
+
+#: public/preferences.php:349
+msgid "These tags are no longer obtainable"
+msgstr "Näitä tageja ei voi enää saada"
+
+#: public/preferences.php:386
+msgid "Login time"
+msgstr "Kirjautumisaika"
+
+#: public/preferences.php:387
+msgid "Last activity"
+msgstr "Viimeksi aktiivisena"
+
+#: public/preferences.php:403
+msgid "Current session"
+msgstr "Nykyinen istunto"
+
+#: public/preferences.php:414
+msgid "Log out from other places"
+msgstr "Kirjaudu ulos muualta"
+
+#: public/resetpassword.php:16 public/resetpassword.php:20
+msgid "Password reset"
+msgstr "Salasanan nollaus"
+
+#: public/resetpassword.php:22
+msgid "You can reset a forgotten password with this form."
+msgstr "Voit nollata unohtuneen salasanan tällä lomakkeella."
+
+#: public/resetpassword.php:23
+msgid ""
+"To make sure, the reset is not going for a wrong account, you are required "
+"to input the login name and UID of the account."
+msgstr ""
+"Jotta voit olla varma, ettei nollaus mene väärälle tunnukselle, sinun täytyy "
+"syöttää tunnuksen kirjautumisnimi ja UID."
+
+#: public/resetpassword.php:26
+msgid "Login name"
+msgstr "Kirjautumisnimi"
+
+#: public/resetpassword.php:28 public/scripts/givetag.php:30
+msgid "UID"
+msgstr "UID"
+
+#: public/resetpassword.php:51
+msgid "Password changed"
+msgstr "Salasana vaihdettu"
+
+#: public/resetpassword.php:51
+#, php-format
+msgid "New password for user %s is %s"
+msgstr "Uusi salasana tunnukselle %s on %s"
+
+#: public/resetpassword.php:54
+msgid "Password not changed!"
+msgstr "Salasanaa ei vaihdettu!"
+
+#: public/resetpassword.php:54
+msgid "User not found or invalid UID"
+msgstr "Tunnusta ei löydy tai virheellinen UID"
+
+#: public/scripts/ajax/activategold.php:18 public/scripts/ajax/addthis.php:17
+#: public/scripts/ajax/changepassword.php:17
+#: public/scripts/ajax/checkname.php:17 public/scripts/ajax/checkreport.php:20
+#: public/scripts/ajax/delete.php:15 public/scripts/ajax/deletedata.php:14
+#: public/scripts/ajax/deleteprofile.php:19
+#: public/scripts/ajax/deletethread.php:15
+#: public/scripts/ajax/donate_gold_key.php:14 public/scripts/ajax/expand.php:23
+#: public/scripts/ajax/follow.php:21 public/scripts/ajax/ftupdate.php:17
+#: public/scripts/ajax/get_new_replies.php:23
+#: public/scripts/ajax/hide_ping.php:22 public/scripts/ajax/login.php:23
+#: public/scripts/ajax/logout.php:15 public/scripts/ajax/message.php:23
+#: public/scripts/ajax/ping.php:24 public/scripts/ajax/post.php:25
+#: public/scripts/ajax/register.php:15 public/scripts/ajax/removeemail.php:18
+#: public/scripts/ajax/report.php:15
+#: public/scripts/ajax/savedisplaystyle.php:16
+#: public/scripts/ajax/saveloginname.php:18
+#: public/scripts/ajax/savemessage.php:23
+#: public/scripts/ajax/sendrecoverycode.php:17
+#: public/scripts/ajax/spamguard.php:23 public/scripts/ajax/toggle_name.php:16
+#: public/scripts/ajax/toggle_sidebar.php:16
+#: public/scripts/modals/getedits.php:23
+#: public/scripts/modals/getgolddonateform.php:19
+#: public/scripts/modals/getreportform.php:22
+#: public/scripts/notifications/get.php:16
+msgid "Your session has expired. Please refresh the page and try again."
+msgstr "Istuntosi on vanhentunut. Päivitä sivu ja yritä uudelleen."
+
+#: public/scripts/ajax/addthis.php:22
+msgid "You don't have have enough activity to upvote"
+msgstr "Sinulla ei ole tarpeeksi aktiivisuutta tää-äänien antamiseen"
+
+#: public/scripts/ajax/addthis.php:34
+msgid "Message does not exist"
+msgstr "Viestiä ei ole olemassa"
+
+#: public/scripts/ajax/addthis.php:38
+msgid "You cannot upvote your own posts"
+msgstr "Et voi antaa omille viesteillesi Tää :D"
+
+#: public/scripts/ajax/addthis.php:47
+msgid "You have already upvoted this post"
+msgstr "Olet jo antanut tälle viestille Tää :D"
+
+#: public/scripts/ajax/changepassword.php:21
+#: public/scripts/ajax/register.php:19
+msgid "Your password needs to be at least six characters long"
+msgstr "Salasanasi täytyy olla ainakin kuusi merkkiä pitkä"
+
+#: public/scripts/ajax/changepassword.php:25
+msgid "New passwords do not match"
+msgstr "Uudet salasanat eivät täsmää"
+
+#: public/scripts/ajax/changepassword.php:30
+msgid "Wrong current password"
+msgstr "Nykyinen salasana on väärin"
+
+#: public/scripts/ajax/changepassword.php:40
+#: public/scripts/ajax/checkaccess.php:15 public/scripts/ajax/login.php:36
+#: public/scripts/ajax/post.php:105 public/scripts/ajax/register.php:38
+#: public/scripts/ajax/report.php:26
+#: public/scripts/ajax/sendrecoverycode.php:27
+msgid ""
+"Your browser did not send us a Google reCAPTCHA response. Check that you are "
+"not blocking it. Please refresh this page and try again."
+msgstr ""
+"Selaimesi ei lähettänyt Google reCAPTCHA -vastausta. Tarkista, ettet estä "
+"sitä. Päivitä tämä sivu ja yritä uudelleen."
+
+#: public/scripts/ajax/changepassword.php:45
+#: public/scripts/ajax/checkaccess.php:22 public/scripts/ajax/login.php:44
+#: public/scripts/ajax/post.php:112 public/scripts/ajax/register.php:43
+#: public/scripts/ajax/report.php:31
+#: public/scripts/ajax/sendrecoverycode.php:32
+msgid ""
+"Google reCAPTCHA thinks you are a robot. Please refresh this page and try "
+"again."
+msgstr ""
+"Google reCAPTCHA ajattelee sinun olevan robotti. Päivitä tämä sivu ja yritä "
+"uudelleen."
+
+#: public/scripts/ajax/changepassword.php:60
+msgid "Account recovery information was incorrect"
+msgstr "Tunnuksen palautustiedot olivat virheelliset"
+
+#: public/scripts/ajax/checkname.php:23 public/scripts/ajax/register.php:27
+#: public/scripts/ajax/saveloginname.php:40
+msgid "Allowed characters are: a-Ö 0-9 _ -"
+msgstr "Sallitut merkit ovat: a-Ö 0-9 _ -"
+
+#: public/scripts/ajax/checkname.php:27
+#, php-format
+msgid "Too long - max allowed length is %s characters"
+msgstr "Liian pitkä - suurin sallittu pituus on %s merkkiä"
+
+#: public/scripts/ajax/checkname.php:31
+msgid "Already in use"
+msgstr "On jo käytössä"
+
+#: public/scripts/ajax/delete.php:34 public/scripts/ajax/deletethread.php:34
+msgid "You can only delete your own messages."
+msgstr "Voit poistaa vain omia viestejäsi."
+
+#: public/scripts/ajax/delete.php:56
+msgid "Deleting the message failed."
+msgstr "Viestin poistaminen epäonnistui."
+
+#: public/scripts/ajax/deletedata.php:20 public/scripts/ajax/deletedata.php:25
+#: public/scripts/ajax/deleteprofile.php:30
+#: public/scripts/ajax/deleteprofile.php:35 public/scripts/ajax/login.php:64
+#: public/scripts/ajax/removeemail.php:28
+#: public/scripts/ajax/saveloginname.php:23
+#: public/scripts/ajax/saveloginname.php:28
+msgid "Invalid password"
+msgstr "Virheellinen salasana"
+
+#: public/scripts/ajax/deletedata.php:40
+msgid "Deleting your threads failed!"
+msgstr "Lankojen poistaminen epäonnistui!"
+
+#: public/scripts/ajax/deletedata.php:58
+msgid "Deleting your replies failed!"
+msgstr "Vastauksien poistaminen epäonnistui!"
+
+#: public/scripts/ajax/deletedata.php:70
+msgid "Deleting your upvotes failed!"
+msgstr "Tää-äänien poistaminen epäonnistui!"
+
+#: public/scripts/ajax/deleteprofile.php:24
+msgid "You did not confirm the deletion of your profile. No actions taken."
+msgstr "Et vahvistanut profiilisi poistoa. Profiilia ei poistettu."
+
+#: public/scripts/ajax/deleteprofile.php:43 public/scripts/ajax/register.php:77
+msgid "Unexpected error"
+msgstr "Odottamaton virhe"
+
+#: public/scripts/ajax/deleteprofile.php:54
+msgid ""
+"Your user account was deleted successfully, but an error occurred while "
+"trying to delete your posts. Please contact us to continue with the deletion "
+"of your posts."
+msgstr ""
+"Käyttäjätunnuksesi poistettiin onnistuneesti, mutta viestien poistamisessa "
+"tapahtui virhe. Otathan meihin yhteyttä jatkaaksesi viestiesi poistamista."
+
+#: public/scripts/ajax/deletethread.php:29 public/scripts/ajax/hide_ping.php:29
+msgid "Thread does not exist"
+msgstr "Lankaa ei ole olemassa"
+
+#: public/scripts/ajax/deletethread.php:45
+msgid "You cannot delete this thread now because it's still active."
+msgstr "Et voi poistaa tätä lankaa nyt, koska se on edelleen aktiivinen."
+
+#: public/scripts/ajax/deletethread.php:59
+msgid "Deleting the thread failed."
+msgstr "Langan poistaminen epäonnistui."
+
+#: public/scripts/ajax/donate_gold_key.php:27
+#: public/scripts/ajax/donate_gold_key.php:32
+msgid "The user account this post was made with does not exist anymore..."
+msgstr ""
+"Käyttäjätunnusta jolla tämä viesti on lähetetty, ei enää ole olemassa..."
+
+#: public/scripts/ajax/donate_gold_key.php:37
+msgid "You cannot donate Gold account keys to yourself."
+msgstr "Et voi lahjoittaa Kultatiliavaimia itsellesi."
+
+#: public/scripts/ajax/donate_gold_key.php:43
+msgid "This Gold account key has already been donated!"
+msgstr "Tämä Kultatiliavain on jo lahjoitettu!"
+
+#: public/scripts/ajax/embedhtml.php:14
+msgid "Invalid post"
+msgstr "Virheellinen viesti"
+
+#: public/scripts/ajax/embedhtml.php:24
+msgid "This file is being processed..."
+msgstr "Tätä tiedostoa käsitellään..."
+
+#: public/scripts/ajax/follow.php:28
+msgid "There was an error removing the thread from followed threads."
+msgstr "Tapahtui virhe poistettaessa lankaa seuratuista langoista."
+
+#: public/scripts/ajax/follow.php:34 public/scripts/ajax/post.php:55
+msgid "Thread does not exist."
+msgstr "Lankaa ei ole olemassa."
+
+#: public/scripts/ajax/follow.php:43
+msgid "There was an error adding the thread to followed threads."
+msgstr "Tapahtui virhe lisättäessä lankaa seurattuihin lankoihin."
+
+#: public/scripts/ajax/login.php:28
+msgid "Invalid username or password"
+msgstr "Virheellinen käyttäjätunnus tai salasana"
+
+#: public/scripts/ajax/login.php:52 public/scripts/ajax/login.php:57
+msgid "User account does not exist"
+msgstr "Käyttäjätunnusta ei ole olemassa"
+
+#: public/scripts/ajax/login.php:68
+msgid "This user account has been suspended"
+msgstr "Tämä käyttäjätunnus on jäädytetty"
+
+#: public/scripts/ajax/message.php:39
+msgid "Sent"
+msgstr "Lähetetty"
+
+#: public/scripts/ajax/message.php:41
+msgid "Deleted"
+msgstr "Poistettu"
+
+#: public/scripts/ajax/post.php:29
+msgid "No message received (Re-sending by refreshing the page does not work)."
+msgstr ""
+"Viestiä ei vastaanotettu (Viestin uudelleenlähettäminen sivua päivittämällä "
+"ei toimi)."
+
+#: public/scripts/ajax/post.php:36
+msgid "Invalid thread."
+msgstr "Virheellinen lanka."
+
+#: public/scripts/ajax/post.php:43
+msgid ""
+"This function requires you to have cookies enabled. Please allow cookies "
+"from your browser settings to continue."
+msgstr ""
+"Jotta voit käyttää tätä toimintoa, sinulla tulee olla evästeet sallittuna. "
+"Salli evästeet selaimesi asetukista jatkaaksesi."
+
+#: public/scripts/ajax/post.php:61
+msgid "This thread is locked, and cannot be replied to."
+msgstr "Tämä lanka on lukittu, eikä siihen voida vastata."
+
+#: public/scripts/ajax/post.php:70
+msgid ""
+"You are sending messages too fast. Please wait a while between your posts."
+msgstr "Lähetät viestejä liian nopeasti. Odota hetki niiden välillä."
+
+#: public/scripts/ajax/post.php:75 public/scripts/ajax/post.php:81
+#: public/scripts/ajax/post.php:84
+msgid "Invalid board"
+msgstr "Virheellinen lauta"
+
+#: public/scripts/ajax/post.php:78
+msgid "Your message was not saved because this discussion board is locked."
+msgstr "Viestiäsi ei tallennettu, koska tämä lauta on lukittu."
+
+#: public/scripts/ajax/post.php:97
+msgid ""
+"Your post was not accepted because you fell into the honeypot meant for "
+"robots."
+msgstr ""
+"Viestiäsi ei otettu vastaan, koska lankesit roboteille tarkoitettuun "
+"hunajapurkkiin."
+
+#: public/scripts/ajax/post.php:125
+msgid ""
+"The internet connection you are using was recently used for abuse, so "
+"posting from it is temporarily not allowed."
+msgstr ""
+"Käyttämääsi internet-yhteyttä käytettiin äskettäin häiriköintiin, joten "
+"viestien lähettäminen sillä ei väliaikaisesti ole sallittua."
+
+#: public/scripts/ajax/post.php:131
+msgid ""
+"The internet connection you are using is commonly used for abuse, so posting "
+"from it is not allowed."
+msgstr ""
+"Käyttämääsi internet-yhteyttä käytetään usein häiriköintiin, joten viestien "
+"lähettäminen sillä ei ole sallittua."
+
+#: public/scripts/ajax/post.php:137 public/scripts/ajax/post.php:142
+#, php-format
+msgid ""
+"Temporary spam protection enabled - you will need an user account older than "
+"%d hour(s) to post."
+msgstr ""
+"Väliaikainen spämmisuoja käytössä - tunnuksesi täytyy olla vanhempi kuin %d "
+"tunti(a) lähettääksesi viestejä."
+
+#: public/scripts/ajax/post.php:194
+msgid "Saving the file failed."
+msgstr "Tiedoston tallentaminen epäonnistui."
+
+#: public/scripts/ajax/post.php:210
+msgid "Your message has more newlines than anyone would need."
+msgstr "Viestisi sisältää enemmän rivinvaihtoja kuin kukaan tarvitsee."
+
+#: public/scripts/ajax/post.php:218
+msgid "A message is required to create a thread."
+msgstr "Langan luomiseen vaaditaan viesti."
+
+#: public/scripts/ajax/post.php:228
+#, php-format
+msgid ""
+"To prevent spam, messages with more than %d replies are not allowed. You may "
+"remove this limit by purchasing a Gold account."
+msgstr ""
+"Roskapostituksen ehkäisemiseksi viestit joissa on yli %d vastausta eivät ole "
+"sallittuja. Voit poistaa tämän rajoituksen ostamalla Kultatilin."
+
+#: public/scripts/ajax/post.php:274
+#, php-format
+msgid ""
+"Your message contained a blacklisted word. Posting blocked for %d minute(s)."
+msgstr ""
+"Viestisi sisälsi mustalistatun sanan. Viestien lähettäminen on estetty %d "
+"minuutiksi."
+
+#: public/scripts/ajax/post.php:286
+msgid "A text or a file is required to send a message."
+msgstr "Teksti tai tiedosto vaaditaan viestin lähettämiseksi."
+
+#: public/scripts/ajax/post.php:293
+msgid "Your file is larger than the biggest allowed file size."
+msgstr "Tiedostosi on suurempi kuin suurin sallittu tiedostokoko."
+
+#: public/scripts/ajax/post.php:297
+msgid ""
+"The received file is empty, probably the file upload was interrupted. Please "
+"try again."
+msgstr ""
+"Vastaanotettu tiedosto on tyhjä, tiedoston lähetys ehkä keskeytyi. Yritä "
+"uudelleen."
+
+#: public/scripts/ajax/post.php:304
+msgid "Creating a file directory failed."
+msgstr "Tiedostohakemiston luominen epäonnistui."
+
+#: public/scripts/ajax/post.php:310
+msgid "File uploads are temporarily disabled. Please try again in a while."
+msgstr ""
+"Tiedostojen lähettäminen on tällä hetkellä pois käytöstä. Yritä uudelleen "
+"hetken kuluttua."
+
+#: public/scripts/ajax/post.php:327
+msgid "Your filename contained a blacklisted word"
+msgstr "Tiedostonimesi sisälsi mustalistatun sanan"
+
+#: public/scripts/ajax/post.php:389 public/scripts/ajax/post.php:401
+msgid "The type of the file you sent is not allowed."
+msgstr "Lähettämäsi tiedoston tyyppi ei ole sallittu."
+
+#: public/scripts/ajax/post.php:394
+#, php-format
+msgid ""
+"Invalid file extension or corrupted file. The file extension is %s, but the "
+"detected file type was %s."
+msgstr ""
+"Virheellinen tiedostopääte tai korruptoitunut tiedosto. Tiedoston pääte on "
+"%s, mutta tunnistettu tiedostotyyppi oli %s."
+
+#: public/scripts/ajax/post.php:418 public/scripts/ajax/post.php:434
+#: public/scripts/ajax/post.php:462 public/scripts/ajax/post.php:476
+msgid "An error occurred while saving the file. The file may be corrupted."
+msgstr ""
+"Tiedostoa tallennettaessa tapahtui virhe. Tiedosto saattaa olla "
+"korruptoitunut."
+
+#: public/scripts/ajax/post.php:441 public/scripts/ajax/post.php:489
+#: public/scripts/ajax/post.php:527
+msgid ""
+"The dimensions of the image you uploaded are too big. Scale it down with an "
+"image editing software."
+msgstr ""
+"Lähettämäsi kuvan pikselimäärä on liian suuri. Pienennä sen kokoa "
+"kuvankäsittelyohjelmalla ennen lähettämistä."
+
+#: public/scripts/ajax/post.php:448
+msgid "The GIF you uploaded is too long. Please upload a video file instead."
+msgstr "Lähettämäsi GIF on liian pitkä. Lähetä videotiedosto sen sijasta."
+
+#: public/scripts/ajax/post.php:502 public/scripts/ajax/post.php:549
+#: public/scripts/ajax/post.php:587 public/scripts/ajax/post.php:730
+msgid "An error occurred while saving the file."
+msgstr "Tiedostoa tallennettaessa tapahtui virhe."
+
+#: public/scripts/ajax/post.php:557
+msgid "An error occurred while saving the file. The file could be corrupted."
+msgstr ""
+"Tiedostoa tallennettaessa tapahtui virhe. Tiedosto voi olla korruptoitunut."
+
+#: public/scripts/ajax/post.php:568
+msgid ""
+"Cannot determine the duration or bitrate of the audio file you uploaded. The "
+"file may be corrupted."
+msgstr ""
+"Lähettämäsi äänitiedoston pituutta tai bittinopeutta ei voida määritellä. "
+"Tiedosto saattaa olla korruptoitunut."
+
+#: public/scripts/ajax/post.php:577
+msgid "Audio bitrate too low. This file cannot be saved."
+msgstr ""
+"Äänitiedoston bittinopeus on liian pieni. Tätä tiedostoa ei voida tallentaa."
+
+#: public/scripts/ajax/post.php:581
+msgid "The audio file you tried to upload is too long."
+msgstr "Lähettämäsi äänitiedosto on liian pitkä."
+
+#: public/scripts/ajax/post.php:598
+msgid "No streams found in the uploaded file. The file may be corrupted."
+msgstr ""
+"Lähetetystä tiedostosta ei löytynyt raitoja. Tiedosto saattaa olla "
+"korruptoitunut."
+
+#: public/scripts/ajax/post.php:615
+msgid "No video streams found in the uploaded file. The file may be corrupted."
+msgstr ""
+"Lähetetystä tiedostosta ei löytynyt videoraitoja. Tiedosto saattaa olla "
+"korruptoitunut."
+
+#: public/scripts/ajax/post.php:628
+msgid ""
+"Cannot determine the duration of the video you uploaded. The file may be "
+"corrupted."
+msgstr ""
+"Lähettämäsi videon pituutta ei voida määritellä. Tiedosto saattaa olla "
+"korruptoitunut."
+
+#: public/scripts/ajax/post.php:635
+#, php-format
+msgid "The video you tried to upload is too long. Max length is %d minutes."
+msgstr "Lähettämäsi video on liian pitkä. Maksimipituus on %d minuuttia."
+
+#: public/scripts/ajax/post.php:645 public/scripts/ajax/post.php:651
+msgid "Generating the thumbnail failed. Please try again."
+msgstr "Esikatselukuvan luominen epäonnistui. Yritä uudelleen."
+
+#: public/scripts/ajax/post.php:694 public/scripts/ajax/post.php:701
+msgid "An error occurred while saving the file"
+msgstr "Tiedostoa tallennettaessa tapahtui virhe"
+
+#: public/scripts/ajax/post.php:803
+msgid "Creating the thread failed."
+msgstr "Langan luominen epäonnistui."
+
+#: public/scripts/ajax/post.php:1006
+msgid "Saving the message failed."
+msgstr "Viestin tallentaminen epäonnistui."
+
+#: public/scripts/ajax/register.php:23
+msgid "Please type in a login name"
+msgstr "Kirjoita kirjautumisnimi"
+
+#: public/scripts/ajax/register.php:32 public/scripts/ajax/saveloginname.php:35
+#, php-format
+msgid "Your name is too long. Max allowed length is %s characters"
+msgstr "Nimesi on liian pitkä. Suurin sallittu pituus in %s merkkiä"
+
+#: public/scripts/ajax/register.php:49
+msgid "You are already logged in."
+msgstr "Olet jo kirjautuneena."
+
+#: public/scripts/ajax/register.php:56 public/scripts/ajax/saveloginname.php:56
+msgid "This name is already in use. Please choose another one."
+msgstr "Tämä nimi on jo käytössä. Valitse toinen."
+
+#: public/scripts/ajax/register.php:64
+#, php-format
+msgid ""
+"Welcome to Ylilauta %s,\n"
+"\n"
+"This message confirms that this email address was added to your new account "
+"and can now be used for password recovery.\n"
+"\n"
+"We do not save your email address in a readable form. We can never see it or "
+"use it to contact you. We cannot even search user accounts by email "
+"addresses. It can only be used for password recovery purposes.\n"
+"\n"
+"Best regards,\n"
+"Ylilauta.org"
+msgstr ""
+"Tervetuloa Ylilaudalle %s,\n"
+"\n"
+"Tämä viesti vahvistaa, että tämä sähköpostiosoite lisättiin uudelle "
+"tunnuksellesi ja sitä voidaan nyt käyttää salasanan palautukseen.\n"
+"\n"
+"Emme tallenna sähköpostiosoitettasi luettavassa muodossa. Emme koskaan voi "
+"nähdä sitä tai käyttää sitä ottaaksemme yhteyttä sinuun. Emme voi edes etsiä "
+"käyttäjätunnuksia sähköpostiosoitteella. Sitä voidaan käyttää ainoastaan "
+"salasanan palauttamiseen.\n"
+"\n"
+"Ystävällisin terveisin,\n"
+"Ylilauta.org"
+
+#: public/scripts/ajax/register.php:68
+msgid "Welcome to Ylilauta"
+msgstr "Tervetuloa Ylilaudalle"
+
+#: public/scripts/ajax/removeemail.php:13
+#: public/scripts/ajax/saveloginname.php:13
+msgid "Please refresh this page and try again."
+msgstr "Päivitä tämä sivu ja yritä uudelleen."
+
+#: public/scripts/ajax/removeemail.php:23
+msgid "Please give your current password"
+msgstr "Anna nykyinen salasanasi"
+
+#: public/scripts/ajax/report.php:20
+msgid ""
+"The internet connection you are using is commonly used for abuse, so "
+"reporting from it is not allowed."
+msgstr ""
+"Käyttämääsi internet-yhteyttä käytetään usein häiriköintiin, joten "
+"ilmiantaminen sillä ei ole sallittua."
+
+#: public/scripts/ajax/report.php:43
+msgid "You have to give a reason for your report."
+msgstr "Sinun täytyy antaa syy ilmiannollesi."
+
+#: public/scripts/ajax/report.php:67
+msgid "Reporting the message failed."
+msgstr "Viestin ilmiantaminen epäonnistui."
+
+#: public/scripts/ajax/saveloginname.php:45
+msgid "You have changed your username recently, so you can't do it again yet."
+msgstr ""
+"Olet vaihtanut käyttäjänimesi äskettäin, joten et vielä voi vaihtaa sitä "
+"uudelleen."
+
+#: public/scripts/ajax/saveloginname.php:63
+#, php-format
+msgid ""
+"Hi %s,\n"
+"\n"
+"This message confirms that this email address was added to your account and "
+"can now be used for password recovery.\n"
+"\n"
+"We do not save your email address in a readable form. We can never see it or "
+"use it to contact you. We cannot even search user accounts by email "
+"addresses. It can only be used for password recovery purposes.\n"
+"\n"
+"Best regards,\n"
+"Ylilauta.org"
+msgstr ""
+"Hei %s,\n"
+"\n"
+"Tämä viesti vahvistaa, että tämä sähköpostiosoite lisättiin tunnuksellesi ja "
+"sitä voidaan nyt käyttää salasanan palautukseen.\n"
+"\n"
+"Emme tallenna sähköpostiosoitettasi luettavassa muodossa. Emme koskaan voi "
+"nähdä sitä tai käyttää sitä ottaaksemme yhteyttä sinuun. Emme voi edes etsiä "
+"käyttäjätunnuksia sähköpostiosoitteella. Sitä voidaan käyttää ainoastaan "
+"salasanan palauttamiseen.\n"
+"\n"
+"Ystävällisin terveisin,\n"
+"Ylilauta.org"
+
+#: public/scripts/ajax/saveloginname.php:67
+msgid "Email address added to account"
+msgstr "Sähköpostiosoite lisätty tunnukseen"
+
+#: public/scripts/ajax/savemessage.php:35
+msgid "Permission denied."
+msgstr "Ei käyttöoikeutta."
+
+#: public/scripts/ajax/savemessage.php:58
+#, php-format
+msgid "Your message contained a blacklisted word (%s)"
+msgstr "Viestisi sisälsi mustalistatun sanan (%s)"
+
+#: public/scripts/ajax/savemessage.php:67
+msgid "You cannot edit posts on a locked board."
+msgstr "Et voi muokata viestejä lukitulla laudalla."
+
+#: public/scripts/ajax/savesettings.php:51
+msgid "Error saving preferences"
+msgstr "Virhe tallentaessa asetuksia"
+
+#: public/scripts/ajax/sendrecoverycode.php:48
+#, php-format
+msgid ""
+"Hi %s,\n"
+"\n"
+"Someone has requested an account recovery key using your username and email "
+"address. If this wasn't you, you can just ignore this email.\n"
+"\n"
+"Recovery key: %s\n"
+"The recovery key is valid for one hour.\n"
+"\n"
+"Best regards,\n"
+"Ylilauta.org"
+msgstr ""
+"Hei %s,\n"
+"\n"
+"Joku pyysi salasanan palautusta käyttäen käyttäjänimeäsi ja "
+"sähköpostiosoitettasi. Jos se et ollut sinä, voit vain jättää tämän viestin "
+"huomiotta.\n"
+"\n"
+"Palautusavain: %s\n"
+"Palautusavain on voimassa yhden tunnin.\n"
+"\n"
+"Ystävällisin terveisin,\n"
+"Ylilauta.org"
+
+#: public/scripts/ajax/sendrecoverycode.php:52
+msgid "Ylilauta account recovery"
+msgstr "Ylilaudan tunnuksen palauttaminen"
+
+#: public/scripts/ajax/spamguard.php:38
+msgid "Account locked"
+msgstr "Tunnus lukittu"
+
+#: public/scripts/ajax/spamguard.php:48
+msgid "Account unlocked"
+msgstr "Tunnus avattu"
+
+#: public/scripts/ajax/spamguard.php:55
+msgid "Antispam enabled"
+msgstr "Roskapostin esto käytössä"
+
+#: public/scripts/ajax/spamguard.php:59
+msgid "Antispam disabled"
+msgstr "Roskapostin esto poistettu käytöstä"
+
+#: public/scripts/ajax/spamguard.php:63
+msgid "Unknown command"
+msgstr "Tuntematon komento"
+
+#: public/scripts/givetag.php:33
+msgid "Tag"
+msgstr "Tagi"
+
+#: public/scripts/modals/getedits.php:32
+msgid "This post has not been edited."
+msgstr "Tätä viestiä ei ole muokattu."
+
+#: public/scripts/modals/getedits.php:37
+#, php-format
+msgid "Old version at %s"
+msgstr "Vanha versio, muokattu %s"
+
+#: public/scripts/modals/getedits.php:42
+#, php-format
+msgid ", edited by %s"
+msgstr ", muokkaaja %s"
+
+#: public/scripts/modals/getgolddonateform.php:25
+msgid "Choose the Gold account key you wish to donate to this user."
+msgstr "Valitse Kultatiliavain jonka tahdot lahjoittaa tälle käyttäjälle."
+
+#: public/scripts/modals/getgolddonateform.php:26
+#, php-format
+msgid "Selected post: %s"
+msgstr "Valittu viesti: %s"
+
+#: public/scripts/modals/getgolddonateform.php:31
+msgid "You have no Gold account keys available to be donated."
+msgstr "Sinulla ei ole Kultatiliavaimia joita voi lahjoittaa."
+
+#: public/scripts/modals/getgolddonateform.php:32
+msgid "Purchase Gold account keys"
+msgstr "Osta Kultatiliavaimia"
+
+#: public/scripts/modals/getgolddonateform.php:37
+msgid "Donate"
+msgstr "Lahjoita"
+
+#: public/scripts/modals/getgolddonateform.php:44
+msgid "Terms and conditions"
+msgstr "Käyttöehdot"
+
+#: public/scripts/modals/getgolddonateform.php:45
+msgid ""
+"The donation may not reach the person who sent the message if they are not "
+"using the same user account anymore."
+msgstr ""
+"Lahjoitus ei välttämättä tavoita viestin kirjoittajaa, mikäli hän ei käytä "
+"enää samaa käyttäjätunnusta."
+
+#: public/scripts/modals/getgolddonateform.php:46
+msgid ""
+"If the user account with which the message was sent with does not exist at "
+"all, the Gold account key is returned to your user account."
+msgstr ""
+"Jos viestin lähettänyttä käyttäjätunnusta ei ole enää olemassa, "
+"Kultatiliavain palautetaan tunnuksellesi."
+
+#: public/scripts/modals/getgolddonateform.php:47
+msgid "Each individual Gold account key can only be donated once."
+msgstr "Jokaisen yksittäisen Kultatiliavaimen voi lahjoittaa vain kerran."
+
+#: public/scripts/modals/getgolddonateform.php:48
+msgid ""
+"Other terms apply, please read the terms and conditions from the regular "
+"Gold account purchase page."
+msgstr "Muita ehtoja on voimassa, lue ehdot Kultatilin ostosivulta."
+
+#: public/scripts/modals/getgolddonateform.php:49
+msgid "You agree to these terms by continuing."
+msgstr "Hyväksyt nämä ehdot jatkamalla."
+
+#: public/scripts/modals/getpasswordresetform.php:24
+msgid "Send recovery code"
+msgstr "Lähetä palautusavain"
+
+#: public/scripts/modals/getpasswordresetform.php:29
+msgid ""
+"If the email address was correct, we just sent you a recovery key. Please "
+"check your email for it."
+msgstr ""
+"Jos antamasi sähköpostiosoite oli oikein, lähetimme sinulle juuri "
+"palautusavaimen. Hae se sähköpostistasi."
+
+#: public/scripts/modals/getpasswordresetform.php:30
+msgid "Did not get it? Close this window and try again."
+msgstr "Etkö saanut sitä? Sulje tämä ikkuna ja yritä uudelleen."
+
+#: public/scripts/modals/getpasswordresetform.php:33
+msgid "Recovery key"
+msgstr "Palautusavain"
+
+#: public/scripts/modals/getpasswordresetform.php:41
+msgid "Confirm password"
+msgstr "Salasanavahvistus"
+
+#: public/scripts/modals/getreportform.php:34
+msgid "How is this post violating the rules?"
+msgstr "Kuinka tämä viesti rikkoo sääntöä?"
+
+#: public/scripts/modals/getreportform.php:36
+msgid "Please select"
+msgstr "Valitse"
+
+#: public/scripts/modals/getreportform.php:85
+msgid "Additional details"
+msgstr "Lisätiedot"
+
+#: public/scripts/modals/getreportform.php:86
+msgid "Optional"
+msgstr "Valinnainen"
+
+#: public/scripts/notifications/get.php:22
+msgid "You don't have any notifications."
+msgstr "Sinulla ei ole yhtään ilmoituksia."
+
+#: public/scripts/notifications/get.php:30
+#, php-format
+msgid "Your post has a new reply"
+msgstr "Viestissäsi on uusi vastaus"
+
+#: public/scripts/notifications/get.php:32
+#, php-format
+msgid "Your post has %s new replies"
+msgstr "Viestissäsi on %s uutta vastausta"
+
+#: public/scripts/notifications/get.php:38
+#, php-format
+msgid "Your thread %s has a new reply"
+msgstr "Langassasi %s on uusi vastaus"
+
+#: public/scripts/notifications/get.php:40
+#, php-format
+msgid "Your thread %s has %s new replies"
+msgstr "Langassasi %s on %s uutta vastausta"
+
+#: public/scripts/notifications/get.php:46
+#, php-format
+msgid "Thread %s has a new reply"
+msgstr "Langassa %s on uusi vastaus"
+
+#: public/scripts/notifications/get.php:48
+#, php-format
+msgid "Thread %s has %s new replies"
+msgstr "Langassa %s on %s uutta vastausta"
+
+#: public/scripts/notifications/get.php:53
+#, php-format
+msgid "Your post has been upvoted!"
+msgstr "Viestisi sai tää-äänen!"
+
+#: public/scripts/notifications/get.php:55
+#, php-format
+msgid "Your post has been upvoted %s times!"
+msgstr "Viestisi on saanut %s tää-ääntä!"
+
+#: public/scripts/notifications/get.php:60
+msgid "Someone just gave you a Gold account!"
+msgstr "Joku lahjoitti sinulle juuri kultatilin!"
+
+#: public/scripts/notifications/get.php:63
+msgid "Someone just gave you a Gold account for your post!"
+msgstr "Joku lahjoitti sinulle juuri kultatilin viestistäsi!"
+
+#: public/scripts/notifications/get.php:65
+#, php-format
+msgid "You received %d Gold accounts for your post!"
+msgstr "Sait %d kultatiliä viestistäsi!"
+
+#: public/scripts/notifications/get.php:71
+msgid "Nothing to announce. Stupid admins forgot the message."
+msgstr "Ei mitään ilmoitettavaa. Tyhmät ylläpitäjät unohtivat viestin."
+
+#: public/scripts/notifications/get.php:73
+#, php-format
+msgid "Announcement: %s"
+msgstr "Ilmoitus: %s"
+
+#: public/scripts/notifications/get.php:78
+msgid "This was a tag that does not exist anymore..."
+msgstr "Tämä oli tagi, jota ei ole enää olemassa..."
+
+#: public/scripts/notifications/get.php:84
+msgid "Weird, we don't even know which tag it was!"
+msgstr "Kummallista, emme edes tiedä mikä tagi se oli!"
+
+#: public/scripts/notifications/get.php:86
+#, php-format
+msgid "You got a new tag: %s"
+msgstr "Sait uuden tagin: %s"
+
+#: public/thread.php:23
+msgid "Automatic due to inactivity"
+msgstr "Automaattinen inaktiivisuuden vuoksi"
+
+#: public/thread.php:24
+msgid "Deleted by the user who created the thread"
+msgstr "Käyttäjä joka loi langan poisti sen"
+
+#: public/thread.php:25
+msgid "Deleted by a moderator"
+msgstr "Moderaattorin poistama"
+
+#: public/thread.php:26
+msgid ""
+"Moderator deleted multiple posts from this user (e.g. because of spamming)"
+msgstr ""
+"Moderaattori poisti useita viestejä tältä käyttäjältä (esim. "
+"roskapostituksen vuoksi)"
+
+#: public/thread.php:28
+#, php-format
+msgid "Reason for deletion: %s"
+msgstr "Poiston syy: %s"
+
+#~ msgid "Check reason"
+#~ msgstr "Tarkista syy"
+
+#~ msgid "404!"
+#~ msgstr "404!"
+
+#~ msgid "Delete reason"
+#~ msgstr "Poiston syy"
+
+#~ msgid ""
+#~ "Have a user account older than 6 years (or account created right away "
+#~ "when it became possible)"
+#~ msgstr ""
+#~ "Tunnuksesi on vanhempi kuin 6 vuotta (tai luotu heti kun se oli "
+#~ "mahdollista)"
+
+#~ msgid "Added a wordfilter"
+#~ msgstr "Lisäsi sanasuodattimen"
+
+#~ msgid "Removed a wordfilter"
+#~ msgstr "Poisti sanasuodattimen"
+
+#~ msgid "Merged threads"
+#~ msgstr "Yhdisti langat"
+
+#~ msgid "Edited an user"
+#~ msgstr "Muokkasi käyttäjää"
+
+#~ msgid "Deleted an user"
+#~ msgstr "Poisti käyttäjän"
+
+#~ msgid "Used message search"
+#~ msgstr "Käytti viestihakua"
+
+#~ msgid "Bumped"
+#~ msgstr "Nostettu"
+
+#~ msgid "Drop this thread?"
+#~ msgstr "Tiputa tämä lanka?"
+
+#~ msgid "Dropped"
+#~ msgstr "Tiputettu"
+
+#~ msgid "Update timestamp"
+#~ msgstr "Päivitä aikaleima"
+
+#~ msgid "SWR"
+#~ msgstr "SWR"
+
+#~ msgid "Stresi worry remover"
+#~ msgstr "Stresi worry remover (Stresi huolien poistaja)"
+
+#~ msgid "Manage notifications"
+#~ msgstr "Hallitse ilmoituksia"
+
+#~ msgid "Newest post"
+#~ msgstr "Uusin viesti"
+
+#~ msgid "Country"
+#~ msgstr "Maa"
+
+#~ msgid "ASN"
+#~ msgstr "ASN"
+
+#~ msgid "Operator"
+#~ msgstr "Operaattori"
+
+#~ msgid "Proxy detected"
+#~ msgstr "Proxy havaittu"
+
+#~ msgid "Time"
+#~ msgstr "Aika"
+
+#~ msgid "Reports checked"
+#~ msgstr "Ilmiantoja tarkistettu"
+
+#~ msgid "Ban appeals checked"
+#~ msgstr "Bannivalituksia tarkistettu"
+
+#~ msgid "Users banned"
+#~ msgstr "Käyttäjiä bannattu"
+
+#~ msgid "Posts deleted"
+#~ msgstr "Viestejä poistettu"
+
+#~ msgid "Your Gold account is permanent."
+#~ msgstr "Kultatilisi on pysyvä."
+
+#~ msgid ""
+#~ "You are using an outdated browser. Some features will not work properly. "
+#~ "Please check that you have the most recent OS and browser updates "
+#~ "installed or consider switching to for example Firefox or Chrome."
+#~ msgstr ""
+#~ "Käytät vanhentunutta selainta. Jotkin toiminnot eivät toimi kunnolla. "
+#~ "Tarkista että sinulla on uusin versio käyttöjärjestelmästäsi ja "
+#~ "selaimestasi asennettuna tai vaihda esimerkiksi Firefoxiin tai Chromeen."
+
+#~ msgid "Return to quoted post"
+#~ msgstr "Palaa lainattuun viestiin"
+
+#~ msgid ""
+#~ "You seem to be using an ad hiding software, so please read this notice"
+#~ msgstr ""
+#~ "Näyt käyttävän mainostenpiilotusohjelmistoa, joten luethan tämän "
+#~ "huomautuksen"
+
+#~ msgid ""
+#~ "Running websites as big as Ylilauta is not free, it's actually really "
+#~ "expensive and time consuming. We ask you to re-think about blocking our "
+#~ "only way to pay the expenses."
+#~ msgstr ""
+#~ "Ylilaudan kokoisten internet-sivustojen pyörittäminen ei ole ilmaista, se "
+#~ "on tosiasiassa todella kallista ja aikaavievää. Pyydämme sinua "
+#~ "ajattelemaan uudelleen estämästä ainutta keinoa, jolla voimme maksaa "
+#~ "kulumme."
+
+#~ msgid ""
+#~ "We promise you that we do not display any flashing, blinking, "
+#~ "automatically sound playing or expanding, or any other annoying ads - we "
+#~ "too hate those. If you still would like to hide our ads, please consider "
+#~ "purchasing a Gold account."
+#~ msgstr ""
+#~ "Lupaamme sinulle, ettemme näytä laajenevia, välkkyviä, vilkkuvia, "
+#~ "automaattisesti ääniä toistavia tai muita häiritseviä mainoksia - me myös "
+#~ "vihaamme niitä. Jos silti haluat piilottaa mainoksemme, pyydämme sinua "
+#~ "harkitsemaan Kultatilin ostamista."
+
+#~ msgid "level for platinum"
+#~ msgstr "taso platinatiliin"
+
+#~ msgid ""
+#~ "This is a promotion key, you cannot activate it as you already have a "
+#~ "Gold account."
+#~ msgstr ""
+#~ "Tämä on promootioavain, et voi aktivoida sitä koska sinulla on jo "
+#~ "Kultatili."
+
+#~ msgid "Details"
+#~ msgstr "Lisätiedot"
+
+#~ msgid "Threads merged"
+#~ msgstr "Langat yhdistetty"
+
+#~ msgid "Merge threads"
+#~ msgstr "Yhdistä langat"
+
+#~ msgid "Destination thread ID"
+#~ msgstr "Kohdelangan ID"
+
+#~ msgid "Merge"
+#~ msgstr "Yhdistä"
+
+#~ msgid ""
+#~ "Invalid verification token. Please refresh the previous page and try "
+#~ "again."
+#~ msgstr "Virheellinen varmisteavain. Päivitä tämä sivu ja yritä uudelleen."
+
+#~ msgid "Have an active Gold account"
+#~ msgstr "Tunnuksellasi on aktiivinen Kultatili"
+
+#~ msgid "VIP-Gentleman"
+#~ msgstr "VIP-Herrasmies"
+
+#~ msgid "Have at least a level 5 platinum account"
+#~ msgstr "Tunnuksellasi on vähintään tason 5 platinatili"
+
+#~ msgid "Moneybags"
+#~ msgstr "Rahamies"
+
+#~ msgid "Have at least a level 10 platinum account"
+#~ msgstr "Tunnuksellasi on vähintään tason 10 platinatili"
+
+#~ msgid "Rainmaker"
+#~ msgstr "Sateentekijä"
+
+#~ msgid "Have at least a level 15 platinum account"
+#~ msgstr "Tunnuksellasi on vähintään tason 15 platinatili"
+
+#~ msgid "Assembly"
+#~ msgstr "Assembly"
+
+#~ msgid "Submit a post from Assembly Computer Festival"
+#~ msgstr "Lähetä viesti Assembly -tapahtumasta"
+
+#~ msgid "YOLO"
+#~ msgstr "YOLO"
+
+#~ msgid "YOLO-jackpot!"
+#~ msgstr "YOLO-jackpot!"
+
+#~ msgid "Sage"
+#~ msgstr "Sage"
+
+#~ msgid "Banned"
+#~ msgstr "Bannattu"
+
+#~ msgid "Your user account already has the maximum level."
+#~ msgstr "Käyttäjätunnuksellasi on jo maksimitaso."
+
+#~ msgid "You need a platinum account to activate level up keys."
+#~ msgstr "Sinulla täytyy olla platinatili käyttääksesi tasonnostoavaimia."
+
+#~ msgid ""
+#~ "You already have a platinum account. You need level up keys to level up "
+#~ "your Gold account."
+#~ msgstr ""
+#~ "Sinulla on jo platinatili. Tarvitset tasonnostoavaimia nostaaksesi "
+#~ "Kultatilin tasoasi."
+
+#~ msgid "Add a note about the ban to the message"
+#~ msgstr "Lisää viestiin huomautus bannista"
+
+#~ msgid "Show your username in your posts"
+#~ msgstr "Näytä käyttäjänimesi viesteissäsi"
+
+#~ msgid "Show names of files you upload"
+#~ msgstr "Näytä lähettämiesi tiedostojen nimet"
+
+#~ msgid "Hide advertisements"
+#~ msgstr "Piilota mainokset"
+
+#~ msgid ""
+#~ "Tin foil hat mode (remove all possible trackers, eg. Google Analytics, "
+#~ "does not include ads)"
+#~ msgstr ""
+#~ "Foliohattutila (poistaa kaikki mahdolliset seuraajat, esim. Google "
+#~ "Analytics, ei sisällä mainoksia)"
+
+#~ msgid "Display thread specific user IDs"
+#~ msgstr "Näytä lankakohtaiset käyttäjätunnisteet"
+
+#~ msgid "Gold account level"
+#~ msgstr "Kultatilin taso"
+
+#~ msgid "Times embedded media"
+#~ msgstr "Mediaa upotettu"
+
+#~ msgid "Upboat-points"
+#~ msgstr "Tää-pisteet"
+
+#~ msgid "markoboy87 fundraiser"
+#~ msgstr "markoboy87 -keräys"
+
+#~ msgid "niilo22 fundraiser"
+#~ msgstr "niilo22 -keräys"
+
+#~ msgid "Ylis gives back! -fundraiser"
+#~ msgstr "Ylis gives back! -keräys"
+
+#~ msgid "Transporters owned"
+#~ msgstr "Transportereita omistettu"
+
+#~ msgid "Food help helpings"
+#~ msgstr "Ruoka apu apustukset"
+
+#~ msgid "YOLO times"
+#~ msgstr "YOLO kerrat"
+
+#~ msgid "YOLO bans"
+#~ msgstr "YOLO bannit"
+
+#~ msgid "YOLO jackpots"
+#~ msgstr "YOLO jackpotit"
+
+#~ msgid "YOLO-luck"
+#~ msgstr "YOLO-tuuri"
+
+#~ msgid ""
+#~ "You can not activate Gold account keys as you already have a permanent "
+#~ "Gold account."
+#~ msgstr ""
+#~ "Et voi aktivoida Kultatiliavaimia, koska sinulla on jo ikuinen Kultatili."
+
+#, php-format
+#~ msgid ""
+#~ "The video you tried to upload is too long. Max length is %d minutes "
+#~ "without a Gold account or %d minutes with it."
+#~ msgstr ""
+#~ "Video jonka yritit lähettää on liian pitkä. Maksimipituus on %d minuuttia "
+#~ "ilman Kultatiliä tai %d minuuttia sen kanssa."
+
+#~ msgid "This feature is only available to users with a Gold account."
+#~ msgstr ""
+#~ "Tämä toiminto on käytettävissä vain Kultatilin omistaville käyttäjille."
+
+#~ msgid "You need a Gold account to view the edits of messages."
+#~ msgstr "Tarvitset Kultatilin nähdäksesi viestien muokkaushistorian."
+
+#~ msgid "Files and media"
+#~ msgstr "Tiedostot ja media"
+
+#~ msgid "Show names of files you uploaded"
+#~ msgstr "Näytä lähettämiesi tiedostojen nimet"
+
+#~ msgid "Anonymize file name"
+#~ msgstr "Anonymisoi tiedostonimi"
+
+#~ msgid "Anonymize names of your files to make tracking you harder"
+#~ msgstr "Anonymisoi tiedostojesi nimet seuraamisesi vaikeuttamiseksi"
+
+#~ msgid "Functions"
+#~ msgstr "Toiminnot"
+
+#~ msgid "Show your username"
+#~ msgstr "Näytä käyttäjänimesi"
+
+#~ msgid "Preserve original file name for this post"
+#~ msgstr "Säilytä alkuperäinen tiedostonimi tässä viestissä"
+
+#~ msgid "Anonymize file name for this post"
+#~ msgstr "Anonymisoi tiedostonimi tässä viestissä"
+
+#~ msgid "Hide your username from this post"
+#~ msgstr "Piilota käyttäjänimesi tästä viestistä"
+
+#~ msgid "Show your username in this post"
+#~ msgstr "Näytä käyttäjänimesi tässä viestissä"
+
+#~ msgid "You cannot use any tags"
+#~ msgstr "Et voi käyttää tageja"
+
+#~ msgid "Hide post from all users"
+#~ msgstr "Piilota viesti kaikilta käyttäjiltä"
+
+#~ msgid "Restore post to all users"
+#~ msgstr "Palauta viesti kaikille käyttäjille"
+
+#~ msgid "Automatically load new replies to open threads"
+#~ msgstr "Lataa uudet vastaukset avoimiin lankoihin automaattisesti"
+
+#~ msgid "Show replies hidden by OP"
+#~ msgstr "Näytä AP:n piilottamat viestit"
+
+#~ msgid "Anonymize names of uploaded files to make tracking you harder"
+#~ msgstr ""
+#~ "Anonymisoi lähetettyjen tiedostojen nimet profilointisi vaikeuttamiseksi"
+
+#~ msgid ""
+#~ "You cannot hide replies from all users because you don't have a Gold "
+#~ "account."
+#~ msgstr ""
+#~ "Et voi piilottaa vastauksia kaikilta käyttäjiltä, koska sinulla ei ole "
+#~ "Kultatiliä."
+
+#~ msgid "Post not found"
+#~ msgstr "Viestiä ei löytynyt"
+
+#~ msgid "You cannot hide threads."
+#~ msgstr "Et voi piilottaa lankoja."
+
+#~ msgid "Thread not found"
+#~ msgstr "Lankaa ei löytynyt"
+
+#~ msgid "You cannot hide your own posts."
+#~ msgstr "Et voi piilottaa omia viestejäsi."
+
+#~ msgid "You can only hide replies from your own threads."
+#~ msgstr "Voit piilottaa vastauksia vai omista langoistasi."
+
+#~ msgid ""
+#~ "You cannot use special characters in the username that is visible in your "
+#~ "posts."
+#~ msgstr ""
+#~ "Et voi käyttää erikoismerkkejä käyttäjänimessä, joka on näkyvillä "
+#~ "viesteissäsi."
+
+#~ msgid ""
+#~ "The internet connection you are using is commonly used for abuse, so "
+#~ "posting from it is not allowed. If you are using a VPN or a proxy, please "
+#~ "disable it."
+#~ msgstr ""
+#~ "Käyttämääsi internet-yhteyttä käytetään usein häiriköintiin, joten "
+#~ "viestien lähettäminen sillä ei ole sallittua."
+
+#~ msgid ""
+#~ "The internet connection you are using is commonly used for abuse, so "
+#~ "reporting from it is not allowed. If you are using a VPN or a proxy, "
+#~ "please disable it."
+#~ msgstr ""
+#~ "Käyttämääsi internet-yhteyttä käytetään usein häiriköintiin, joten "
+#~ "ilmiantaminen sillä ei ole sallittua."
+
+#~ msgid ""
+#~ "The internet connection you are using is temporarily banned, probably due "
+#~ "to someone else being banned with it."
+#~ msgstr ""
+#~ "Käyttämäsi nettiyhteys on väliaikaisesti bannattu, todennäköisesti koska "
+#~ "joku muu sen käyttäjä on bannattu."
+
+#~ msgid "You can purchase a Gold account to get around this block."
+#~ msgstr "Voit ostaa Kultatilin kiertääksesi tämän eston."
+
+#~ msgid ""
+#~ "The internet connection you are using is banned. If you are using a VPN "
+#~ "or a proxy, please disable it."
+#~ msgstr ""
+#~ "Käyttämäsi nettiyhteys on bannattu. Jos käytät VPN:ää tai proxyä, poista "
+#~ "se käytöstä."
+
+#~ msgid ""
+#~ "Your IP-address or IP-range is banned due to malicious activity. If you "
+#~ "are using a VPN or a proxy, please disable it."
+#~ msgstr ""
+#~ "IP-osoitteesi tai IP-alueesi on bannattu haitallisen toiminnan vuoksi. "
+#~ "Jos käytät VPN:ää tai proxyä, poista se käytöstä."
+
+#~ msgid "Unknown error"
+#~ msgstr "Tuntematon virhe"
+
+#~ msgid "true"
+#~ msgstr "tosi"
+
+#~ msgid "false"
+#~ msgstr "epätosi"
+
+#~ msgid "Threads posted by you"
+#~ msgstr "Lähettämäsi langat"
+
+#~ msgid "Replies posted by you"
+#~ msgstr "Lähettämäsi vastaukset"
+
+#~ msgid "Got infected by a coronavirus"
+#~ msgstr "Sait koronavirustartunnan"
+
+#~ msgid "All of my money went to Hursti. Now I have to eat macaroni."
+#~ msgstr "Kaikki rahat meni Hurstille. Nyt täytyy syödä makaronia."
+
+#~ msgid "Got infected by a coronavirus."
+#~ msgstr "Sait koronavirustartunnan"
+
+#~ msgid "Got a coronavirus from someone."
+#~ msgstr "Sait koronaviruksen."
+
+#~ msgid "Got Corona-virus from someone."
+#~ msgstr "Sait Koronaviruksen"
+
+#~ msgid "Invalid embed"
+#~ msgstr "Virheellinen upote"
+
+#, php-format
+#~ msgid ""
+#~ "Posting with user accounts created less than %d hour(s) ago is "
+#~ "temporarily limited due to increase in spam. You can skip this wait by "
+#~ "purchasing a Gold account, click here for more details."
+#~ msgstr ""
+#~ "Viestien lähettämistä on kasvaneen spämmin vuoksi toistaiseksi rajoitettu "
+#~ "käyttäjätunnuksilla, jotka ovat luotu alle %d tunti(a) sitten. Voit "
+#~ "ohittaa tämän odotuksen ostamalla Kultatilin, klikkaa tästä lisätietoja."
+
+#~ msgid "Hide embed"
+#~ msgstr "Piilota upote"
+
+#~ msgid "NSFW"
+#~ msgstr "NSFW"
+
+#~ msgid "Embed"
+#~ msgstr "Upote"
+
+#~ msgid "YouTube video"
+#~ msgstr "YouTube video"
+
+#~ msgid "Live stream"
+#~ msgstr "Livestriimi"
+
+#~ msgid "Hide file thumbnails on NSFW boards"
+#~ msgstr "Piilota esikatselukuvat NSFW-laudoilla"
+
+#, php-format
+#~ msgid ""
+#~ "You cannot be subscribed to more than %s threads at once. Please "
+#~ "unsubscribe from some threads before subscribing to new ones."
+#~ msgstr ""
+#~ "Et voi seurata useampaa kuin %s lankaa kerrallaan. Poista lankoja "
+#~ "seuratuista ennen kuin alat seurata uusia."
+
+#~ msgid "A text, a file or an embed is required to send a message."
+#~ msgstr "Teksti, tiedosto tai upote vaaditaan viestin lähettämiseksi."
+
+#~ msgid "Your embed contained a blacklisted word"
+#~ msgstr "Upotteesi sisälsi mustalistatun sanan"
+
+#~ msgid "Invalid embed."
+#~ msgstr "Virheellinen upote."
+
+#~ msgid "The embed ID you sent was invalid."
+#~ msgstr "Lähettämäsi upote-ID on virheellinen."
+
+#~ msgid "Adding the embed failed."
+#~ msgstr "Upotteen lisääminen epäonnistui."
+
+#~ msgid "Adding the embed failed, because it does not exist."
+#~ msgstr "Upotteen lisääminen epäonnistui koska sitä ei ole olemassa."
+
+#~ msgid "Adding the embed failed due to an unknown error at the source."
+#~ msgstr ""
+#~ "Upotteen lisääminen epäonnistui tuntemattoman lähteessä tapahtuneen "
+#~ "virheen vuoksi."
+
+#~ msgid ""
+#~ "Google ReCAPTCHA is verifying that you are not a robot. Please wait..."
+#~ msgstr "Google ReCAPTCHA varmistaa, ettet ole robotti. Odota hetki..."
+
+#~ msgid "Google ReCAPTCHA is verifying that you are a human, please wait..."
+#~ msgstr "Google ReCAPTCHA varmistaa, että olet ihminen. Odota hetki..."
+
+#~ msgid "SFW"
+#~ msgstr "SFW"
+
+#~ msgid "Reported by"
+#~ msgstr "Ilmiantaja"
+
+#~ msgid "Clear all by IP"
+#~ msgstr "Tyhjennä kaikki IP:ltä"
+
+#~ msgid "Display timestamps in long format"
+#~ msgstr "Näytä aikaleimat pitkässä muodossa"
+
+#~ msgid "Move reply form to the top of threads"
+#~ msgstr "Siirrä vastauslomake sivun yläreunaan"
+
+#~ msgid ""
+#~ "The IP-address you are using is temporarily banned. On some networks (e."
+#~ "g. mobile connections) many users share the same IP-address."
+#~ msgstr ""
+#~ "IP-osoite jota käytät on väliaikaisesti bannattu. Joissain verkoissa "
+#~ "(esim. mobiiliyhteyksissä) useat käyttäjät jakavat saman IP-osoitteen."
+
+#~ msgid "Your IP-range is banned due to malicious activity."
+#~ msgstr "IP-alueesi on bannattu haitallisen toiminnan vuoksi."
+
+#~ msgid ""
+#~ "Submitting posts with a proxy server is not allowed. Please disable all "
+#~ "proxies."
+#~ msgstr ""
+#~ "Viestien lähettäminen välityspalvelimilla ei ole sallittua. Poista "
+#~ "käytöstä kaikki välityspalvelimet."
+
+#~ msgid "Optimizing the thumbnail failed. Please try again."
+#~ msgstr "Esikatselukuvan optimointi epäonnistui. Yritä uudelleen."
+
+#~ msgid "You have already reported this message."
+#~ msgstr "Olet jo ilmiantanut tämän viestin."
+
+#~ msgid ""
+#~ "Your message was automatically considered to be spam and was discarded."
+#~ msgstr ""
+#~ "Viestisi luokiteltiin automaattisesti roskapostiksi ja se hylättiin."
+
+#~ msgid "Sorry. Nope."
+#~ msgstr "Sori. Ei."
+
+#~ msgid ""
+#~ "NOTE: Your browser did not connect with HTTP/2, this will be unsupported "
+#~ "soon! Please update your browser."
+#~ msgstr ""
+#~ "HUOM: Selaimesi ei yhdistänyt HTTP/2:lla, tämä ei toimi enää pian! "
+#~ "Päivitä selaimesi."
+
+#~ msgid ""
+#~ "If your browser is already up to date and you have some antivirus "
+#~ "software installed, it is messing up with your connection."
+#~ msgstr ""
+#~ "Jos selaimesi on jo ajan tasalla ja sinulla on jokin "
+#~ "virustorjuntaohjelmisto asennettuna, se rikkoo yhteytesi."
+
+#~ msgid ""
+#~ "Please disable any \"Web protection\" it might have to fix this. Doing "
+#~ "this also makes your internet connection faster and more secure. (Yes, "
+#~ "really!)"
+#~ msgstr ""
+#~ "Poista käytöstä \"Web-suojaukset\", joita siinä saattaa olla korjataksesi "
+#~ "tämän. Tämän tekeminen nopeuttaa myös internet-yhteyttäsi ja tekee siitä "
+#~ "nopeamman. (Kyllä, oikeasti!)"
+
+#~ msgid "Have a platinum account"
+#~ msgstr "Tunnuksellasi on platinatili"
+
+#~ msgid ""
+#~ "You already have a platinum account, you cannot activate regular gold "
+#~ "keys. However, you can activate level up keys to level up your gold "
+#~ "account."
+#~ msgstr ""
+#~ "Sinulla on jo platinatili, joten et voi aktivoida tavallisia "
+#~ "kultatiliavaimia. Voit kuitenkin nostaa kultatilisi tasoa aktivoimalla "
+#~ "tasonnostoavaimia."
+
+#~ msgid ""
+#~ "You don't have a password set to your profile! You risk losing your Gold "
+#~ "account if your IP-address changes or you delete your cookies! Please set "
+#~ "a password to your profile ASAP!"
+#~ msgstr ""
+#~ "Sinulla ei ole salasanaa asetettuna profiiliisi! Saatat menettää "
+#~ "Kultatilisi jos IP-osoitteesi vaihtuu tai poistat selaimen evästeet! "
+#~ "Asetathan profiilillesi salasanan niin pian kuin mahdollista!"
+
+#~ msgid "Your Gold account will expire in less than a day!"
+#~ msgstr "Kultatilisi voimassaoloaika päättyy alle vuorokaudessa!"
+
+#~ msgid ""
+#~ "As you already have a platinum account, you can only activate platinum "
+#~ "account codes. By activating them, you gain levels to your platinum "
+#~ "account, which will unlock even more features!"
+#~ msgstr ""
+#~ "Koska sinulla on jo platinatili, voit aktivoida vain platinatiliavaimia. "
+#~ "Aktivoimalla niitä, saat kasvatettua platinatilisi tasoa, joka avaa "
+#~ "sinulle yhä lisää toimintoja!"
+
+#~ msgid "You can appeal this ban after %s."
+#~ msgstr "Voit valittaa tästä bannista %s."
+
+#~ msgid "Purchase ID"
+#~ msgstr "Oston ID"
+
+#~ msgid "Product"
+#~ msgstr "Tuote"
+
+#~ msgid "Count"
+#~ msgstr "Määrä"
+
+#~ msgid "Unfortunately your ban was not lifted."
+#~ msgstr "Valitettavasti banniasi ei peruttu."
+
+#~ msgid "You can appeal this ban with the form below."
+#~ msgstr "Voit valittaa tästä bannista allaolevalla lomakkeella."
+
+#~ msgid ""
+#~ "Please remember that your appeal can only be accepted or denied, it "
+#~ "cannot be replied to."
+#~ msgstr ""
+#~ "Muistathan että valituksesi voidaan vain hyväksyä tai hylätä, siihen ei "
+#~ "voida vastata."
+
+#~ msgid ""
+#~ "You have appealed this ban and your appeal is still waiting for a review."
+#~ msgstr ""
+#~ "Olet valittanut tästä bannista ja valituksesi odottaa yhä käsittelyä."
+
+#~ msgid "Your appeal to this ban was denied."
+#~ msgstr "Valituksesi tästä bannista hylättiin."
+
+#~ msgid "You are banned!"
+#~ msgstr "Olet bannattu!"
+
+#~ msgid ""
+#~ "This ban was not given to your user account, but as you are using the "
+#~ "same IP-address, it affects you also."
+#~ msgstr ""
+#~ "Tätä bannia ei annettu käyttäjätunnuksellesi, mutta koska käytät samaa IP-"
+#~ "osoitetta, se vaikuttaa myös sinuun."
+
+#~ msgid ""
+#~ "As this ban was not given to you, you cannot appeal it. Sorry. If you "
+#~ "still feel this is wrong, you can contact us by email."
+#~ msgstr ""
+#~ "Koska tätä bannia ei ole annettu sinulle, et voi valittaa siitä. "
+#~ "Pahoittelemme. Mikäli silti luulet, että tämä on väärin, voit ottaa "
+#~ "meihin yhteyttä sähköpostitse."
+
+#~ msgid "The video you tried to upload is too long."
+#~ msgstr "Lähettämäsi video on liian pitkä."
