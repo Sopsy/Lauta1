@@ -12,7 +12,7 @@ Some files have been removed to avoid licensing issues, so you might need to obt
 - `static/css/pure.css` (Pure v0.5.0 by Yahoo!)
 - `static/css/icons.css`, `static/fonts/icomoon.woff2`, `TVGuide/static/css/scss/_icons.scss`, `TVGuide/static/css/fonts/*` (Custom Icomoon icon font)
 - `data/ip2location-db/*` (IP2Location databases)
-- `static/img/(*`, TVGuide/static/img/*` (Some images that can't be distributed)
+- `static/img/*`, `TVGuide/static/img/*` (Some images that can't be distributed)
 - `static/img/logo/*`, `TVGuide/static/img/*` (Logo of Ylilauta and variations, still copyrighted)
 
 ## Board admin user
